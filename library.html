@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>📚 فهرس الكتب</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        /* استدعاء خط كوفي إضافي للعناوين الرئيسية لإضافة طابع تراثي هندسي */
+        @import url('https://fonts.googleapis.com/css2?family=Scheherazade+New:wght@700&display=swap');
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        @keyframes fadeUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* --- الألوان والتخطيط العام --- */
+        :root {
+            --dark-background: #14100c; /* بني داكن جداً/أسود */
+            --card-background: #1e1915; /* بني أغمق قليلاً للخلفية */
+            --accent-gold: #d4af37; /* ذهبي (اللون الأساسي للتركيز) */
+            --light-text: #f5f2e8; /* نص فاتح مائل للبيج */
+            --secondary-text: #b8a28f; /* نص ثانوي ترابي */
+        }
+
+        body {
+            /* استخدم خط الأميري للنصوص الكبيرة لأنه خط نسخ كلاسيكي وواضح */
+            font-family: 'Amiri', serif;
+            background-color: var(--dark-background);
+            /* زخرفة هندسية خفيفة مستوحاة من الأرابيسك */
+            background-image: 
+                radial-gradient(circle at top left, rgba(212, 175, 55, 0.1), transparent 60%),
+                radial-gradient(circle at bottom right, rgba(212, 175, 55, 0.08), transparent 70%),
+                linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1));
+            color: var(--light-text);
+            text-align: center;
+            padding: 40px 20px;
+            direction: rtl;
+            min-height: 100vh;
+            animation: fadeIn 0.8s ease-out;
+        }
+
+        header {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 30px;
+        }
+
+        header img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            border: 3px solid var(--accent-gold);
+            margin-bottom: 15px;
+            /* ظل ذهبي عميق لإحساس الفخامة */
+            box-shadow: 0 0 20px rgba(212, 175, 55, 0.6);
+            transition: 0.4s;
+            object-fit: cover;
+        }
+
+        header img:hover {
+            transform: rotate(2deg) scale(1.03);
+            box-shadow: 0 0 30px rgba(212, 175, 55, 0.8);
+        }
+
+        h1 {
+            /* خط كوفي للعناوين الرئيسية (Scheherazade) لأنه يعطي طابعاً قوياً وزخرفياً */
+            font-family: 'Scheherazade New', serif; 
+            color: var(--accent-gold);
+            margin-bottom: 10px;
+            font-size: 36px;
+            letter-spacing: 2px;
+            text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+            /* إضافة خط سفلي بسيط كزخرفة */
+            position: relative;
+            padding-bottom: 10px;
+        }
+
+        h1::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            right: 50%;
+            transform: translateX(50%);
+            width: 80px;
+            height: 2px;
+            background-color: var(--accent-gold);
+            border-radius: 2px;
+        }
+
+        p.subtitle {
+            color: var(--secondary-text);
+            font-size: 16px;
+            margin-bottom: 40px;
+            opacity: 0.9;
+        }
+
+        .search-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 15px;
+            margin-bottom: 40px;
+            flex-wrap: wrap;
+        }
+
+        input {
+            width: 70%;
+            max-width: 450px;
+            padding: 15px 20px;
+            border-radius: 8px;
+            border: 1px solid #4a4a4a;
+            outline: none;
+            font-size: 17px;
+            background-color: #24201c; /* لون داكن ترابي */
+            color: var(--light-text);
+            text-align: right;
+            transition: 0.3s;
+            box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.3);
+        }
+
+        input:focus {
+            border-color: var(--accent-gold);
+            box-shadow: 0 0 15px rgba(212, 175, 55, 0.5), inset 0 2px 5px rgba(0, 0, 0, 0.5);
+            background-color: #2c2723;
+        }
+
+        button {
+            background-color: var(--accent-gold);
+            color: #14100c; /* نص داكن على الخلفية الذهبية */
+            border: none;
+            padding: 15px 25px;
+            border-radius: 8px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: 0.3s;
+            font-size: 16px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+            letter-spacing: 0.5px;
+        }
+
+        button:hover {
+            background-color: #e0c15e;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 10px rgba(0, 0, 0, 0.5);
+        }
+
+        .book-list {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+            animation: fadeUp 0.6s ease forwards;
+        }
+
+        .book-item {
+            background-color: var(--card-background);
+            width: 90%;
+            max-width: 550px;
+            padding: 25px;
+            border-radius: 10px;
+            transition: 0.4s;
+            cursor: pointer;
+            text-align: right;
+            border: 2px solid #332e2a; /* حدود خفيفة لتمييز البطاقة */
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+            animation: fadeUp 0.8s ease both;
+            /* إضافة تأثير الأرابيسك البسيط عبر صورة خلفية شفافة */
+            background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1));
+            
+        }
+
+        .book-item:nth-child(2) { animation-delay: 0.1s; }
+        .book-item:nth-child(3) { animation-delay: 0.2s; }
+        .book-item:nth-child(4) { animation-delay: 0.3s; }
+        /* يمكنك إضافة المزيد من التأخير للعناصر */
+
+
+        .book-item:hover {
+            background-color: #2c2723;
+            border-color: var(--accent-gold);
+            color: var(--light-text);
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px rgba(212, 175, 55, 0.35);
+        }
+
+        .book-item h3 {
+            margin: 0 0 8px;
+            font-size: 20px;
+            color: var(--light-text);
+            font-weight: 700;
+            position: relative;
+            padding-right: 15px; /* مسافة للرمز التراثي */
+        }
+        
+        /* إضافة رمز تراثي بجانب عنوان الكتاب */
+        .book-item h3::before {
+            content: '۞'; 
+            position: absolute;
+            right: 0;
+            color: var(--accent-gold);
+            font-size: 18px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+
+        .book-category {
+            font-size: 15px;
+            opacity: 0.85;
+            color: var(--secondary-text);
+            /* استخدام خط كلاسيكي للعناوين الفرعية */
+            font-family: 'Amiri', serif;
+        }
+
+        a {
+            color: inherit;
+            text-decoration: none;
+            display: block;
+        }
+
+        footer {
+            margin-top: 50px;
+            padding-top: 25px;
+            border-top: 1px solid #332e2a;
+            color: #7a736c;
+            font-size: 14px;
+            opacity: 0.7;
+            font-family: 'Amiri', serif;
+        }
+
+        footer span {
+            color: var(--accent-gold);
+            font-weight: bold;
+        }
+
+        /* تنسيقات الشاشات الصغيرة */
+        @media (max-width: 600px) {
+            body {
+                padding: 20px 10px;
+            }
+
+            h1 {
+                font-size: 30px;
+            }
+
+            .search-container {
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            input {
+                width: 100%;
+                max-width: none;
+            }
+
+            button {
+                width: 100%;
+                max-width: 300px;
+            }
+        }
+    </style>
+
+    <header>
+        <img src="Wateen-logo.jpg" alt="Wateen-logo"> 
+    </header>
+</head>
+<body>
+    <h1>📚 فهرس الكُتُب التراثية</h1>
+    <p class="subtitle">تصفح كنوز المعرفة المكنونة في مكتبتنا.</p>
+
+    <div class="search-container">
+        <input type="text" id="searchInput" placeholder="ابحث بعنوان الكتاب أو تصنيفه...">
+        <button id="searchBtn">بحث</button>
+        <button id="showAllBtn">عرض الكل</button>
+    </div>
+
+    <div id="bookList" class="book-list">جارِ التحميل...</div>
+
+    <footer>
+        <p>&copy; 2024 فهرس الكتب | تصميم مستوحى من <span>الخط العربي والفن الإسلامي</span></p>
+    </footer>
+
+    <script>
+        const bookList = document.getElementById("bookList");
+        const searchInput = document.getElementById("searchInput");
+        const searchBtn = document.getElementById("searchBtn");
+        const showAllBtn = document.getElementById("showAllBtn");
+        let allBooks = [];
+
+        // تحميل البيانات من ملف JSON
+        fetch("books.json")
+            .then(res => {
+                if (!res.ok) throw new Error("فشل في تحميل books.json");
+                return res.json();
+            })
+            .then(data => {
+                allBooks = data;
+                displayBooks(data);
+            })
+            .catch(err => {
+                bookList.innerHTML = "❌ حدث خطأ أثناء تحميل البيانات. تحقق من ملف books.json.";
+                console.error(err);
+            });
+
+        // دالة لعرض الكتب
+        function displayBooks(books) {
+            bookList.innerHTML = "";
+            if (books.length === 0) {
+                bookList.innerHTML = "🚫 لا توجد نتائج مطابقة لعملية البحث.";
+                return;
+            }
+
+            books.forEach(book => {
+                const div = document.createElement("div");
+                div.classList.add("book-item");
+                div.innerHTML = `
+                    <a href="${book.link}">
+                        <h3>${book.title}</h3>
+                        <p class="book-category">${book.category}</p>
+                    </a>
+                `;
+                bookList.appendChild(div);
+            });
+        }
+
+        // دالة البحث
+        function searchBooks() {
+            const filter = searchInput.value.trim().toLowerCase();
+            const filtered = allBooks.filter(book =>
+                book.title.toLowerCase().includes(filter) ||
+                book.category.toLowerCase().includes(filter)
+            );
+            displayBooks(filtered);
+        }
+
+        // عند الضغط على زر البحث
+        searchBtn.addEventListener("click", searchBooks);
+
+        // عند الضغط على Enter
+        searchInput.addEventListener("keydown", (e) => {
+            if (e.key === "Enter") searchBooks();
+        });
+
+        // زر عرض الكل
+        showAllBtn.addEventListener("click", () => {
+            searchInput.value = "";
+            displayBooks(allBooks);
+        });
+    </script>
+</body>
+</html>

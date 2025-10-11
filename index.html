@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>وتين | معرض الكتب</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Amiri&family=Cairo:wght@500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- ===== Header ===== -->
+  <header class="fade-in">
+    <img src="Wateen-logo.jpg" alt="وتين" class="logo-img">
+    <h1 class="logo-text">وتين</h1>
+    <p class="tagline">اقرأ لتُضيء عقلك، لا لتُكرر الدروب ✨</p>
+  </header>
+
+  <!-- ===== Hero Section ===== -->
+  <section class="hero slide-up">
+    <div class="overlay">
+      <h2>مرحبًا بك في <span>وتين</span></h2>
+      <p>المعرض الذي يجمع بين الأصالة والمعرفة</p>
+      <a href="#books" class="btn">ابدأ التصفح</a>
+      <a href="favorites.html" class="btn2">📁 المحفوظات</a>
+      <a href="contact.html" class="btn2">📞 تواصل معنا</a>
+      <a href="library.html" class="btn">📚 المكتبة</a>
+
+    </div>
+  </section>
+
+  <!-- ===== Books Gallery ===== -->
+  <section id="books" class="books-gallery fade-in">
+    <h2>📚 معرض الكتب</h2>
+    <div class="gallery-container">
+      <button class="scroll-btn left">⟵</button>
+      <div class="books-wrapper">
+
+        <div class="book-card" data-title="التجربه الفكريه لروح أمه" data-price="150" data-img="book-1.jpg">
+          <img src="images/1.jpg" alt="Book 1">
+          <h3>التجربه الفكريه لروح أمه</h3>
+          <p>السعر: 65 جنيه</p>
+          <div class="card-buttons">
+            <button class="order-btn" data-book="التجربه الفكريه لروح أمه">اطلب الآن</button>
+            <button class="save-btn"><i class="fas fa-bookmark"></i></button>
+          </div>
+        </div>
+
+        <div class="book-card" data-title="قهوه باليورانيوم" data-price="120" data-img="book2.jpg">
+          <img src="images/2.jpg" alt="Book 2">
+          <h3>قهوه باليورانيوم</h3>
+          <p>السعر: 65 جنيه</p>
+          <div class="card-buttons">
+            <button class="order-btn" data-book="قهوه باليورانيوم">اطلب الآن</button>
+            <button class="save-btn"><i class="fas fa-bookmark"></i></button>
+          </div>
+        </div>
+
+        <div class="book-card" data-title="فن الذكاء الاجتماعي" data-price="90" data-img="book3.jpg">
+          <img src="images/3.jpg" alt="Book 3">
+          <h3>فن الذكاء الاجتماعي</h3>
+          <p>السعر: 60 جنيه</p>
+          <div class="card-buttons">
+            <button class="order-btn" data-book="فن الذكاء الاجتماعي">اطلب الآن</button>
+            <button class="save-btn"><i class="fas fa-bookmark"></i></button>
+          </div>
+        </div>
+
+        <div class="book-card" data-title="قرية الشيخ" data-price="110" data-img="book4.jpg">
+          <img src="images/4.jpg" alt="Book 4">
+          <h3>قرية الشيخ</h3>
+          <p>السعر: 65 جنيه</p>
+          <div class="card-buttons">
+            <button class="order-btn" data-book="قرية الشيخ">اطلب الآن</button>
+            <button class="save-btn"><i class="fas fa-bookmark"></i></button>
+          </div>
+        </div>
+
+        <div class="book-card" data-title="انهم يأتون ليلا" data-price="95" data-img="book5.jpg">
+          <img src="images/5.jpg" alt="Book 5">
+          <h3>انهم يأتون ليلا</h3>
+          <p>السعر: 65 جنيه</p>
+          <div class="card-buttons">
+            <button class="order-btn" data-book="انهم يأتون ليلا">اطلب الآن</button>
+            <button class="save-btn"><i class="fas fa-bookmark"></i></button>
+          </div>
+        </div>
+
+      </div>
+      <button class="scroll-btn right">⟶</button>
+    </div>
+  </section>
+
+  <!-- ===== Footer ===== -->
+  <footer class="fade-in">
+    <p>© 2025 <span class="gold">وتين</span> | جميع الحقوق محفوظة.</p>
+    <p>“لا نقرأ لنمرّ على الكلمات، بل لتسكننا المعاني.”</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>المفضلة | وتين</title>
+
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Amiri&family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --gold: #d4af37;
+      --text-light: #f9f9f9;
+      --text-muted: #aaa;
+      --card-bg: rgba(25, 25, 25, 0.7);
+    }
+
+    body {
+      background: linear-gradient(135deg, #0e0e0e, #1a1a1a);
+      color: var(--text-light);
+      font-family: "Cairo", sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      text-align: center;
+      padding: 25px 10px;
+    }
+
+    header .logo-text {
+      font-size: 1.8rem;
+      color: var(--gold);
+      margin-bottom: 8px;
+    }
+
+    header .tagline {
+      color: var(--text-muted);
+      font-size: 1rem;
+      margin-bottom: 20px;
+    }
+
+    .btn2 {
+      text-decoration: none;
+      background: transparent;
+      border: 2px solid var(--gold);
+      color: var(--gold);
+      padding: 10px 20px;
+      border-radius: 30px;
+      transition: 0.3s;
+      font-weight: bold;
+    }
+
+    .btn2:hover {
+      background: var(--gold);
+      color: #111;
+    }
+
+    #fav-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 18px;
+      padding: 15px;
+    }
+
+    .book-card {
+      background: var(--card-bg);
+      border-radius: 16px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.4);
+      width: 100%;
+      max-width: 320px;
+      padding: 16px;
+      text-align: center;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .book-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 8px 25px rgba(0,0,0,0.5);
+    }
+
+    .book-card img {
+      border-radius: 12px;
+      width: 100%;
+      height: auto;
+      box-shadow: 0 0 20px rgba(212,175,55,0.4);
+    }
+
+    .book-card h3 {
+      font-size: 1.3rem;
+      margin: 12px 0 6px;
+      color: var(--text-light);
+    }
+
+    .book-card p {
+      color: var(--gold);
+      font-weight: bold;
+      font-size: 1rem;
+      margin-bottom: 12px;
+    }
+
+    .card-buttons {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+
+    .order-btn, .remove-btn {
+      background: transparent;
+      border: 2px solid rgba(212,175,55,0.3);
+      color: var(--text-light);
+      padding: 8px 16px;
+      border-radius: 25px;
+      cursor: pointer;
+      font-size: 0.95rem;
+      transition: 0.3s;
+      flex: 1 1 40%;
+      min-width: 120px;
+    }
+
+    .order-btn:hover, .remove-btn:hover {
+      background: rgba(212,175,55,0.15);
+      color: var(--gold);
+      border-color: var(--gold);
+      transform: translateY(-3px);
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px;
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      background: rgba(0, 0, 0, 0.5);
+      border-top: 1px solid rgba(255, 255, 255, 0.05);
+      margin-top: 40px;
+    }
+
+    .no-favs {
+      color: var(--text-muted);
+      font-size: 1.1rem;
+      text-align: center;
+      margin-top: 40px;
+    }
+
+    @media (max-width: 600px) {
+        .btn2{
+        font-size: 0.9rem;
+        padding: 8px 16px;
+        margin-top: 10px;
+      }
+      header .logo-text {
+        font-size: 1.6rem;
+      }
+
+      .book-card {
+        max-width: 95%;
+        padding: 14px;
+      }
+
+      .book-card h3 {
+        font-size: 1.15rem;
+      }
+
+      .book-card p {
+        font-size: 0.95rem;
+      }
+
+      .order-btn, .remove-btn {
+        font-size: 0.9rem;
+        padding: 8px 10px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1 class="logo-text">📚 مكتبتي المفضلة</h1>
+    <p class="tagline">هنا الكتب اللي حبيتها 💛</p>
+    <a href="index.html" class="btn2">⬅ الرجوع للمعرض</a>
+  </header>
+
+  <section id="favorites">
+    <div id="fav-list"></div>
+  </section>
+
+  <footer>
+    <p>© 2025 <span class="gold">وتين</span> | مكتبة المفضلة</p>
+  </footer>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const favContainer = document.getElementById('fav-list');
+      const phone = "201017421891";
+
+      function getFavorites() {
+        try {
+          return JSON.parse(localStorage.getItem('favorites')) || [];
+        } catch (e) {
+          console.error('Error parsing favorites', e);
+          return [];
+        }
+      }
+
+      function renderFavorites() {
+        const favorites = getFavorites();
+        favContainer.innerHTML = '';
+
+        if (favorites.length === 0) {
+          favContainer.innerHTML = "<p class='no-favs'>لا توجد كتب في المفضلة حاليًا 📖</p>";
+          return;
+        }
+
+        favorites.forEach(item => {
+          const title = item.title || 'بدون عنوان';
+          const price = item.price || '';
+          const imgSrc = item.img ? `images/${item.img}` : 'images/book-placeholder.jpg';
+
+          const card = document.createElement('div');
+          card.className = 'book-card';
+
+          card.innerHTML = `
+            <img src="${imgSrc}" alt="${title}">
+            <h3>${title}</h3>
+            <p>${price ? `السعر: ${price} جنيه` : 'من قائمة المفضلة'}</p>
+            <div class="card-buttons">
+              <button class="order-btn">📦 اطلب الآن</button>
+              <button class="remove-btn">❌ إزالة</button>
+            </div>
+          `;
+
+          card.querySelector('.order-btn').addEventListener('click', () => {
+            const msg = encodeURIComponent(`السلام عليكم .. كنت عايز استفسر عن كتاب ${title}`);
+            window.open(`https://wa.me/${phone}?text=${msg}`, '_blank');
+          });
+
+          card.querySelector('.remove-btn').addEventListener('click', () => {
+            removeFromFavorites(title);
+          });
+
+          favContainer.appendChild(card);
+        });
+      }
+
+      function removeFromFavorites(titleToRemove) {
+        let favorites = getFavorites();
+        favorites = favorites.filter(b => b.title !== titleToRemove);
+        localStorage.setItem('favorites', JSON.stringify(favorites));
+        renderFavorites();
+      }
+
+      renderFavorites();
+    });
+  </script>
+</body>
+</html>

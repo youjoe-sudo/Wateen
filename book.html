@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+       
+    <meta charset="utf-8" />
+       
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>تفاصيل الكتاب | وتين</title>
+
+       
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+       
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+       
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&display=swap" rel="stylesheet">
+       
+    <link href="https://fonts.googleapis.com/css2?family=Scheherazade+New:wght@700&display=swap" rel="stylesheet">
+
+        <style>
+        /* --- متغيرات الألوان المستخدمة في التصميم التراثي الغامق --- */
+        :root {
+            --dark-background: #14100c;
+            /* بني داكن جداً/أسود */
+            --card-background: #1e1915;
+            /* بني أغمق قليلاً */
+            --accent-gold: #d4af37;
+            /* ذهبي */
+            --light-text: #f5f2e8;
+            /* نص فاتح مائل للبيج */
+            --secondary-text: #b8a28f;
+            /* نص ثانوي ترابي */
+        }
+
+        /* --- الأنماط العامة --- */
+        body {
+            font-family: 'Amiri', serif;
+            background: var(--dark-background);
+            color: var(--light-text);
+            padding-bottom: 50px;
+            background-image:
+                radial-gradient(circle at top left, rgba(212, 175, 55, 0.1), transparent 60%),
+                radial-gradient(circle at bottom right, rgba(212, 175, 55, 0.08), transparent 70%);
+        }
+
+        .container {
+            max-width: 980px;
+            margin: 40px auto;
+            padding: 30px;
+            background: rgba(0, 0, 0, 0.2);
+            border-radius: 15px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.7);
+        }
+
+        /* --- رابط العودة --- */
+        .back-link {
+            display: inline-block;
+            margin-bottom: 25px;
+            text-decoration: none;
+            color: var(--secondary-text);
+            border: 1px solid var(--secondary-text);
+            padding: 8px 18px;
+            border-radius: 30px;
+            transition: 0.3s;
+            font-size: 15px;
+        }
+
+        .back-link:hover {
+            color: var(--accent-gold);
+            border-color: var(--accent-gold);
+            background: rgba(212, 175, 55, 0.1);
+        }
+
+        /* --- تنسيق محتوى الكتاب --- */
+        .book-wrap {
+            display: flex;
+            gap: 40px;
+            align-items: flex-start;
+            flex-wrap: wrap;
+            padding-top: 20px;
+        }
+
+        /* --- صورة الغلاف (تم إضافة background-color لتعويض صورة الـ placeholder المفقودة) --- */
+        .book-img {
+            flex: 0 0 320px;
+            max-width: 320px;
+            border-radius: 12px;
+            overflow: hidden;
+            /* لون خلفية يظهر في حال فشل تحميل الصورة الأصلية أو الـ Placeholder */
+            background-color: #332e2a;
+            position: relative;
+            box-shadow: 0 12px 40px rgba(0, 0, 0, 0.8), 0 0 0 4px var(--accent-gold);
+            transition: transform 0.4s;
+        }
+
+        .book-img:hover {
+            transform: scale(1.02);
+        }
+
+        .book-img img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        /* --- معلومات الكتاب --- */
+        .book-info {
+            flex: 1;
+            min-width: 300px;
+        }
+
+        .book-info h1 {
+            font-family: 'Scheherazade New', serif;
+            color: var(--accent-gold);
+            font-size: 3rem;
+            margin: 0 0 15px;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+        }
+
+        .meta {
+            color: var(--secondary-text);
+            margin-bottom: 18px;
+            font-size: 1.1rem;
+        }
+
+        .price {
+            color: var(--accent-gold);
+            font-weight: 700;
+            font-size: 1.8rem;
+            margin-bottom: 20px;
+            border-bottom: 1px solid rgba(212, 175, 55, 0.3);
+            padding-bottom: 10px;
+        }
+
+        .desc {
+            background: var(--card-background);
+            padding: 25px;
+            border-radius: 10px;
+            color: var(--light-text);
+            line-height: 1.9;
+            margin-bottom: 25px;
+            border: 1px solid #332e2a;
+            box-shadow: inset 0 2px 10px rgba(0, 0, 0, 0.4);
+        }
+
+        /* --- الأزرار --- */
+        .actions {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+
+        .order-btn,
+        .save-btn {
+            padding: 14px 25px;
+            border-radius: 5px;
+            border: none;
+            cursor: pointer;
+            font-weight: bold;
+            font-size: 1.1rem;
+            transition: 0.3s;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+        }
+
+        .order-btn {
+            background: var(--accent-gold);
+            color: #111;
+        }
+
+        .order-btn:hover {
+            background: #e8cb60;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 10px rgba(0, 0, 0, 0.6);
+        }
+
+        .save-btn {
+            background: transparent;
+            color: var(--accent-gold);
+            border: 2px solid var(--accent-gold);
+        }
+
+        .save-btn:hover {
+            background: rgba(212, 175, 55, 0.1);
+        }
+
+        .save-btn.saved {
+            background: var(--accent-gold);
+            color: #111;
+            transform: scale(1.02);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+        }
+
+        .small {
+            font-size: 0.9rem;
+            color: var(--secondary-text);
+            margin-top: 20px;
+            display: block;
+            opacity: 0.8;
+        }
+
+        .not-found {
+            text-align: center;
+            padding: 80px 20px;
+            color: var(--secondary-text);
+            font-size: 1.3rem;
+            border: 1px dashed var(--secondary-text);
+            border-radius: 10px;
+        }
+
+        /* --- استجابة الشاشات الصغيرة --- */
+        @media (max-width:720px) {
+            .container {
+                margin: 20px auto;
+                padding: 20px;
+            }
+
+            .book-wrap {
+                flex-direction: column;
+                align-items: center;
+                gap: 30px;
+            }
+
+            .book-img {
+                max-width: 80%;
+            }
+
+            .book-info h1 {
+                font-size: 2.5rem;
+                text-align: center;
+            }
+
+            .price {
+                text-align: center;
+            }
+
+            .actions {
+                justify-content: center;
+            }
+
+            .book-info {
+                text-align: center;
+            }
+
+            .meta {
+                text-align: center;
+            }
+
+            .desc {
+                text-align: right;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+        <div class="container">
+                <a href="index.html" class="back-link">⬅ العودة إلى فهرس الكتب</a>
+                <div id="book-area"></div>
+            </div>
+
+       
+    <script>
+        const phone = "201017421891"; // رقم واتساب (بدون +)
+
+        // === مساعدات صغيرة ===
+        const qs = s => document.querySelector(s);
+
+        const params = new URLSearchParams(window.location.search);
+        const bookId = params.get('id');
+
+        async function loadBooksJson() {
+            try {
+                // 1. جلب ملف books.json
+                const res = await fetch('books.json', { cache: "no-store" });
+                if (!res.ok) throw new Error('فشل تحميل بيانات الكتب');
+                return await res.json();
+            } catch (e) {
+                console.error(e);
+                return null;
+            }
+        }
+
+        function findBookById(books, id) {
+            if (!books) return null;
+            return books.find(b =>
+                (b.id && b.id.toString() === id) ||
+                (b.name && b.name === id) ||
+                (b.title && b.title.replace(/\s+/g, '-').toLowerCase() === id.toLowerCase())
+            );
+        }
+
+        function getFavorites() {
+            try { return JSON.parse(localStorage.getItem('favorites')) || []; }
+            catch { return []; }
+        }
+
+        function saveFavorites(arr) {
+            localStorage.setItem('favorites', JSON.stringify(arr));
+        }
+
+        function isSaved(title) {
+            return getFavorites().some(b => b.title === title);
+        }
+
+        function toggleSave(book) {
+            const fav = getFavorites();
+            const idx = fav.findIndex(b => b.title === book.title);
+            if (idx === -1) {
+                fav.push({ title: book.title, price: book.price, img: book.image });
+            } else {
+                fav.splice(idx, 1);
+            }
+            saveFavorites(fav);
+            return idx === -1;
+        }
+
+        function renderNotFound() {
+            qs('#book-area').innerHTML = `
+                <div class="not-found">
+                    <span style="color:var(--accent-gold); font-size: 2rem;">!</span><br>
+                    الكتاب غير موجود حالياً في مكتبتنا. تأكد من رابط الكتاب أو <a href="index.html" style="color:var(--accent-gold); text-decoration: none;">ارجع للمعرض.</a>
+                </div>
+            `;
+        }
+
+        function renderBook(book) {
+            const area = qs('#book-area');
+            // 2. هذه هي الجزئية المسؤولة عن بناء مسار الصورة من الـ JSON:
+            const imgSrc = book.image ? `images/${book.image}` : 'images/1.jpg';
+
+            area.innerHTML = `
+                <div class="book-wrap">
+                    <div class="book-img"><img src="${imgSrc}" alt="${book.title}"></div>
+                    <div class="book-info">
+                        <h1>${book.title}</h1>
+                        <div class="meta">
+                            المؤلف: <span>${book.author || 'غير مدرج'}</span> 
+                            • الفئة: <span>${book.category || 'عام'}</span> 
+                            ${book.publisher ? `• الناشر: <span>${book.publisher}</span>` : ''}
+                        </div>
+                        <div class="price">${book.price ? book.price + ' جنيه مصري' : 'السعر غير متوفر'}</div>
+                        
+                        <div class="desc">${book.description || 'لا يوجد وصف متاح لهذا الكتاب حالياً.'}</div>
+
+                        <div class="actions">
+                            <button class="order-btn">💬 اطلب الآن عبر واتساب</button>
+                            <button class="save-btn">💾 حفظ للقراءة لاحقاً</button>
+                        </div>
+                        <span class="small">سنقوم بتجهيز رسالة واتساب لك مباشرة لسهولة الطلب.</span>
+                    </div>
+                </div>
+            `;
+
+            const orderBtn = area.querySelector('.order-btn');
+            const saveBtn = area.querySelector('.save-btn');
+
+            if (isSaved(book.title)) {
+                saveBtn.classList.add('saved');
+                saveBtn.textContent = '✅ تمت الإضافة إلى المفضلة';
+            }
+
+            orderBtn.addEventListener('click', () => {
+                const msg = encodeURIComponent(`السلام عليكم ورحمة الله، أود الاستفسار وطلب كتاب: "${book.title}"`);
+                window.open(`https://wa.me/${phone}?text=${msg}`, '_blank');
+            });
+
+            saveBtn.addEventListener('click', () => {
+                const nowSaved = toggleSave(book);
+                if (nowSaved) {
+                    saveBtn.classList.add('saved');
+                    saveBtn.textContent = '✅ تمت الإضافة إلى المفضلة';
+                } else {
+                    saveBtn.classList.remove('saved');
+                    saveBtn.textContent = '💾 حفظ للقراءة لاحقاً';
+                }
+            });
+        }
+
+        (async function () {
+            if (!bookId) return renderNotFound();
+            const books = await loadBooksJson();
+            if (!books) return renderNotFound();
+
+            const book = findBookById(books, bookId);
+            if (!book) return renderNotFound();
+
+            if (!book.title && book.name) book.title = book.name;
+            renderBook(book);
+        })();
+    </script>
+</body>
+
+</html>
