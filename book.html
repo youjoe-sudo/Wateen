@@ -327,7 +327,7 @@
         function renderBook(book) {
             const area = qs('#book-area');
             // 2. هذه هي الجزئية المسؤولة عن بناء مسار الصورة من الـ JSON:
-            const imgSrc = book.image ? `images/${book.image}` : 'images/1.jpg';
+            const imgSrc = book.image ? `${book.image}` : 'images/1.jpg';
 
             area.innerHTML = `
                 <div class="book-wrap">
