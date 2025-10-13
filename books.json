@@ -1,3107 +1,3026 @@
 [
-  {
-    "id": "1",
-    "title": "التجربه الفكريه لروح أمه",
-    "price": 65,
-    "image": "images/1.jpg",
-    "category": "فكر وفلسفة",
-    "description": "كتابة تأملية تجمع بين الفلسفة والسرد عن ذكريات وهوية شخصية محورية في حياة الراوي.",
-    "link": "/book.html?id=1"
-  },
-  {
-    "id": "2",
-    "title": "قهوه باليورانيوم",
-    "price": 65,
-    "image": "images/2.jpg",
-    "category": "رواية",
-    "description": "مجموعة أو نص أدبي يمزج السخرية بالخيال المظلم، يعالج قضايا معاصرة بلغة لاذعة.",
-    "link": "/book.html?id=2"
-  },
-  {
-    "id": "3",
-    "title": "فن الذكاء الإجتماعي",
-    "price": 60,
-    "image": "images/3.jpg",
-    "category": "تطوير الذات",
-    "description": "دليل عملي لتطوير مهارات التعامل مع الآخرين وبناء علاقات ناجحة في الحياة والعمل.",
-    "link": "/book.html?id=3"
-  },
-  {
-    "id": "4",
-    "title": "قريه الشيخ",
-    "price": 65,
-    "image": "images/4.jpg",
-    "category": "رواية",
-    "description": "رواية تسلط الضوء على حكايات وأسرار قرية صغيرة وعلاقات سكانها المعقدة.",
-    "link": "/book.html?id=4"
-  },
-  {
-    "id": "5",
-    "title": "افكار تجعلك تحب الحياه",
-    "price": 65,
-    "image": "images/5.jpg",
-    "category": "تطوير الذات",
-    "description": "مجموعة أفكار ونصائح عملية تعزز التفاؤل وتساعد القارئ على تحسين جودة حياته اليومية.",
-    "link": "/book.html?id=5"
-  },
-  {
-    "id": "6",
-    "title": "انهم يأتون ليلا",
-    "price": 65,
-    "image": "images/6.jpg",
-    "category": "رعب وإثارة",
-    "description": "عمل أدبي في إطار التشويق والرعب يعرض أحداثًا غامضة تحدث بعد حلول الليل.",
-    "link": "/book.html?id=6"
-  },
-  {
-    "id": "7",
-    "title": "كن الشخص الذي يجعلك سعيدا",
-    "price": 65,
-    "image": "images/7.jpg",
-    "category": "تطوير الذات",
-    "description": "كتاب تحفيزي يقدّم أدوات لتغيير العادات وإيجاد مصدر السعادة داخل الذات.",
-    "link": "/book.html?id=7"
-  },
-  {
-    "id": "8",
-    "title": "جثه لذيذه",
-    "price": 65,
-    "image": "images/8.jpg",
-    "category": "رواية",
-    "description": "عمل روائي غامض يمزج بين السرد والجريمة مع لمسات ساخرة ومقلقة.",
-    "link": "/book.html?id=8"
-  },
-  {
-    "id": "9",
-    "title": "لارسيا",
-    "price": 65,
-    "image": "images/9.jpg",
-    "category": "رواية",
-    "description": "رواية خيالية أو درامية تحمل اسمًا قويًا وتستكشف شخصيات معقدة ومصائر متشابكة.",
-    "link": "/book.html?id=9"
-  },
-  {
-    "id": "10",
-    "title": "الغهيب",
-    "price": 65,
-    "image": "images/10.jpg",
-    "category": "رواية",
-    "description": "نص أدبي يتناول موضوعات الغموض والهوية والصراعات الداخلية بأسلوب مكثف.",
-    "link": "/book.html?id=10"
-  },
-  {
-    "id": "11",
-    "title": "ملفات سريه",
-    "price": 65,
-    "image": "images/11.jpg",
-    "category": "رواية",
-    "description": "مؤلّف يجمع حكايات أو تحقيقات حول أسرار مظلمة ووثائق مخفية.",
-    "link": "/book.html?id=11"
-  },
-  {
-    "id": "12",
-    "title": "مخلوقات الليل 1",
-    "price": 65,
-    "image": "images/12.jpg",
-    "category": "رعب وإثارة",
-    "description": "كتاب رعب أو خيال مظلم يقدّم مخلوقات تخيف بظهورها الليلي ومغامراتها.",
-    "link": "/book.html?id=12"
-  },
-  {
-    "id": "13",
-    "title": "قهوه باليورانيوم",
-    "price": 65,
-    "image": "images/13.jpg",
-    "category": "رواية",
-    "description": "نسخة ثانية/مذكّرة — نص ساخر أو مجموعة قصصية ذات طابع فريد وغامض.",
-    "link": "/book.html?id=13"
-  },
-  {
-    "id": "14",
-    "title": "حاره الجزار",
-    "price": 40,
-    "image": "images/14.jpg",
-    "category": "رواية",
-    "description": "رواية تسلط الضوء على حياة الحارة وتداخلاتها الاجتماعية والدرامية.",
-    "link": "/book.html?id=14"
-  },
-  {
-    "id": "15",
-    "title": "قريه الشيخ",
-    "price": 70,
-    "image": "images/15.jpg",
-    "category": "رواية",
-    "description": "نسخة أو طبعة أخرى من رواية تدور في قرية مليئة بالأسرار الإنسانية والاجتماعية.",
-    "link": "/book.html?id=15"
-  },
-  {
-    "id": "16",
-    "title": "مدرسه ميلر",
-    "price": 70,
-    "image": "images/16.jpg",
-    "category": "رواية",
-    "description": "رواية أو قصة تتناول أحداثًا تدور في مدرسة تحمل اسم ميلر، مع توترات وانكشافات.",
-    "link": "/book.html?id=16"
-  },
-  {
-    "id": "17",
-    "title": "دماء تتاروبيت",
-    "price": 70,
-    "image": "images/17.jpg",
-    "category": "رواية",
-    "description": "عمل أدبي أو إثارة يتناول صراعات عنيفة أو أساطير مرتبطة بدماء وسلالات.",
-    "link": "/book.html?id=17"
-  },
-  {
-    "id": "18",
-    "title": "مبادئ التحليل النفسي",
-    "price": 70,
-    "image": "images/18.jpg",
-    "category": "علم نفس",
-    "description": "كتاب نظري يشرح أصول ومفاهيم التحليل النفسي وأهميته في فهم النفس البشرية.",
-    "link": "/book.html?id=18"
-  },
-  {
-    "id": "19",
-    "title": "الحاوي",
-    "price": 70,
-    "image": "images/19.jpg",
-    "category": "أدب ومعرفة",
-    "description": "موسوعة أو عمل شامل يجمع مقالات أو نصوص في مجالات معرفية متعددة.",
-    "link": "/book.html?id=19"
-  },
-  {
-    "id": "20",
-    "title": "على اجنحة العصافير",
-    "price": 70,
-    "image": "images/20.jpg",
-    "category": "أدب وشعر",
-    "description": "نص شاعري أو روائي يصف الرحلات والتأملات والانطلاق بروح منفتحة نحو الحياة.",
-    "link": "/book.html?id=20"
-  },
-  {
-    "id": "21",
-    "title": "الدحيح",
-    "price": 70,
-    "image": "images/21.jpg",
-    "category": "معرفة عامة",
-    "description": "كتاب علمي شعبي أو سردي مبسّط يشرح مفاهيم علمية وثقافية بطريقة جذابة.",
-    "link": "/book.html?id=21"
-  },
-  {
-    "id": "22",
-    "title": "العوسج ٢",
-    "price": 70,
-    "image": "images/22.jpg",
-    "category": "رواية",
-    "description": "الجزء الثاني من سلسلة أدبية يتابع أحداثًا وشخصيات معروفة في العمل الأول.",
-    "link": "/book.html?id=22"
-  },
-  {
-    "id": "23",
-    "title": "يأجوج ومأجوج",
-    "price": 70,
-    "image": "images/23.jpg",
-    "category": "رواية",
-    "description": "رواية أو دراسة أسطورية تتناول موضوعات نهاية الزمان والأساطير الشعبية.",
-    "link": "/book.html?id=23"
-  },
-  {
-    "id": "24",
-    "title": "غصون البندق ج1",
-    "price": 75,
-    "image": "images/24.jpg",
-    "category": "سلسلة روايات",
-    "description": "الجزء الأول من سلسلة أدبية أو تاريخية تروي حكاية طويلة على امتداد أجزاء.",
-    "link": "/book.html?id=24"
-  },
-  {
-    "id": "25",
-    "title": "غصون البندق ج2",
-    "price": 75,
-    "image": "images/25.jpg",
-    "category": "سلسلة روايات",
-    "description": "الجزء الثاني من السلسلة يستمر في سرد الحكاية وتفاصيل الشخصيات.",
-    "link": "/book.html?id=25"
-  },
-  {
-    "id": "26",
-    "title": "جريمه في قطار الشرق",
-    "price": 75,
-    "image": "images/26.jpg",
-    "category": "رواية بوليسية",
-    "description": "قصة جريمة كلاسيكية تجري أحداثها على متن قطار تحمل توترات وتحقيقات مشوقة.",
-    "link": "/book.html?id=26"
-  },
-  {
-    "id": "27",
-    "title": "رسائل من التابعين",
-    "price": 75,
-    "image": "images/27.jpg",
-    "category": "تاريخ إسلامي",
-    "description": "مجموعة نصوص أو رسائل تاريخية تعكس فكر ومواقف التابعين في سياق ديني أو تاريخي.",
-    "link": "/book.html?id=27"
-  },
-  {
-    "id": "28",
-    "title": "رسول الله زوجا",
-    "price": 75,
-    "image": "images/28.jpg",
-    "category": "دين وسيرة",
-    "description": "عمل يتناول جوانب من حياة النبي الزوجية أو دور الزوج في السياق الإسلامي والتاريخي.",
-    "link": "/book.html?id=28"
-  },
-  {
-    "id": "29",
-    "title": "اكتب حتي لا ياكلني الشيطان",
-    "price": 75,
-    "image": "images/29.jpg",
-    "category": "سيرة ذاتية",
-    "description": "سيرة أو مذكرات تعالج الكفاح الداخلي وتأثير الكتابة كوسيلة للتعافي والاحتواء.",
-    "link": "/book.html?id=29"
-  },
-  {
-    "id": "30",
-    "title": "الرحيق المختوم",
-    "price": 70,
-    "image": "images/30.jpg",
-    "category": "سيرة نبوية",
-    "description": "سيرة أو دراسة تاريخية مختصرة عن حياة النبي أو تاريخ الإسلام في منظور مؤرخ.",
-    "link": "/book.html?id=30"
-  },
-  {
-    "id": "31",
-    "title": "الاب الغني",
-    "price": 70,
-    "image": "images/31.jpg",
-    "category": "تنمية مالية",
-    "description": "كتاب تنمية مالية يشرح مبادئ الاستقلال المالي والاستثمار بأسلوب عملي.",
-    "link": "/book.html?id=31"
-  },
-  {
-    "id": "32",
-    "title": "استراحه نفسيه",
-    "price": 75,
-    "image": "images/32.jpg",
-    "category": "علم نفس",
-    "description": "دليل عملي للاسترخاء والتعامل مع الضغوط النفسية.",
-    "link": "/book.html?id=32"
-  },
-  {
-    "id": "33",
-    "title": "نادي الخامسه صباحا",
-    "price": 75,
-    "image": "images/33.jpg",
-    "category": "تطوير الذات",
-    "description": "كتاب تحفيزي يشرح روتين صباحي ناجح يساعد على زيادة الإنتاجية.",
-    "link": "/book.html?id=33"
-  },
-  {
-    "id": "34",
-    "title": "هذا ما حدث معها",
-    "price": 80,
-    "image": "images/34.jpg",
-    "category": "رواية",
-    "description": "رواية قوية تروي تفاصيل حدث محوري مؤثر في حياة امرأة أو مجموعة شخصيات.",
-    "link": "/book.html?id=34"
-  },
-  {
-    "id": "35",
-    "title": "مملكه الكوابيس والضباب",
-    "price": 80,
-    "image": "images/35.jpg",
-    "category": "رواية خيال",
-    "description": "عمل فانتازي مظلم يقدم عالمًا من الكوابيس والرموز الغامضة.",
-    "link": "/book.html?id=35"
-  },
-  {
-    "id": "36",
-    "title": "سماء بلا ضياء",
-    "price": 80,
-    "image": "images/36.jpg",
-    "category": "رواية",
-    "description": "رواية أو مجموعة قصصية بطابع كئيب تتناول فقدان النور والأمل.",
-    "link": "/book.html?id=36"
-  },
-  {
-    "id": "37",
-    "title": "لانها كيارا",
-    "price": 80,
-    "image": "images/37.jpg",
-    "category": "رواية",
-    "description": "قصة رومانسية أو درامية تركز على شخصية كيارا وتبعات اختياراتها.",
-    "link": "/book.html?id=37"
-  },
-  {
-    "id": "38",
-    "title": "قنبله الاستخدام الشخصي",
-    "price": 80,
-    "image": "images/38.jpg",
-    "category": "رواية",
-    "description": "رواية مشحونة بالتوتر تتناول آثار قرار أو عنصر متفجر رمزيًا في حياة الناس.",
-    "link": "/book.html?id=38"
-  },
-  {
-    "id": "39",
-    "title": "سجناء. 1500. عام.",
-    "price": 85,
-    "image": "images/39.jpg",
-    "category": "رواية",
-    "description": "عمل تاريخي أو تأملي يناقش فترات طويلة من الأسر أو القيود عبر العصور.",
-    "link": "/book.html?id=39"
-  },
-  {
-    "id": "40",
-    "title": "نبا يقين",
-    "price": 80,
-    "image": "images/40.jpg",
-    "category": "دين وروحانيات",
-    "description": "كتاب يتناول موضوعات اليقين والإيمان والتجارب البشرية التي تؤثر على الاعتقاد.",
-    "link": "/book.html?id=40"
-  },
-  {
-    "id": "41",
-    "title": "وتلك الايام",
-    "price": 80,
-    "image": "images/41.jpg",
-    "category": "تاريخ وسرد",
-    "description": "سرد تاريخي/روائي يستعيد أيامًا وأحداثًا صنعت تاريخًا أو ذكريات عميقة.",
-    "link": "/book.html?id=41"
-  },
-  {
-    "id": "42",
-    "title": "واذا الصحف نشرت",
-    "price": 83,
-    "image": "images/42.jpg",
-    "category": "دين وروحانيات",
-    "description": "عمل أدبي أو ديني يتناول محتوى يوم الحساب أو روايات نهايات الأمور.",
-    "link": "/book.html?id=42"
-  },
-  {
-    "id": "43",
-    "title": "الغرباء",
-    "price": 83,
-    "image": "images/43.jpg",
-    "category": "أدب",
-    "description": "مجموعة قصصية أو نصوص عن الشعور بالغربة والاغتراب في المجتمع الحديث.",
-    "link": "/book.html?id=43"
-  },
-  {
-    "id": "44",
-    "title": "شمس منتصف الليل",
-    "price": 85,
-    "image": "images/44.jpg",
-    "category": "رواية",
-    "description": "رواية رومانسيه/غموض تأخذ القارئ إلى أمكنة ليلية وتأملات حول الحب والظلال.",
-    "link": "/book.html?id=44"
-  },
-  {
-    "id": "45",
-    "title": "ديزني انجلش",
-    "price": 85,
-    "image": "images/45.jpg",
-    "category": "تعليمي",
-    "description": "منهج تعليمي للأطفال لتعلم اللغة الإنجليزية باستخدام مواد ديزني المرحة.",
-    "link": "/book.html?id=45"
-  },
-  {
-    "id": "46",
-    "title": "متلازمه فيرجولي",
-    "price": 90,
-    "image": "images/46.jpg",
-    "category": "رواية",
-    "description": "عمل أدبي أو سلسلة قصصية معقدة تحوي حبكات متشابكة وتوترات نفسية.",
-    "link": "/book.html?id=46"
-  },
-  {
-    "id": "47",
-    "title": "فندق المقبرة",
-    "price": 90,
-    "image": "images/47.jpg",
-    "category": "رعب وإثارة",
-    "description": "رواية رعب أو إثارة تدور أحداثها في فندق يحمل أسرارًا مروعة.",
-    "link": "/book.html?id=47"
-  },
-  {
-    "id": "48",
-    "title": "بيت الخناس ج2",
-    "price": 95,
-    "image": "images/48.jpg",
-    "category": "رعب وإثارة",
-    "description": "الجزء الثاني من سلسلة رعب يستكمل حكاية بيت مليء بالغموض والقوى الخارقة.",
-    "link": "/book.html?id=48"
-  },
-  {
-    "id": "49",
-    "title": "الغريب",
-    "price": 95,
-    "image": "images/49.jpg",
-    "category": "رواية",
-    "description": "رواية كلاسيكية أو معاصرة تتناول الاغتراب والحداثة في سياق إنساني.",
-    "link": "/book.html?id=49"
-  },
-  {
-    "id": "50",
-    "title": "بيتشيني",
-    "price": 95,
-    "image": "images/50.jpg",
-    "category": "رواية",
-    "description": "عمل أدبي يحمل اسمًا مميزًا، قد يكون ترجمة أو نصًا معاصرًا له طابع خاص.",
-    "link": "/book.html?id=50"
-  },
-  {
-    "id": "51",
-    "title": "جسمك يتذكر كل شئ",
-    "price": 100,
-    "image": "images/51.jpg",
-    "category": "علم نفس",
-    "description": "كتاب علمي أو نفسي يشرح كيفية احتفاظ الجسد بالذكريات.",
-    "link": "/book.html?id=51"
-  },
-  {
-    "id": "52",
-    "title": "إنني اتعفن رعبا",
-    "price": 100,
-    "image": "images/52.jpg",
-    "category": "رعب وإثارة",
-    "description": "نص رعب نفسي شديد يعرض تحولات داخلية وشعورًا متزايدًا بالخوف.",
-    "link": "/book.html?id=52"
-  },
-  {
-    "id": "53",
-    "title": "اوراق شمعون المصري",
-    "price": 100,
-    "image": "images/53.jpg",
-    "category": "رواية تاريخية",
-    "description": "مجموعة وثائق أو نصوص تاريخية/سردية تتصل بشمعون المصري.",
-    "link": "/book.html?id=53"
-  },
-  {
-    "id": "54",
-    "title": "الداء والدواء",
-    "price": 100,
-    "image": "images/54.jpg",
-    "category": "دين ووعظ",
-    "description": "كتاب ديني أو طبي يتناول أمراضًا وعلاجاتها.",
-    "link": "/book.html?id=54"
-  },
-  {
-    "id": "55",
-    "title": "الشيطان والمياه المظلمه",
-    "price": 100,
-    "image": "images/55.jpg",
-    "category": "رعب وإثارة",
-    "description": "رواية تشويق/رعب تحمل عنوانًا قويًا عن مواجهة قوى مظلمة.",
-    "link": "/book.html?id=55"
-  },
-  {
-    "id": "56",
-    "title": "سلسله عربستان",
-    "price": 480,
-    "image": "images/56.jpg",
-    "category": "سلسلة روايات",
-    "description": "سلسلة كاملة من عدة مجلدات تغطي قصة طويلة أو مجموعة أعمال مترابطة.",
-    "link": "/book.html?id=56"
-  },
-  {
-    "id": "57",
-    "title": "سلسله لج",
-    "price": 420,
-    "image": "images/57.jpg",
-    "category": "سلسلة روايات",
-    "description": "سلسلة مؤلفة من أجزاء متعددة تروي سردًا متصلاً أو عوالم خيالية موسعة.",
-    "link": "/book.html?id=57"
-  },
-  {
-    "id": "58",
-    "title": "سلسله صخب الخسف (3 أجزاء)",
-    "price": 250,
-    "image": "images/58.jpg",
-    "category": "سلسلة روايات",
-    "description": "ثلاثية روائية أو خيالية مترابطة تحمل طابعًا ملحميًا.",
-    "link": "/book.html?id=58"
-  },
-  {
-    "id": "59",
-    "title": "من حرك قطعه الجبن",
-    "price": 55,
-    "image": "images/59.jpg",
-    "category": "تطوير الذات",
-    "description": "كتاب يتناول كيفية التعامل مع التغيير في العمل والحياة.",
-    "link": "/book.html?id=59"
-  },
-  {
-    "id": "60",
-    "title": "مالا يسع اطفال المسلمين جهله",
-    "price": 55,
-    "image": "images/60.jpg",
-    "category": "دين وتعليم",
-    "description": "كتاب ديني يقدم أساسيات الدين الإسلامي للأطفال.",
-    "link": "/book.html?id=60"
-  },
-  {
-    "id": "61",
-    "title": "ماذا لو",
-    "price": 55,
-    "image": "images/61.jpg",
-    "category": "رواية",
-    "description": "كتاب يطرح سيناريوهات خيالية أو افتراضية لاستكشاف مسارات مختلفة للحياة.",
-    "link": "/book.html?id=61"
-  },
-  {
-    "id": "62",
-    "title": "مذكرات طبيب نفسي",
-    "price": 55,
-    "image": "images/62.jpg",
-    "category": "علم نفس",
-    "description": "مذكرات أو قصة من واقع خبرة طبيب نفسي.",
-    "link": "/book.html?id=62"
-  },
-  {
-    "id": "63",
-    "title": "اول مره أصلي",
-    "price": 55,
-    "image": "images/63.jpg",
-    "category": "دين وتعليم",
-    "description": "دليل أو كتاب إرشادي للمبتدئين في تعلم الصلاة.",
-    "link": "/book.html?id=63"
-  },
-  {
-    "id": "64",
-    "title": "متعه أن تكون ف العشرين",
-    "price": 55,
-    "image": "images/64.jpg",
-    "category": "تطوير الذات",
-    "description": "كتاب تطوير ذاتي يستعرض تحديات ومميزات مرحلة العشرينات من العمر.",
-    "link": "/book.html?id=64"
-  },
-  {
-    "id": "65",
-    "title": "فن التعافي",
-    "price": 55,
-    "image": "images/65.jpg",
-    "category": "تطوير الذات",
-    "description": "كتاب يتناول كيفية تجاوز الصدمات النفسية والعاطفية.",
-    "link": "/book.html?id=65"
-  },
-  {
-    "id": "66",
-    "title": "مدينه الأقوياء",
-    "price": 55,
-    "image": "images/66.jpg",
-    "category": "رواية",
-    "description": "رواية خيالية أو ملحمية تدور أحداثها في مدينة يسكنها أشخاص يتميزون بالقوة.",
-    "link": "/book.html?id=66"
-  },
-  {
-    "id": "67",
-    "title": "الخيمائي",
-    "price": 55,
-    "image": "images/67.jpg",
-    "category": "رواية فلسفية",
-    "description": "رواية فلسفية شهيرة عن رحلة صبي يسعى لتحقيق مصيره الشخصي.",
-    "link": "/book.html?id=67"
-  },
-  {
-    "id": "68",
-    "title": "البسي واسع",
-    "price": 55,
-    "image": "images/68.jpg",
-    "category": "دين واجتماع",
-    "description": "كتاب يتناول موضوع الحجاب واللباس الشرعي للمرأة.",
-    "link": "/book.html?id=68"
-  },
-  {
-    "id": "69",
-    "title": "شبكه العنكبوت",
-    "price": 55,
-    "image": "images/69.jpg",
-    "category": "رواية",
-    "description": "رواية غموض أو إثارة تدور أحداثها حول شبكة من الأسرار والخيوط المتشابكة.",
-    "link": "/book.html?id=69"
-  },
-  {
-    "id": "70",
-    "title": "الانتهازي",
-    "price": 55,
-    "image": "images/70.jpg",
-    "category": "رواية",
-    "description": "رواية أو كتاب يتناول شخصية انتهازية واستغلالها للآخرين.",
-    "link": "/book.html?id=70"
-  },
-  {
-    "id": "71",
-    "title": "ليله ماطره",
-    "price": 55,
-    "image": "images/71.jpg",
-    "category": "رواية",
-    "description": "رواية رومانسية أو درامية تجري أحداثها في ليلة عاصفة.",
-    "link": "/book.html?id=71"
-  },
-  {
-    "id": "72",
-    "title": "مالا نَبوحُ به",
-    "price": 55,
-    "image": "images/72.jpg",
-    "category": "علم نفس وأدب",
-    "description": "كتاب يتناول الأفكار والمشاعر التي لا نجرؤ على التعبير عنها علنًا.",
-    "link": "/book.html?id=72"
-  },
-  {
-    "id": "73",
-    "title": "نادر فوده الجزء الاول",
-    "price": 55,
-    "image": "images/73.jpg",
-    "category": "رعب وإثارة",
-    "description": "الجزء الأول من سلسلة روائية مغامرات أو رعب تتمحور حول شخصية نادر فودة.",
-    "link": "/book.html?id=73"
-  },
-  {
-    "id": "74",
-    "title": "لغات الحب الخمس",
-    "price": 55,
-    "image": "images/74.jpg",
-    "category": "علاقات",
-    "description": "كتاب علاقات شهير يوضح الطرق المختلفة للتعبير عن الحب وفهمه بين الشركاء.",
-    "link": "/book.html?id=74"
-  },
-  {
-    "id": "75",
-    "title": "يوم ف حياه النبي",
-    "price": 55,
-    "image": "images/75.jpg",
-    "category": "سيرة نبوية",
-    "description": "كتاب يتناول يوميات النبي محمد صلى الله عليه وسلم وسلوكياته.",
-    "link": "/book.html?id=75"
-  },
-  {
-    "id": "76",
-    "title": "اسرار سوره البقره",
-    "price": 55,
-    "image": "images/76.jpg",
-    "category": "دين وتفسير",
-    "description": "كتاب ديني يتناول فضائل وتفسير ومعاني سورة البقرة.",
-    "link": "/book.html?id=76"
-  },
-  {
-    "id": "77",
-    "title": "الطريق إلي الله",
-    "price": 55,
-    "image": "images/77.jpg",
-    "category": "دين وروحانيات",
-    "description": "كتاب روحي وديني يقدم إرشادات للتقرب من الله.",
-    "link": "/book.html?id=77"
-  },
-  {
-    "id": "78",
-    "title": "مدينه الحب لا يسكنها العقلاء",
-    "price": 55,
-    "image": "images/78.jpg",
-    "category": "رواية",
-    "description": "رواية رومانسية أو عاطفية عن قصص حب تتحدى المنطق.",
-    "link": "/book.html?id=78"
-  },
-  {
-    "id": "79",
-    "title": "تساؤلات نفسيه",
-    "price": 55,
-    "image": "images/79.jpg",
-    "category": "علم نفس",
-    "description": "كتاب يطرح أسئلة نفسية عميقة ويقدم إجاباتها بأسلوب مبسط.",
-    "link": "/book.html?id=79"
-  },
-  {
-    "id": "80",
-    "title": "لانك الله الجزء التاني",
-    "price": 55,
-    "image": "images/80.jpg",
-    "category": "دين وروحانيات",
-    "description": "الجزء الثاني من كتاب عن أسماء الله الحسنى.",
-    "link": "/book.html?id=80"
-  },
-  {
-    "id": "81",
-    "title": "صباح استثنائي كل يوم",
-    "price": 55,
-    "image": "images/81.jpg",
-    "category": "تطوير الذات",
-    "description": "كتاب تطوير ذاتي يقدم عادات صباحية لتحسين الإنتاجية.",
-    "link": "/book.html?id=81"
-  },
-  {
-    "id": "82",
-    "title": "اغني راجل ف بابل",
-    "price": 55,
-    "image": "images/82.jpg",
-    "category": "تنمية مالية",
-    "description": "كتاب مالي شهير يقدم دروسًا عن الثراء وإدارة الأموال.",
-    "link": "/book.html?id=82"
-  },
-  {
-    "id": "83",
-    "title": "رقائق القرآن",
-    "price": 55,
-    "image": "images/83.jpg",
-    "category": "دين وتدبر",
-    "description": "كتاب ديني يركز على التدبر في آيات القرآن.",
-    "link": "/book.html?id=83"
-  },
-  {
-    "id": "84",
-    "title": "لانك الله الجزء الاول",
-    "price": 55,
-    "image": "images/84.jpg",
-    "category": "دين وروحانيات",
-    "description": "الجزء الأول من كتاب عن أسماء الله الحسنى.",
-    "link": "/book.html?id=84"
-  },
-  {
-    "id": "85",
-    "title": "عوده الروح",
-    "price": 55,
-    "image": "images/85.jpg",
-    "category": "رواية كلاسيكية",
-    "description": "رواية كلاسيكية شهيرة للكاتب توفيق الحكيم.",
-    "link": "/book.html?id=85"
-  },
-  {
-    "id": "86",
-    "title": "فن التركيز ولا الانجاز",
-    "price": 55,
-    "image": "images/86.jpg",
-    "category": "تطوير الذات",
-    "description": "كتاب تطوير ذاتي يتناول أساليب التركيز والإنتاجية الفعالة.",
-    "link": "/book.html?id=86"
-  },
-  {
-    "id": "87",
-    "title": "يوتيوبيا",
-    "price": 55,
-    "image": "images/87.jpg",
-    "category": "رواية خيال علمي",
-    "description": "رواية ديستوبية شهيرة للكاتب أحمد خالد توفيق.",
-    "link": "/book.html?id=87"
-  },
-  {
-    "id": "88",
-    "title": "المرونه النفسيه",
-    "price": 55,
-    "image": "images/88.jpg",
-    "category": "علم نفس",
-    "description": "كتاب علم نفس يتناول كيفية تطوير المرونة النفسية.",
-    "link": "/book.html?id=88"
-  },
-  {
-    "id": "89",
-    "title": "إلي ما لا نهاية",
-    "price": 55,
-    "image": "images/89.jpg",
-    "category": "أدب وفلسفة",
-    "description": "رواية أو كتاب فلسفي يتناول موضوعات الخلود أو النهايات المفتوحة.",
-    "link": "/book.html?id=89"
-  },
-  {
-    "id": "90",
-    "title": "الهشاشه النفسيه",
-    "price": 55,
-    "image": "images/90.jpg",
-    "category": "علم نفس",
-    "description": "كتاب علم نفس يناقش ضعف الإنسان النفسي وكيفية التعامل معه.",
-    "link": "/book.html?id=90"
-  },
-  {
-    "id": "91",
-    "title": "50 سؤال ف الحب",
-    "price": 55,
-    "image": "images/91.jpg",
-    "category": "علاقات",
-    "description": "كتاب يتناول أسئلة وإجابات حول الحب والعلاقات.",
-    "link": "/book.html?id=91"
-  },
-  {
-    "id": "92",
-    "title": "جحيم العابرين",
-    "price": 55,
-    "image": "images/92.jpg",
-    "category": "رواية",
-    "description": "رواية أو قصة عن الصعوبات التي يواجهها المسافرون أو العابرون.",
-    "link": "/book.html?id=92"
-  },
-  {
-    "id": "93",
-    "title": "مسلكيات",
-    "price": 55,
-    "image": "images/93.jpg",
-    "category": "دين وأخلاق",
-    "description": "كتاب يتناول السلوكيات والأخلاقيات من منظور إسلامي أو اجتماعي.",
-    "link": "/book.html?id=93"
-  },
-  {
-    "id": "94",
-    "title": "قررت أن اخلع الحجاب",
-    "price": 55,
-    "image": "images/94.jpg",
-    "category": "سرد اجتماعي",
-    "description": "رواية أو قصة عن قرار امرأة بخلع الحجاب وتأثيره على حياتها.",
-    "link": "/book.html?id=94"
-  },
-  {
-    "id": "95",
-    "title": "ان ربي لطيف",
-    "price": 55,
-    "image": "images/95.jpg",
-    "category": "دين وروحانيات",
-    "description": "كتاب ديني يتناول صفة اللطف لله تعالى.",
-    "link": "/book.html?id=95"
-  },
-  {
-    "id": "96",
-    "title": "القلق هو العدو",
-    "price": 55,
-    "image": "images/96.jpg",
-    "category": "علم نفس",
-    "description": "كتاب نفسي يتناول كيفية التعامل مع القلق والتغلب عليه.",
-    "link": "/book.html?id=96"
-  },
-  {
-    "id": "97",
-    "title": "اقتحام الأسواق التجاريه",
-    "price": 55,
-    "image": "images/97.jpg",
-    "category": "أعمال وتسويق",
-    "description": "كتاب تسويق أو أعمال يتناول كيفية دخول الأسواق التجارية بقوة.",
-    "link": "/book.html?id=97"
-  },
-  {
-    "id": "98",
-    "title": "كوني صحابيه",
-    "price": 55,
-    "image": "images/98.jpg",
-    "category": "دين وتوجيه",
-    "description": "كتاب ديني موجه للنساء، يقدم نماذج من حياة الصحابيات.",
-    "link": "/book.html?id=98"
-  },
-  {
-    "id": "99",
-    "title": "حوار مع صديقي الملحد",
-    "price": 55,
-    "image": "images/99.jpg",
-    "category": "فكر وفلسفة",
-    "description": "كتاب ديني فلسفي يتناول حوارًا بين شخص مؤمن وآخر ملحد.",
-    "link": "/book.html?id=99"
-  },
-  {
-    "id": "100",
-    "title": "اسرار عقل المليونير",
-    "price": 55,
-    "image": "images/100.jpg",
-    "category": "تنمية مالية",
-    "description": "كتاب مالي عن عادات وأسرار الأثرياء وكيفية التفكير مثلهم.",
-    "link": "/book.html?id=100"
-  },
-  {
-    "id": "101",
-    "title": "الليالي البيضاء",
-    "price": 55,
-    "image": "images/101.jpg",
-    "category": "رواية كلاسيكية",
-    "description": "رواية كلاسيكية للكاتب الروسي دوستويفسكي.",
-    "link": "/book.html?id=101"
-  },
-  {
-    "id": "102",
-    "title": "استيقظ وعش",
-    "price": 55,
-    "image": "images/102.jpg",
-    "category": "تطوير الذات",
-    "description": "كتاب تطوير ذاتي عن كيفية الاستفادة من الحياة والعيش بوعي.",
-    "link": "/book.html?id=102"
-  },
-  {
-    "id": "103",
-    "title": "ارض القرابين",
-    "price": 55,
-    "image": "images/103.jpg",
-    "category": "رواية",
-    "description": "رواية أو عمل أدبي يتناول موضوع التضحيات في مجتمع أو مكان معين.",
-    "link": "/book.html?id=103"
-  },
-  {
-    "id": "104",
-    "title": "الطريقه الاكثر فعاليه لانجاز المهام",
-    "price": 55,
-    "image": "images/104.jpg",
-    "category": "تطوير الذات",
-    "description": "كتاب تطوير ذاتي عن أساليب الإنتاجية وإدارة الوقت.",
-    "link": "/book.html?id=104"
-  },
-  {
-    "id": "105",
-    "title": "كن لنفسك كل شي",
-    "price": 55,
-    "image": "images/105.jpg",
-    "category": "تطوير الذات",
-    "description": "كتاب تطوير ذاتي يشجع على الاعتماد على النفس وتحقيق الذات.",
-    "link": "/book.html?id=105"
-  },
-  {
-    "id": "106",
-    "title": "النداء",
-    "price": 55,
-    "image": "images/106.jpg",
-    "category": "رواية",
-    "description": "رواية أو كتاب يتناول فكرة الاستجابة لنداء داخلي أو خارجي.",
-    "link": "/book.html?id=106"
-  },
-  {
-    "id": "107",
-    "title": "ليله ظهور القرين",
-    "price": 55,
-    "image": "images/107.jpg",
-    "category": "رعب وإثارة",
-    "description": "رواية رعب أو غموض عن لقاء شخصي بالقرين.",
-    "link": "/book.html?id=107"
-  },
-  {
-    "id": "108",
-    "title": "فن الكلام",
-    "price": 55,
-    "image": "images/108.jpg",
-    "category": "تطوير الذات",
-    "description": "كتاب تطوير ذاتي عن مهارات التواصل والإلقاء.",
-    "link": "/book.html?id=108"
-  },
-  {
-    "id": "109",
-    "title": "سأرحل",
-    "price": 55,
-    "image": "images/109.jpg",
-    "category": "رواية",
-    "description": "رواية أو عمل أدبي عن قرار الرحيل والهجرة أو الانفصال.",
-    "link": "/book.html?id=109"
-  },
-  {
-    "id": "110",
-    "title": "مفاتيح خران الله",
-    "price": 55,
-    "image": "images/110.jpg",
-    "category": "دين وروحانيات",
-    "description": "كتاب ديني يتناول مفاتيح الرزق والفرج من منظور إسلامي.",
-    "link": "/book.html?id=110"
-  },
-  {
-    "id": "111",
-    "title": "ندي تشتكي لعائشه",
-    "price": 55,
-    "image": "images/111.jpg",
-    "category": "دين وتوجيه",
-    "description": "كتاب ديني يتناول شكاوى المرأة ومشاكلها في ضوء سيرة السيدة عائشة.",
-    "link": "/book.html?id=111"
-  },
-  {
-    "id": "112",
-    "title": "رحلتي من النقاش إلي البلوك",
-    "price": 55,
-    "image": "images/112.jpg",
-    "category": "فكاهة وسرد",
-    "description": "كتاب ساخر أو اجتماعي عن تجارب شخصية في النقاشات العقيمة.",
-    "link": "/book.html?id=112"
-  },
-  {
-    "id": "113",
-    "title": "الخروج عن النص",
-    "price": 55,
-    "image": "images/113.jpg",
-    "category": "تطوير الذات",
-    "description": "كتاب يتناول كيفية التفكير خارج الصندوق وكسر القواعد التقليدية.",
-    "link": "/book.html?id=113"
-  },
-  {
-    "id": "114",
-    "title": "ابني مشتت الإنتباه",
-    "price": 55,
-    "image": "images/114.jpg",
-    "category": "تربية وعلم نفس",
-    "description": "كتاب تربوي عن التعامل مع الأطفال الذين يعانون من تشتت الانتباه.",
-    "link": "/book.html?id=114"
-  },
-  {
-    "id": "115",
-    "title": "مدير الدقيقه الواحده",
-    "price": 55,
-    "image": "images/115.jpg",
-    "category": "إدارة وأعمال",
-    "description": "كتاب إداري شهير عن فن الإدارة الفعالة في وقت قصير.",
-    "link": "/book.html?id=115"
-  },
-  {
-    "id": "116",
-    "title": "تحدث أمام الجميع بجذبيه",
-    "price": 55,
-    "image": "images/116.jpg",
-    "category": "تطوير الذات",
-    "description": "كتاب تطوير ذاتي عن مهارات الخطابة والتحدث أمام الجمهور.",
-    "link": "/book.html?id=116"
-  },
-  {
-    "id": "117",
-    "title": "مزرعه الحيوان",
-    "price": 55,
-    "image": "images/117.jpg",
-    "category": "رواية سياسية",
-    "description": "رواية رمزية شهيرة للكاتب جورج أورويل.",
-    "link": "/book.html?id=117"
-  },
-  {
-    "id": "118",
-    "title": "شارع النجاح",
-    "price": 55,
-    "image": "images/118.jpg",
-    "category": "تطوير الذات",
-    "description": "كتاب تطوير ذاتي عن الطريق إلى تحقيق النجاح في الحياة.",
-    "link": "/book.html?id=118"
-  },
-  {
-    "id": "119",
-    "title": "قوه الفشل",
-    "price": 55,
-    "image": "images/119.jpg",
-    "category": "تطوير الذات",
-    "description": "كتاب تطوير ذاتي عن كيفية تحويل الفشل إلى قوة دافعة.",
-    "link": "/book.html?id=119"
-  },
-  {
-    "id": "120",
-    "title": "فيتامينات نفسيه",
-    "price": 55,
-    "image": "images/120.jpg",
-    "category": "علم نفس",
-    "description": "كتاب علم نفس يقدم نصائح وممارسات بسيطة لتحسين الصحة النفسية.",
-    "link": "/book.html?id=120"
-  },
-  {
-    "id": "121",
-    "title": "توقف عن ارضا الاخرين",
-    "price": 55,
-    "image": "images/121.jpg",
-    "category": "تطوير الذات",
-    "description": "كتاب تطوير ذاتي عن أهمية الحدود الشخصية والتوقف عن إرضاء الآخرين.",
-    "link": "/book.html?id=121"
-  },
-  {
-    "id": "122",
-    "title": "لقاء مع كاتب رعب",
-    "price": 55,
-    "image": "images/122.jpg",
-    "category": "رواية",
-    "description": "رواية أو قصة عن مقابلة مع كاتب متخصص في أدب الرعب.",
-    "link": "/book.html?id=122"
-  },
-  {
-    "id": "123",
-    "title": "عن شيء اسمه الحب",
-    "price": 55,
-    "image": "images/123.jpg",
-    "category": "علاقات",
-    "description": "كتاب يتناول مفهوم الحب والعلاقات العاطفية.",
-    "link": "/book.html?id=123"
-  },
-  {
-    "id": "124",
-    "title": "القربان",
-    "price": 55,
-    "image": "images/124.jpg",
-    "category": "رواية",
-    "description": "رواية أو عمل أدبي يتناول موضوع التضحية.",
-    "link": "/book.html?id=124"
-  },
-  {
-    "id": "125",
-    "title": "اجيج",
-    "price": 55,
-    "image": "images/125.jpg",
-    "category": "رواية",
-    "description": "رواية أو عمل أدبي ذو طابع ناري أو مشتعل بالأحداث.",
-    "link": "/book.html?id=125"
-  },
-  {
-    "id": "126",
-    "title": "سعد الدباس",
-    "price": 55,
-    "image": "images/126.jpg",
-    "category": "رواية",
-    "description": "رواية أو قصة عن شخصية تحمل اسم سعد الدباس.",
-    "link": "/book.html?id=126"
-  },
-  {
-    "id": "127",
-    "title": "رحلتي من الشك إلي الايمان",
-    "price": 55,
-    "image": "images/127.jpg",
-    "category": "سيرة دينية",
-    "description": "سيرة ذاتية أو كتاب روحي عن تحول شخص من الشك إلى الإيمان.",
-    "link": "/book.html?id=127"
-  },
-  {
-    "id": "128",
-    "title": "أسرار الدعاء",
-    "price": 55,
-    "image": "images/128.jpg",
-    "category": "دين وروحانيات",
-    "description": "كتاب ديني يتناول أسرار وفضل الدعاء في الإسلام.",
-    "link": "/book.html?id=128"
-  },
-  {
-    "id": "129",
-    "title": "متعه ان تكون في منتصف العمر",
-    "price": 55,
-    "image": "images/129.jpg",
-    "category": "تطوير الذات",
-    "description": "كتاب تطوير ذاتي عن الاستمتاع بمرحلة منتصف العمر.",
-    "link": "/book.html?id=129"
-  },
-  {
-    "id": "130",
-    "title": "حياتك 20/80",
-    "price": 55,
-    "image": "images/130.jpg",
-    "category": "تطوير الذات",
-    "description": "كتاب تطوير ذاتي يعتمد على قاعدة 80/20 في الحياة والإنتاجية.",
-    "link": "/book.html?id=130"
-  },
-  {
-    "id": "131",
-    "title": "نعمة الالم",
-    "price": 55,
-    "image": "images/131.jpg",
-    "category": "علم نفس وفلسفة",
-    "description": "كتاب نفسي أو فلسفي يتناول الجانب الإيجابي للألم.",
-    "link": "/book.html?id=131"
-  },
-  {
-    "id": "132",
-    "title": "كن اقوي من مشاعرك",
-    "price": 55,
-    "image": "images/132.jpg",
-    "category": "تطوير الذات",
-    "description": "كتاب تطوير ذاتي عن التحكم في المشاعر واتخاذ قرارات عقلانية.",
-    "link": "/book.html?id=132"
-  },
-  {
-    "id": "133",
-    "title": "مدينة الموتي",
-    "price": 55,
-    "image": "images/133.jpg",
-    "category": "رواية",
-    "description": "رواية رعب أو غموض تدور أحداثها في مدينة مهجورة.",
-    "link": "/book.html?id=133"
-  },
-  {
-    "id": "134",
-    "title": "الطريق الي القرآن",
-    "price": 55,
-    "image": "images/134.jpg",
-    "category": "دين وتدبر",
-    "description": "كتاب ديني عن كيفية الاقتراب من القرآن وفهمه.",
-    "link": "/book.html?id=134"
-  },
-  {
-    "id": "135",
-    "title": "فكره من كل ايه",
-    "price": 55,
-    "image": "images/135.jpg",
-    "category": "دين وتدبر",
-    "description": "كتاب ديني يقدم فكرة أو عبرة من كل آية في القرآن.",
-    "link": "/book.html?id=135"
-  },
-  {
-    "id": "136",
-    "title": "زاد",
-    "price": 55,
-    "image": "images/136.jpg",
-    "category": "دين وأدب",
-    "description": "كتاب ديني أو أدبي يقدم زادًا روحيًا أو فكريًا للقارئ.",
-    "link": "/book.html?id=136"
-  },
-  {
-    "id": "137",
-    "title": "هكذا رأيت رسول الله",
-    "price": 55,
-    "image": "images/137.jpg",
-    "category": "سيرة نبوية",
-    "description": "كتاب ديني يتناول سيرة النبي محمد من منظور شخصي أو إيماني.",
-    "link": "/book.html?id=137"
-  },
-  {
-    "id": "138",
-    "title": "حلم رجل مضحك",
-    "price": 55,
-    "image": "images/138.jpg",
-    "category": "أدب كلاسيكي",
-    "description": "قصة قصيرة للكاتب الروسي دوستويفسكي.",
-    "link": "/book.html?id=138"
-  },
-  {
-    "id": "139",
-    "title": "علاج التفكير الضاغط",
-    "price": 55,
-    "image": "images/139.jpg",
-    "category": "علم نفس",
-    "description": "كتاب نفسي عن كيفية التخلص من الأفكار السلبية والضغوط الذهنية.",
-    "link": "/book.html?id=139"
-  },
-  {
-    "id": "140",
-    "title": "ولنا في الحلال لقاء",
-    "price": 55,
-    "image": "images/140.jpg",
-    "category": "دين وعلاقات",
-    "description": "كتاب ديني عن العلاقات والزواج في إطار إسلامي.",
-    "link": "/book.html?id=140"
-  },
-  {
-    "id": "141",
-    "title": "١٠ معارك في الحياة",
-    "price": 55,
-    "image": "images/141.jpg",
-    "category": "تطوير الذات",
-    "description": "كتاب تطوير ذاتي يستعرض 10 تحديات رئيسية في الحياة.",
-    "link": "/book.html?id=141"
-  },
-  {
-    "id": "142",
-    "title": "عياده نفسيه من داخل غرفتك",
-    "price": 55,
-    "image": "images/142.jpg",
-    "category": "علم نفس",
-    "description": "كتاب نفسي يقدم جلسات علاج ذاتي لمساعدة القارئ.",
-    "link": "/book.html?id=142"
-  },
-  {
-    "id": "143",
-    "title": "متعه عدم الكمال",
-    "price": 55,
-    "image": "images/143.jpg",
-    "category": "تطوير الذات",
-    "description": "كتاب تطوير ذاتي عن تقبل الذات والعيش بسعادة بعيدًا عن البحث عن الكمال.",
-    "link": "/book.html?id=143"
-  },
-  {
-    "id": "144",
-    "title": "حديث الصباح والمساء",
-    "price": 55,
-    "image": "images/144.jpg",
-    "category": "رواية",
-    "description": "رواية اجتماعية أو أدبية تتناول تفاصيل حياة عائلة مصرية.",
-    "link": "/book.html?id=144"
-  },
-  {
-    "id": "145",
-    "title": "خبايا ج1",
-    "price": 55,
-    "image": "images/145.jpg",
-    "category": "سلسلة روايات",
-    "description": "الجزء الأول من رواية أو سلسلة عن أسرار وخفايا غامضة.",
-    "link": "/book.html?id=145"
-  },
-  {
-    "id": "146",
-    "title": "خبايا ج2",
-    "price": 55,
-    "image": "images/146.jpg",
-    "category": "سلسلة روايات",
-    "description": "الجزء الثاني من سلسلة 'خبايا'.",
-    "link": "/book.html?id=146"
-  },
-  {
-    "id": "147",
-    "title": "خبايا ج3",
-    "price": 55,
-    "image": "images/147.jpg",
-    "category": "سلسلة روايات",
-    "description": "الجزء الثالث من سلسلة 'خبايا'.",
-    "link": "/book.html?id=147"
-  },
-  {
-    "id": "148",
-    "title": "خبايا ج4",
-    "price": 55,
-    "image": "images/148.jpg",
-    "category": "سلسلة روايات",
-    "description": "الجزء الرابع من سلسلة 'خبايا'.",
-    "link": "/book.html?id=148"
-  },
-  {
-    "id": "149",
-    "title": "خبايا ج5",
-    "price": 55,
-    "image": "images/149.jpg",
-    "category": "سلسلة روايات",
-    "description": "الجزء الخامس من سلسلة 'خبايا'.",
-    "link": "/book.html?id=149"
-  },
-  {
-    "id": "150",
-    "title": "تعلم التسويق كانك تعيش قصه حب",
-    "price": 55,
-    "image": "images/150.jpg",
-    "category": "أعمال وتسويق",
-    "description": "كتاب تسويق يقدم مبادئ التسويق بأسلوب سهل وجذاب.",
-    "link": "/book.html?id=150"
-  },
-  {
-    "id": "151",
-    "title": "متعه أنا تكون ف الثلاثين",
-    "price": 65,
-    "image": "images/151.jpg",
-    "category": "تطوير الذات",
-    "description": "كتاب يتناول تحديات وجماليات مرحلة الثلاثينات من العمر.",
-    "link": "/book.html?id=151"
-  },
-  {
-    "id": "152",
-    "title": "أنا مش فاهمني",
-    "price": 65,
-    "image": "images/152.jpg",
-    "category": "علم نفس وتطوير",
-    "description": "كتاب يسلط الضوء على الصراعات الداخلية ومحاولة فهم الذات.",
-    "link": "/book.html?id=152"
-  },
-  {
-    "id": "153",
-    "title": "لا مكان للمل",
-    "price": 65,
-    "image": "images/153.jpg",
-    "category": "تطوير الذات",
-    "description": "كتاب عن كيفية التخلص من الشعور بالملل وإيجاد الشغف في الحياة.",
-    "link": "/book.html?id=153"
-  },
-  {
-    "id": "154",
-    "title": "ESP",
-    "price": 65,
-    "image": "images/154.jpg",
-    "category": "خوارق وفلسفة",
-    "description": "كتاب يتناول مواضيع الإدراك الحسي الفائق والقدرات غير العادية.",
-    "link": "/book.html?id=154"
-  },
-  {
-    "id": "155",
-    "title": "سر غرفه 207",
-    "price": 65,
-    "image": "images/155.jpg",
-    "category": "رعب وإثارة",
-    "description": "رواية رعب شهيرة تدور أحداثها حول غرفة فندق غامضة.",
-    "link": "/book.html?id=155"
-  },
-  {
-    "id": "156",
-    "title": "تصرفي كسيده وفكري كرجل",
-    "price": 65,
-    "image": "images/156.jpg",
-    "category": "علاقات",
-    "description": "كتاب علاقات يهدف إلى مساعدة النساء على فهم عقلية الرجال.",
-    "link": "/book.html?id=156"
-  },
-  {
-    "id": "157",
-    "title": "معجزه الصباح",
-    "price": 65,
-    "image": "images/157.jpg",
-    "category": "تطوير الذات",
-    "description": "كتاب تحفيزي عن قوة الروتين الصباحي لتغيير حياتك للأفضل.",
-    "link": "/book.html?id=157"
-  },
-  {
-    "id": "158",
-    "title": "نادر فوده الجزء التاني",
-    "price": 65,
-    "image": "images/158.jpg",
-    "category": "رعب وإثارة",
-    "description": "الجزء الثاني من سلسلة روايات نادر فودة.",
-    "link": "/book.html?id=158"
-  },
-  {
-    "id": "159",
-    "title": "نادر فوده التالت",
-    "price": 65,
-    "image": "images/159.jpg",
-    "category": "رعب وإثارة",
-    "description": "الجزء الثالث من سلسلة روايات نادر فودة.",
-    "link": "/book.html?id=159"
-  },
-  {
-    "id": "160",
-    "title": "نادر فوده الخامس",
-    "price": 65,
-    "image": "images/160.jpg",
-    "category": "رعب وإثارة",
-    "description": "الجزء الخامس من سلسلة روايات نادر فودة.",
-    "link": "/book.html?id=160"
-  },
-  {
-    "id": "161",
-    "title": "نادر فوده السادس",
-    "price": 65,
-    "image": "images/161.jpg",
-    "category": "رعب وإثارة",
-    "description": "الجزء السادس من سلسلة روايات نادر فودة.",
-    "link": "/book.html?id=161"
-  },
-  {
-    "id": "162",
-    "title": "علمتني سوره البقره",
-    "price": 65,
-    "image": "images/162.jpg",
-    "category": "دين وتدبر",
-    "description": "كتاب يتناول الدروس والعبر المستفادة من سورة البقرة.",
-    "link": "/book.html?id=162"
-  },
-  {
-    "id": "163",
-    "title": "فكر وازاد ثراء",
-    "price": 65,
-    "image": "images/163.jpg",
-    "category": "تنمية مالية",
-    "description": "كتاب تنمية مالية شهير عن كيفية بناء الثروة من خلال التفكير الإيجابي.",
-    "link": "/book.html?id=163"
-  },
-  {
-    "id": "164",
-    "title": "قبل ان تبرد القهوه الاول",
-    "price": 65,
-    "image": "images/164.jpg",
-    "category": "رواية",
-    "description": "الجزء الأول من رواية خيالية عن السفر عبر الزمن.",
-    "link": "/book.html?id=164"
-  },
-  {
-    "id": "165",
-    "title": "قضيه عنب الثعلب",
-    "price": 65,
-    "image": "images/165.jpg",
-    "category": "رواية بوليسية",
-    "description": "رواية بوليسية تحمل قصة جريمة معقدة وغامضة.",
-    "link": "/book.html?id=165"
-  },
-  {
-    "id": "166",
-    "title": "ما لا يسع المسلم جهله",
-    "price": 65,
-    "image": "images/166.jpg",
-    "category": "دين وتعليم",
-    "description": "كتاب عن أساسيات الدين الإسلامي التي يجب على كل مسلم معرفتها.",
-    "link": "/book.html?id=166"
-  },
-  {
-    "id": "167",
-    "title": "ليله ف ضيافه الكونت",
-    "price": 65,
-    "image": "images/167.jpg",
-    "category": "رواية",
-    "description": "رواية تدور أحداثها في ليلة واحدة ضمن ضيافة شخصية ثرية وغامضة (الكونت).",
-    "link": "/book.html?id=167"
-  },
-  {
-    "id": "168",
-    "title": "فاتتني صلاه",
-    "price": 65,
-    "image": "images/168.jpg",
-    "category": "دين وروحانيات",
-    "description": "كتاب يتناول أهمية الصلاة والتوبة من التقصير فيها.",
-    "link": "/book.html?id=168"
-  },
-  {
-    "id": "169",
-    "title": "لغه الجسد",
-    "price": 65,
-    "image": "images/169.jpg",
-    "category": "تطوير الذات",
-    "description": "كتاب عن تفسير وفهم الإشارات غير اللفظية التي يرسلها الجسد.",
-    "link": "/book.html?id=169"
-  },
-  {
-    "id": "170",
-    "title": "أحببت وغدا",
-    "price": 65,
-    "image": "images/170.jpg",
-    "category": "رواية",
-    "description": "رواية رومانسية أو درامية تتناول قصة حب لشخصية معقدة أو سيئة.",
-    "link": "/book.html?id=170"
-  },
-  {
-    "id": "171",
-    "title": "قبل ان تبرد القهوه 3",
-    "price": 65,
-    "image": "images/171.jpg",
-    "category": "رواية",
-    "description": "الجزء الثالث من رواية عن السفر عبر الزمن.",
-    "link": "/book.html?id=171"
-  },
-  {
-    "id": "172",
-    "title": "قبل ان تبرد القهوه 2",
-    "price": 65,
-    "image": "images/172.jpg",
-    "category": "رواية",
-    "description": "الجزء الثاني من رواية عن السفر عبر الزمن.",
-    "link": "/book.html?id=172"
-  },
-  {
-    "id": "173",
-    "title": "قبل ان تبرد القهوه 4",
-    "price": 65,
-    "image": "images/173.jpg",
-    "category": "رواية",
-    "description": "الجزء الرابع من رواية عن السفر عبر الزمن.",
-    "link": "/book.html?id=173"
-  },
-  {
-    "id": "174",
-    "title": "انت ايضا صحابيه",
-    "price": 65,
-    "image": "images/174.jpg",
-    "category": "دين وتوجيه",
-    "description": "كتاب ديني يوجه المرأة لاتباع نهج الصحابيات.",
-    "link": "/book.html?id=174"
-  },
-  {
-    "id": "175",
-    "title": "كيف تكسب الاصدقاء",
-    "price": 65,
-    "image": "images/175.jpg",
-    "category": "تطوير الذات",
-    "description": "دليل اجتماعي عن كيفية بناء علاقات صداقة ناجحة.",
-    "link": "/book.html?id=175"
-  },
-  {
-    "id": "176",
-    "title": "فن اللامبالاة",
-    "price": 65,
-    "image": "images/176.jpg",
-    "category": "تطوير الذات",
-    "description": "كتاب تطوير ذاتي شهير عن كيفية تقبل اللامبالاة لما لا يهم.",
-    "link": "/book.html?id=176"
-  },
-  {
-    "id": "177",
-    "title": "الوليمه",
-    "price": 65,
-    "image": "images/177.jpg",
-    "category": "رواية",
-    "description": "رواية تدور أحداثها حول عشاء أو تجمع مهم يكشف الأسرار.",
-    "link": "/book.html?id=177"
-  },
-  {
-    "id": "178",
-    "title": "فن اداره المخاوف",
-    "price": 65,
-    "image": "images/178.jpg",
-    "category": "علم نفس وتطوير",
-    "description": "كتاب عن كيفية التعامل مع المخاوف والقلق وتحويلها إلى قوة دافعة.",
-    "link": "/book.html?id=178"
-  },
-  {
-    "id": "179",
-    "title": "لغه الجسد ف مقر العمل",
-    "price": 65,
-    "image": "images/179.jpg",
-    "category": "أعمال وتطوير",
-    "description": "كتاب عن استخدام وفهم لغة الجسد في بيئة العمل.",
-    "link": "/book.html?id=179"
-  },
-  {
-    "id": "180",
-    "title": "فكر كأنك طبيب نفسي",
-    "price": 65,
-    "image": "images/180.jpg",
-    "category": "علم نفس",
-    "description": "كتاب يقدم أدوات التفكير النقدي وفهم السلوك الإنساني من منظور طبيب نفسي.",
-    "link": "/book.html?id=180"
-  },
-  {
-    "id": "181",
-    "title": "قلب عجوز",
-    "price": 65,
-    "image": "images/181.jpg",
-    "category": "رواية",
-    "description": "رواية تتناول مشاعر وخبرات شخص مسن أو موضوع الشيخوخة.",
-    "link": "/book.html?id=181"
-  },
-  {
-    "id": "182",
-    "title": "الهلكوت",
-    "price": 65,
-    "image": "images/182.jpg",
-    "category": "رعب وإثارة",
-    "description": "رواية رعب أو خيال مظلم تحمل هذا الاسم القوي.",
-    "link": "/book.html?id=182"
-  },
-  {
-    "id": "183",
-    "title": "جلسات نفسيه",
-    "price": 65,
-    "image": "images/183.jpg",
-    "category": "علم نفس",
-    "description": "مجموعة نصوص أو حكايات عن تجارب من جلسات العلاج النفسي.",
-    "link": "/book.html?id=183"
-  },
-  {
-    "id": "184",
-    "title": "لا بطعم الفلامنكو",
-    "price": 65,
-    "image": "images/184.jpg",
-    "category": "رواية",
-    "description": "رواية ذات طابع فني أو درامي مميز.",
-    "link": "/book.html?id=184"
-  },
-  {
-    "id": "185",
-    "title": "ارسس 2",
-    "price": 65,
-    "image": "images/185.jpg",
-    "category": "رواية خيال",
-    "description": "الجزء الثاني من سلسلة روايات الخيال.",
-    "link": "/book.html?id=185"
-  },
-  {
-    "id": "186",
-    "title": "ارسس 1",
-    "price": 65,
-    "image": "images/186.jpg",
-    "category": "رواية خيال",
-    "description": "الجزء الأول من سلسلة روايات الخيال.",
-    "link": "/book.html?id=186"
-  },
-  {
-    "id": "187",
-    "title": "من الصفر",
-    "price": 65,
-    "image": "images/187.jpg",
-    "category": "تطوير الذات",
-    "description": "كتاب تحفيزي عن البدء من نقطة الصفر وتحقيق النجاح.",
-    "link": "/book.html?id=187"
-  },
-  {
-    "id": "188",
-    "title": "اقراء الناس كأنهم كتاب",
-    "price": 65,
-    "image": "images/188.jpg",
-    "category": "تطوير الذات",
-    "description": "كتاب عن تحليل الشخصيات وفهم الناس بمهارة.",
-    "link": "/book.html?id=188"
-  },
-  {
-    "id": "189",
-    "title": "صاحب الظل الطويل",
-    "price": 65,
-    "image": "images/189.jpg",
-    "category": "رواية كلاسيكية",
-    "description": "رواية كلاسيكية شهيرة عن فتاة تتلقى دعمًا من متبرع غامض.",
-    "link": "/book.html?id=189"
-  },
-  {
-    "id": "190",
-    "title": "مميز بالاصفر",
-    "price": 65,
-    "image": "images/190.jpg",
-    "category": "تطوير الذات",
-    "description": "كتاب تحفيزي عن أهمية التفكير بشكل مختلف وترك بصمة.",
-    "link": "/book.html?id=190"
-  },
-  {
-    "id": "191",
-    "title": "سفاح الازقه",
-    "price": 65,
-    "image": "images/191.jpg",
-    "category": "رواية بوليسية",
-    "description": "رواية إثارة عن قاتل متسلسل يرتكب جرائمه في الأزقة.",
-    "link": "/book.html?id=191"
-  },
-  {
-    "id": "192",
-    "title": "الجزار",
-    "price": 65,
-    "image": "images/192.jpg",
-    "category": "رواية",
-    "description": "رواية تحمل هذا الاسم القوي وتشير إلى شخصية أو مهنة عنيفة.",
-    "link": "/book.html?id=192"
-  },
-  {
-    "id": "193",
-    "title": "مر مثل القهوه وحلو مثل الشيكولاته",
-    "price": 65,
-    "image": "images/193.jpg",
-    "category": "رواية",
-    "description": "رواية تجمع بين المشاعر القاسية واللحظات السعيدة في الحياة.",
-    "link": "/book.html?id=193"
-  },
-  {
-    "id": "194",
-    "title": "الذكاء العاطفي في التربيه",
-    "price": 65,
-    "image": "images/194.jpg",
-    "category": "تربية وعلم نفس",
-    "description": "كتاب تربوي عن استخدام الذكاء العاطفي في التعامل مع الأطفال.",
-    "link": "/book.html?id=194"
-  },
-  {
-    "id": "195",
-    "title": "المجرايات",
-    "price": 65,
-    "image": "images/195.jpg",
-    "category": "رواية",
-    "description": "رواية ذات طابع سردي وفكري عميق.",
-    "link": "/book.html?id=195"
-  },
-  {
-    "id": "196",
-    "title": "اصنع وقت اكثر من المتاح",
-    "price": 65,
-    "image": "images/196.jpg",
-    "category": "تطوير الذات",
-    "description": "كتاب عن إدارة الوقت وزيادة الإنتاجية في ظل ضيق الوقت.",
-    "link": "/book.html?id=196"
-  },
-  {
-    "id": "197",
-    "title": "القادمون",
-    "price": 65,
-    "image": "images/197.jpg",
-    "category": "رواية",
-    "description": "رواية تتناول فكرة وصول أشخاص أو كيانات جديدة ذات تأثير كبير.",
-    "link": "/book.html?id=197"
-  },
-  {
-    "id": "198",
-    "title": "الوحش الذي يسكنني يجب أن يكون لطيفا",
-    "price": 65,
-    "image": "images/198.jpg",
-    "category": "علم نفس",
-    "description": "كتاب عن تقبل الذات والجانب المظلم من الشخصية.",
-    "link": "/book.html?id=198"
-  },
-  {
-    "id": "199",
-    "title": "دليل جدتي لقتل الاوغاد",
-    "price": 65,
-    "image": "images/199.jpg",
-    "category": "فكاهة ورواية",
-    "description": "رواية ساخرة أو كوميديا سوداء عن كيفية التعامل مع الشخصيات المزعجة.",
-    "link": "/book.html?id=199"
-  },
-  {
-    "id": "200",
-    "title": "ملفات سرية من داخل عياده نفسيه",
-    "price": 65,
-    "image": "images/200.jpg",
-    "category": "علم نفس",
-    "description": "مجموعة قصص أو تجارب من داخل عيادة نفسية تكشف عن حالات مرضية مختلفة.",
-    "link": "/book.html?id=200"
-  },
-  {
-    "id": "201",
-    "title": "وكأننا لم نلتقي",
-    "price": 65,
-    "image": "images/201.jpg",
-    "category": "رواية",
-    "description": "رواية رومانسية أو درامية عن فقدان التواصل أو الانفصال.",
-    "link": "/book.html?id=201"
-  },
-  {
-    "id": "202",
-    "title": "علمتني ايه",
-    "price": 65,
-    "image": "images/202.jpg",
-    "category": "تطوير الذات",
-    "description": "كتاب يتناول الدروس المستفادة من التجارب والخبرات الحياتية.",
-    "link": "/book.html?id=202"
-  },
-  {
-    "id": "203",
-    "title": "لكنود",
-    "price": 65,
-    "image": "images/203.jpg",
-    "category": "رواية",
-    "description": "رواية تحمل هذا الاسم المميز وقد تشير إلى شخصية جاحدة أو قصة غامضة.",
-    "link": "/book.html?id=203"
-  },
-  {
-    "id": "204",
-    "title": "إن الله معنا",
-    "price": 65,
-    "image": "images/204.jpg",
-    "category": "دين وروحانيات",
-    "description": "كتاب ديني عن معاني التوكل على الله والشعور بمعيته.",
-    "link": "/book.html?id=204"
-  },
-  {
-    "id": "205",
-    "title": "إنهم يأتون ليلا",
-    "price": 65,
-    "image": "images/205.jpg",
-    "category": "رعب وإثارة",
-    "description": "كتاب رعب أو قصة مثيرة عن كائنات أو أحداث تظهر في الليل.",
-    "link": "/book.html?id=205"
-  },
-  {
-    "id": "206",
-    "title": "التهذيب الاجابي في تربية الأطفال",
-    "price": 65,
-    "image": "images/206.jpg",
-    "category": "تربية وعلم نفس",
-    "description": "كتاب تربوي عن استخدام أساليب التهذيب الإيجابي في التعامل مع الأطفال.",
-    "link": "/book.html?id=206"
-  },
-  {
-    "id": "207",
-    "title": "نبض",
-    "price": 65,
-    "image": "images/207.jpg",
-    "category": "رواية",
-    "description": "رواية عاطفية أو درامية تتناول مشاعر قوية ومصيرية.",
-    "link": "/book.html?id=207"
-  },
-  {
-    "id": "208",
-    "title": "انترستا 1",
-    "price": 65,
-    "image": "images/208.jpg",
-    "category": "رواية خيال",
-    "description": "الجزء الأول من سلسلة روايات خيالية أو مغامرات.",
-    "link": "/book.html?id=208"
-  },
-  {
-    "id": "209",
-    "title": "حالات نادره ٤",
-    "price": 65,
-    "image": "images/209.jpg",
-    "category": "علم نفس",
-    "description": "الجزء الرابع من سلسلة تتناول حالات نفسية أو طبية نادرة وغامضة.",
-    "link": "/book.html?id=209"
-  },
-  {
-    "id": "210",
-    "title": "حالات نادره ٥",
-    "price": 65,
-    "image": "images/210.jpg",
-    "category": "علم نفس",
-    "description": "الجزء الخامس من سلسلة تتناول حالات نفسية أو طبية نادرة وغامضة.",
-    "link": "/book.html?id=210"
-  },
-  {
-    "id": "211",
-    "title": "حالات نادره ٦",
-    "price": 65,
-    "image": "images/211.jpg",
-    "category": "علم نفس",
-    "description": "الجزء السادس من سلسلة تتناول حالات نفسية أو طبية نادرة وغامضة.",
-    "link": "/book.html?id=211"
-  },
-  {
-    "id": "212",
-    "title": "كيف تكسب الاصدقاء و توثر علي الآخرين",
-    "price": 65,
-    "image": "images/212.jpg",
-    "category": "تطوير الذات",
-    "description": "دليل شهير في العلاقات والتأثير الاجتماعي للكاتب ديل كارنيجي.",
-    "link": "/book.html?id=212"
-  },
-  {
-    "id": "213",
-    "title": "عندما يعرف الشيطان",
-    "price": 65,
-    "image": "images/213.jpg",
-    "category": "رواية",
-    "description": "رواية مثيرة أو مرعبة تتناول صراع الخير والشر ومعرفة الأسرار المظلمة.",
-    "link": "/book.html?id=213"
-  },
-  {
-    "id": "214",
-    "title": "حالات نادرة ٧",
-    "price": 65,
-    "image": "images/214.jpg",
-    "category": "علم نفس",
-    "description": "الجزء السابع من سلسلة تتناول حالات نفسية أو طبية نادرة وغامضة.",
-    "link": "/book.html?id=214"
-  },
-  {
-    "id": "215",
-    "title": "مفتقد الحياه",
-    "price": 65,
-    "image": "images/215.jpg",
-    "category": "علم نفس وتطوير",
-    "description": "كتاب عن الشعور بالضياع والبحث عن معنى الحياة.",
-    "link": "/book.html?id=215"
-  },
-  {
-    "id": "216",
-    "title": "اول مرة احسن الظن",
-    "price": 65,
-    "image": "images/216.jpg",
-    "category": "دين وروحانيات",
-    "description": "كتاب يتناول مفهوم حسن الظن بالله وبالناس وتأثيره على الحياة.",
-    "link": "/book.html?id=216"
-  },
-  {
-    "id": "217",
-    "title": "ثاني اثنين",
-    "price": 65,
-    "image": "images/217.jpg",
-    "category": "دين وسيرة",
-    "description": "كتاب أو عمل أدبي يشير إلى قصة الهجرة النبوية وأهمية الصحبة الصالحة.",
-    "link": "/book.html?id=217"
-  },
-  {
-    "id": "218",
-    "title": "التغير يبدا منك",
-    "price": 65,
-    "image": "images/218.jpg",
-    "category": "تطوير الذات",
-    "description": "كتاب تحفيزي يؤكد على أن التغيير الإيجابي يبدأ من الذات.",
-    "link": "/book.html?id=218"
-  },
-  {
-    "id": "219",
-    "title": "ضريح عمرو بن الجن",
-    "price": 65,
-    "image": "images/219.jpg",
-    "category": "رعب وإثارة",
-    "description": "رواية رعب أو غموض تدور حول ضريح شخصية الجن الشهيرة.",
-    "link": "/book.html?id=219"
-  },
-  {
-    "id": "220",
-    "title": "فن اللامبالاة",
-    "price": 65,
-    "image": "images/220.jpg",
-    "category": "تطوير الذات",
-    "description": "نسخة مكررة - كتاب تطوير ذاتي شهير عن كيفية تقبل اللامبالاة لما لا يهم والتركيز على الأساسيات.",
-    "link": "/book.html?id=220"
-  },
-  {
-    "id": "221",
-    "title": "ستوكهولم",
-    "price": 65,
-    "image": "images/221.jpg",
-    "category": "رواية",
-    "description": "رواية تدور أحداثها في مدينة ستوكهولم السويدية، قد تكون بوليسية أو اجتماعية.",
-    "link": "/book.html?id=221"
-  },
-  {
-    "id": "222",
-    "title": "مدرسه الصحابه",
-    "price": 65,
-    "image": "images/222.jpg",
-    "category": "دين وسيرة",
-    "description": "كتاب يتناول منهج تربية وتعليم الصحابة ونماذج من حياتهم.",
-    "link": "/book.html?id=222"
-  },
-  {
-    "id": "223",
-    "title": "نادر فودا 7",
-    "price": 65,
-    "image": "images/223.jpg",
-    "category": "رعب وإثارة",
-    "description": "الجزء السابع من سلسلة روايات نادر فودة.",
-    "link": "/book.html?id=223"
-  },
-  {
-    "id": "224",
-    "title": "قهوه صباحيه مع النفس",
-    "price": 80,
-    "image": "images/224.jpg",
-    "category": "تطوير الذات",
-    "description": "كتاب عن التأمل والهدوء وبناء روتين صباحي إيجابي.",
-    "link": "/book.html?id=224"
-  },
-  {
-    "id": "225",
-    "title": "جاز ورك",
-    "price": 80,
-    "image": "images/225.jpg",
-    "category": "إدارة وأعمال",
-    "description": "كتاب إداري عن كيفية العمل بمرونة وفعالية وبدون تعقيدات.",
-    "link": "/book.html?id=225"
-  },
-  {
-    "id": "226",
-    "title": "نحن نقص عليك",
-    "price": 80,
-    "image": "images/226.jpg",
-    "category": "سرد وقصص",
-    "description": "كتاب يجمع قصصًا وحكايات بتفاصيل شيقة.",
-    "link": "/book.html?id=226"
-  },
-  {
-    "id": "227",
-    "title": "ف دائره الرحله",
-    "price": 80,
-    "image": "images/227.jpg",
-    "category": "فلسفة وسرد",
-    "description": "كتاب عن رحلة البحث عن الذات أو المعنى في الحياة.",
-    "link": "/book.html?id=227"
-  },
-  {
-    "id": "228",
-    "title": "ربيع الاندلس",
-    "price": 80,
-    "image": "images/228.jpg",
-    "category": "تاريخ ورواية",
-    "description": "رواية تاريخية تدور أحداثها في فترة ازدهار الأندلس.",
-    "link": "/book.html?id=228"
-  },
-  {
-    "id": "229",
-    "title": "ابابيل",
-    "price": 80,
-    "image": "images/229.jpg",
-    "category": "رواية خيال",
-    "description": "رواية خيالية أو ملحمية تحمل طابعًا دينيًا أو أسطوريًا.",
-    "link": "/book.html?id=229"
-  },
-  {
-    "id": "230",
-    "title": "اول مره التدبر القرآن",
-    "price": 80,
-    "image": "images/230.jpg",
-    "category": "دين وتدبر",
-    "description": "كتاب إرشادي للمبتدئين في فهم وتدبر آيات القرآن الكريم.",
-    "link": "/book.html?id=230"
-  },
-  {
-    "id": "231",
-    "title": "سقطري",
-    "price": 80,
-    "image": "images/231.jpg",
-    "category": "رواية",
-    "description": "رواية تدور أحداثها في جزيرة سقطرى اليمنية ذات الطبيعة الخاصة.",
-    "link": "/book.html?id=231"
-  },
-  {
-    "id": "232",
-    "title": "والذين معه",
-    "price": 80,
-    "image": "images/232.jpg",
-    "category": "دين وسيرة",
-    "description": "كتاب يتناول سيرة ومواقف الصحابة الكرام الذين كانوا مع النبي.",
-    "link": "/book.html?id=232"
-  },
-  {
-    "id": "233",
-    "title": "ممتلي بالفراغ",
-    "price": 80,
-    "image": "images/233.jpg",
-    "category": "علم نفس وفلسفة",
-    "description": "كتاب يتناول الإحساس بالفراغ الروحي أو العاطفي رغم الامتلاء المادي.",
-    "link": "/book.html?id=233"
-  },
-  {
-    "id": "234",
-    "title": "قربان ال يونس",
-    "price": 80,
-    "image": "images/234.jpg",
-    "category": "رواية",
-    "description": "رواية غامضة أو إثارة تتناول موضوع القرابين والعائلات القديمة.",
-    "link": "/book.html?id=234"
-  },
-  {
-    "id": "235",
-    "title": "بالحق انزلناه",
-    "price": 80,
-    "image": "images/235.jpg",
-    "category": "دين وتدبر",
-    "description": "كتاب ديني يتناول إعجاز القرآن الكريم وأهميته.",
-    "link": "/book.html?id=235"
-  },
-  {
-    "id": "236",
-    "title": "كويكول",
-    "price": 80,
-    "image": "images/236.jpg",
-    "category": "رواية خيال",
-    "description": "رواية خيالية ذات طابع مغامرات أو فانتازيا.",
-    "link": "/book.html?id=236"
-  },
-  {
-    "id": "237",
-    "title": "الجريمه والعقاب الجزء الاول",
-    "price": 80,
-    "image": "images/237.jpg",
-    "category": "رواية كلاسيكية",
-    "description": "الجزء الأول من الرواية الكلاسيكية الشهيرة لدوستويفسكي.",
-    "link": "/book.html?id=237"
-  },
-  {
-    "id": "238",
-    "title": "الجريمه والعقاب الجزء الثاني",
-    "price": 80,
-    "image": "images/238.jpg",
-    "category": "رواية كلاسيكية",
-    "description": "الجزء الثاني من الرواية الكلاسيكية الشهيرة لدوستويفسكي.",
-    "link": "/book.html?id=238"
-  },
-  {
-    "id": "239",
-    "title": "وهج البنفسج 1",
-    "price": 80,
-    "image": "images/239.jpg",
-    "category": "رواية",
-    "description": "الجزء الأول من رواية تحمل عنوانًا شاعريًا ومثيرًا.",
-    "link": "/book.html?id=239"
-  },
-  {
-    "id": "240",
-    "title": "ابادول",
-    "price": 80,
-    "image": "images/240.jpg",
-    "category": "رواية",
-    "description": "رواية ذات طابع غامض أو خيالي تحمل هذا الاسم المميز.",
-    "link": "/book.html?id=240"
-  },
-  {
-    "id": "241",
-    "title": "هذا ما حدث معي",
-    "price": 80,
-    "image": "images/241.jpg",
-    "category": "سيرة أو سرد",
-    "description": "كتاب سردي يروي أحداثًا وتجارب شخصية مؤثرة.",
-    "link": "/book.html?id=241"
-  },
-  {
-    "id": "242",
-    "title": "في قلبي انثي عبريه",
-    "price": 80,
-    "image": "images/242.jpg",
-    "category": "رواية",
-    "description": "رواية مشهورة تتناول قصة فتاة يهودية في بيئة عربية.",
-    "link": "/book.html?id=242"
-  },
-  {
-    "id": "243",
-    "title": "حالات نادره ٢",
-    "price": 80,
-    "image": "images/243.jpg",
-    "category": "علم نفس",
-    "description": "الجزء الثاني من سلسلة تتناول حالات نفسية أو طبية نادرة وغامضة.",
-    "link": "/book.html?id=243"
-  },
-  {
-    "id": "244",
-    "title": "جمره",
-    "price": 80,
-    "image": "images/244.jpg",
-    "category": "رواية",
-    "description": "رواية ذات طابع ناري أو مشتعل بالمشاعر والأحداث.",
-    "link": "/book.html?id=244"
-  },
-  {
-    "id": "245",
-    "title": "خمسون قانونا للحب",
-    "price": 80,
-    "image": "images/245.jpg",
-    "category": "علاقات",
-    "description": "كتاب يتناول أسس وقوانين العلاقات العاطفية والزواج.",
-    "link": "/book.html?id=245"
-  },
-  {
-    "id": "246",
-    "title": "005",
-    "price": 80,
-    "image": "images/246.jpg",
-    "category": "رواية",
-    "description": "رواية غامضة تحمل رقمًا كعنوان، غالبًا ما تكون بوليسية أو خيالية.",
-    "link": "/book.html?id=246"
-  },
-  {
-    "id": "247",
-    "title": "ع منهاج النبوة",
-    "price": 80,
-    "image": "images/247.jpg",
-    "category": "دين وسيرة",
-    "description": "كتاب يتناول طريقة حياة النبي وأصحابه في جوانب الحياة المختلفة.",
-    "link": "/book.html?id=247"
-  },
-  {
-    "id": "248",
-    "title": "ف ممر الفئران",
-    "price": 80,
-    "image": "images/248.jpg",
-    "category": "رواية",
-    "description": "رواية ساخرة أو ديستوبية تتناول قضايا اجتماعية وسياسية.",
-    "link": "/book.html?id=248"
-  },
-  {
-    "id": "249",
-    "title": "بيت الخناس ج1",
-    "price": 80,
-    "image": "images/249.jpg",
-    "category": "رعب وإثارة",
-    "description": "الجزء الأول من سلسلة رعب عن بيت مسكون أو غامض.",
-    "link": "/book.html?id=249"
-  },
-  {
-    "id": "250",
-    "title": "الشوك والقرنفل",
-    "price": 80,
-    "image": "images/250.jpg",
-    "category": "رواية",
-    "description": "رواية عاطفية أو درامية تتناول الصراع بين الألم والجمال.",
-    "link": "/book.html?id=250"
-  },
-  {
-    "id": "251",
-    "title": "ازر",
-    "price": 80,
-    "image": "images/251.jpg",
-    "category": "رواية خيال",
-    "description": "رواية خيالية أو فانتازيا تحمل اسمًا مميزًا.",
-    "link": "/book.html?id=251"
-  },
-  {
-    "id": "252",
-    "title": "محاط بالحمقي",
-    "price": 80,
-    "image": "images/252.jpg",
-    "category": "تطوير الذات",
-    "description": "كتاب تطوير ذاتي عن كيفية التعامل مع أنماط الشخصيات المختلفة في العمل والحياة.",
-    "link": "/book.html?id=252"
-  },
-  {
-    "id": "253",
-    "title": "كيف تؤثر ع الآخرين وتكسب الاصدقاء",
-    "price": 70,
-    "image": "images/253.jpg",
-    "category": "تطوير الذات",
-    "description": "كتاب عن مهارات التأثير الاجتماعي وبناء العلاقات (ديل كارنيجي).",
-    "link": "/book.html?id=253"
-  },
-  {
-    "id": "254",
-    "title": "ما رواه البحر",
-    "price": 70,
-    "image": "images/254.jpg",
-    "category": "رواية",
-    "description": "رواية تحمل قصصًا وأسرارًا مستوحاة من البحر والرحلات.",
-    "link": "/book.html?id=254"
-  },
-  {
-    "id": "255",
-    "title": "جثه ف بيت طائر الدودو",
-    "price": 70,
-    "image": "images/255.jpg",
-    "category": "رواية بوليسية",
-    "description": "رواية غموض وجريمة تدور أحداثها في مكان غريب.",
-    "link": "/book.html?id=255"
-  },
-  {
-    "id": "256",
-    "title": "فكر وتصرف كأنك قط",
-    "price": 70,
-    "image": "images/256.jpg",
-    "category": "تطوير الذات",
-    "description": "كتاب تطوير ذاتي يستمد دروسًا في الحياة من سلوكيات القطط.",
-    "link": "/book.html?id=256"
-  },
-  {
-    "id": "257",
-    "title": "السلام عليك ي صاحبي",
-    "price": 70,
-    "image": "images/257.jpg",
-    "category": "رسائل وأدب",
-    "description": "كتاب أدبي يجمع رسائل عن الصداقة والمشاعر الإنسانية.",
-    "link": "/book.html?id=257"
-  },
-  {
-    "id": "258",
-    "title": "إلي المنكسر قلوبهم",
-    "price": 70,
-    "image": "images/258.jpg",
-    "category": "علم نفس وتطوير",
-    "description": "كتاب دعم نفسي وروحي للمصابين بكسر الخاطر أو الحزن.",
-    "link": "/book.html?id=258"
-  },
-  {
-    "id": "259",
-    "title": "ايكادولي",
-    "price": 70,
-    "image": "images/259.jpg",
-    "category": "رواية خيال",
-    "description": "رواية فانتازيا شهيرة للكاتب حنان لاشين.",
-    "link": "/book.html?id=259"
-  },
-  {
-    "id": "260",
-    "title": "واحه يعقوب",
-    "price": 70,
-    "image": "images/260.jpg",
-    "category": "رواية",
-    "description": "رواية تدور أحداثها في واحة أو مكان يحمل سرًا باسم 'يعقوب'.",
-    "link": "/book.html?id=260"
-  },
-  {
-    "id": "261",
-    "title": "أفكار تجعلك تحب الحياه (مكرر)",
-    "price": 70,
-    "image": "images/261.jpg",
-    "category": "تطوير الذات",
-    "description": "كتاب عن الأفكار الإيجابية لتحسين جودة الحياة.",
-    "link": "/book.html?id=261"
-  },
-  {
-    "id": "262",
-    "title": "نادر فوده الرابع",
-    "price": 70,
-    "image": "images/262.jpg",
-    "category": "رعب وإثارة",
-    "description": "الجزء الرابع من سلسلة روايات نادر فودة.",
-    "link": "/book.html?id=262"
-  },
-  {
-    "id": "263",
-    "title": "اول عشرين ساعه",
-    "price": 70,
-    "image": "images/263.jpg",
-    "category": "تطوير الذات",
-    "description": "كتاب عن كيفية اكتساب مهارة جديدة في أقل وقت ممكن.",
-    "link": "/book.html?id=263"
-  },
-  {
-    "id": "264",
-    "title": "ارض زيكولا",
-    "price": 70,
-    "image": "images/264.jpg",
-    "category": "رواية خيال",
-    "description": "رواية خيالية شهيرة تدور في عالم غريب ومختلف.",
-    "link": "/book.html?id=264"
-  },
-  {
-    "id": "265",
-    "title": "خوف الاول",
-    "price": 70,
-    "image": "images/265.jpg",
-    "category": "رواية رعب",
-    "description": "الجزء الأول من سلسلة روايات الرعب والإثارة 'خوف'.",
-    "link": "/book.html?id=265"
-  },
-  {
-    "id": "266",
-    "title": "خوف التاني",
-    "price": 70,
-    "image": "images/266.jpg",
-    "category": "رواية رعب",
-    "description": "الجزء الثاني من سلسلة روايات الرعب والإثارة 'خوف'.",
-    "link": "/book.html?id=266"
-  },
-  {
-    "id": "267",
-    "title": "خوف التالت",
-    "price": 70,
-    "image": "images/267.jpg",
-    "category": "رواية رعب",
-    "description": "الجزء الثالث من سلسلة روايات الرعب والإثارة 'خوف'.",
-    "link": "/book.html?id=267"
-  },
-  {
-    "id": "268",
-    "title": "ابتسم فانت ميت",
-    "price": 70,
-    "image": "images/268.jpg",
-    "category": "رواية رعب",
-    "description": "رواية رعب أو إثارة تحمل هذا العنوان الغامض والمثير.",
-    "link": "/book.html?id=268"
-  },
-  {
-    "id": "269",
-    "title": "قواعد جارتن",
-    "price": 70,
-    "image": "images/269.jpg",
-    "category": "رواية خيال",
-    "description": "رواية فانتازيا للكاتب حنان لاشين.",
-    "link": "/book.html?id=269"
-  },
-  {
-    "id": "270",
-    "title": "العادات الذريه",
-    "price": 70,
-    "image": "images/270.jpg",
-    "category": "تطوير الذات",
-    "description": "كتاب عالمي عن كيفية بناء العادات الجيدة والتخلص من السيئة.",
-    "link": "/book.html?id=270"
-  },
-  {
-    "id": "271",
-    "title": "محاط بالمرضي النفسين",
-    "price": 70,
-    "image": "images/271.jpg",
-    "category": "علم نفس",
-    "description": "كتاب عن كيفية التعامل مع الأشخاص ذوي الاضطرابات النفسية في الحياة اليومية.",
-    "link": "/book.html?id=271"
-  },
-  {
-    "id": "272",
-    "title": "امانوس",
-    "price": 70,
-    "image": "images/272.jpg",
-    "category": "رواية خيال",
-    "description": "رواية فانتازيا للكاتب حنان لاشين.",
-    "link": "/book.html?id=272"
-  },
-  {
-    "id": "273",
-    "title": "اوبال",
-    "price": 70,
-    "image": "images/273.jpg",
-    "category": "رواية خيال",
-    "description": "رواية فانتازيا للكاتب حنان لاشين.",
-    "link": "/book.html?id=273"
-  },
-  {
-    "id": "274",
-    "title": "سيروش",
-    "price": 70,
-    "image": "images/274.jpg",
-    "category": "رواية خيال",
-    "description": "رواية فانتازيا للكاتب حنان لاشين.",
-    "link": "/book.html?id=274"
-  },
-  {
-    "id": "275",
-    "title": "اماريتا",
-    "price": 70,
-    "image": "images/275.jpg",
-    "category": "رواية خيال",
-    "description": "رواية فانتازيا للكاتب عمرو عبد الحميد، تكملة لأرض زيكولا.",
-    "link": "/book.html?id=275"
-  },
-  {
-    "id": "276",
-    "title": "دقات الشامو",
-    "price": 70,
-    "image": "images/276.jpg",
-    "category": "رواية خيال",
-    "description": "رواية فانتازيا للكاتب عمرو عبد الحميد.",
-    "link": "/book.html?id=276"
-  },
-  {
-    "id": "277",
-    "title": "امواج اكما",
-    "price": 70,
-    "image": "images/277.jpg",
-    "category": "رواية خيال",
-    "description": "رواية فانتازيا للكاتب عمرو عبد الحميد.",
-    "link": "/book.html?id=277"
-  },
-  {
-    "id": "278",
-    "title": "قوانين التحرر من الصراع النفسي",
-    "price": 70,
-    "image": "images/278.jpg",
-    "category": "علم نفس",
-    "description": "كتاب نفسي عن كيفية التخلص من الصراعات والقيود الداخلية.",
-    "link": "/book.html?id=278"
-  },
-  {
-    "id": "279",
-    "title": "حديث المساء",
-    "price": 70,
-    "image": "images/279.jpg",
-    "category": "أدب وسرد",
-    "description": "مجموعة من المقالات أو الخواطر تتناول موضوعات حياتية وفكرية.",
-    "link": "/book.html?id=279"
-  },
-  {
-    "id": "280",
-    "title": "حديث الصباح",
-    "price": 70,
-    "image": "images/280.jpg",
-    "category": "أدب وسرد",
-    "description": "مجموعة من المقالات أو الخواطر لتشجيع القارئ على بداية اليوم.",
-    "link": "/book.html?id=280"
-  },
-  {
-    "id": "281",
-    "title": "فتاه اللياقه الزرقاء",
-    "price": 70,
-    "image": "images/281.jpg",
-    "category": "رواية",
-    "description": "رواية عن فتاة رياضية أو ذات طابع اجتماعي خاص.",
-    "link": "/book.html?id=281"
-  },
-  {
-    "id": "282",
-    "title": "قضيه لوز مر",
-    "price": 70,
-    "image": "images/282.jpg",
-    "category": "رواية بوليسية",
-    "description": "رواية بوليسية غامضة تتناول قضية مسمومة.",
-    "link": "/book.html?id=282"
-  },
-  {
-    "id": "283",
-    "title": "قضيه ست الحسن",
-    "price": 70,
-    "image": "images/283.jpg",
-    "category": "رواية بوليسية",
-    "description": "رواية بوليسية تدور حول جريمة أو شخصية غامضة تحمل هذا الاسم.",
-    "link": "/book.html?id=283"
-  },
-  {
-    "id": "284",
-    "title": "اول مره اتلذذ الدعاء",
-    "price": 70,
-    "image": "images/284.jpg",
-    "category": "دين وروحانيات",
-    "description": "كتاب روحي عن كيفية الاستمتاع بالدعاء والخشوع فيه.",
-    "link": "/book.html?id=284"
-  },
-  {
-    "id": "285",
-    "title": "رساله من الصحابه",
-    "price": 70,
-    "image": "images/285.jpg",
-    "category": "دين وسيرة",
-    "description": "كتاب يتناول مواقف ودروس من حياة الصحابة في شكل رسائل معاصرة.",
-    "link": "/book.html?id=285"
-  },
-  {
-    "id": "286",
-    "title": "عمر إبن الخطاب",
-    "price": 70,
-    "image": "images/286.jpg",
-    "category": "سيرة وتاريخ",
-    "description": "كتاب يتناول سيرة وحياة الخليفة الراشد عمر بن الخطاب.",
-    "link": "/book.html?id=286"
-  },
-  {
-    "id": "287",
-    "title": "رساله من النبي",
-    "price": 70,
-    "image": "images/287.jpg",
-    "category": "دين وسيرة",
-    "description": "كتاب يتناول توجيهات ووصايا النبي موجهة للمسلم المعاصر.",
-    "link": "/book.html?id=287"
-  },
-  {
-    "id": "288",
-    "title": "رسائل من القرآن",
-    "price": 70,
-    "image": "images/288.jpg",
-    "category": "دين وتدبر",
-    "description": "كتاب يتناول رسائل وعبر منتقاة من آيات القرآن الكريم.",
-    "link": "/book.html?id=288"
-  },
-  {
-    "id": "289",
-    "title": "مع النبي",
-    "price": 70,
-    "image": "images/289.jpg",
-    "category": "دين وسيرة",
-    "description": "كتاب يتناول مواقف من سيرة النبي محمد بأسلوب قصصي.",
-    "link": "/book.html?id=289"
-  },
-  {
-    "id": "290",
-    "title": "سندريلا سكريت",
-    "price": 70,
-    "image": "images/290.jpg",
-    "category": "رواية",
-    "description": "رواية عاطفية أو درامية تحمل طابعًا سريًا ومغامرات.",
-    "link": "/book.html?id=290"
-  },
-  {
-    "id": "291",
-    "title": "عقدك النفسيه سجنك الابدي",
-    "price": 70,
-    "image": "images/291.jpg",
-    "category": "علم نفس",
-    "description": "كتاب عن كيفية التحرر من العقد والمشاكل النفسية التي تقيد الإنسان.",
-    "link": "/book.html?id=291"
-  },
-  {
-    "id": "292",
-    "title": "ابي الذي اكره",
-    "price": 70,
-    "image": "images/292.jpg",
-    "category": "رواية",
-    "description": "رواية درامية عن علاقة متوترة بين الأب وابنه/ابنته.",
-    "link": "/book.html?id=292"
-  },
-  {
-    "id": "293",
-    "title": "انتخرستوس2",
-    "price": 70,
-    "image": "images/293.jpg",
-    "category": "رواية خيال",
-    "description": "الجزء الثاني من رواية 'أنتِخريستوس' ذات الطابع الديني/الأسطوري المثير للجدل.",
-    "link": "/book.html?id=293"
-  },
-  {
-    "id": "294",
-    "title": "فن قرآه العقول",
-    "price": 70,
-    "image": "images/294.jpg",
-    "category": "تطوير الذات",
-    "description": "كتاب عن كيفية تحليل الشخصيات وفهم أفكار الآخرين.",
-    "link": "/book.html?id=294"
-  },
-  {
-    "id": "295",
-    "title": "ليطمئن قلبي",
-    "price": 70,
-    "image": "images/295.jpg",
-    "category": "دين وروحانيات",
-    "description": "كتاب ديني أو روحي عن السكينة والطمأنينة القلبية.",
-    "link": "/book.html?id=295"
-  },
-  {
-    "id": "296",
-    "title": "الجساسه",
-    "price": 70,
-    "image": "images/296.jpg",
-    "category": "رواية",
-    "description": "رواية غامضة أو دينية تتعلق بقصة الجساسة المرتبطة بفتنة المسيح الدجال.",
-    "link": "/book.html?id=296"
-  },
-  {
-    "id": "297",
-    "title": "جومانه",
-    "price": 70,
-    "image": "images/297.jpg",
-    "category": "رواية",
-    "description": "رواية تحمل هذا الاسم المميز، وقد تكون عاطفية أو اجتماعية.",
-    "link": "/book.html?id=297"
-  },
-  {
-    "id": "298",
-    "title": "السجل",
-    "price": 70,
-    "image": "images/298.jpg",
-    "category": "رواية",
-    "description": "رواية تتناول أسرارًا محفوظة أو مذكرات شخصية هامة.",
-    "link": "/book.html?id=298"
-  },
-  {
-    "id": "299",
-    "title": "نوح المذبوح",
-    "price": 70,
-    "image": "images/299.jpg",
-    "category": "رواية رعب",
-    "description": "رواية رعب أو جريمة تحمل طابعًا مظلمًا.",
-    "link": "/book.html?id=299"
-  },
-  {
-    "id": "300",
-    "title": "أذكار الموت",
-    "price": 70,
-    "image": "images/300.jpg",
-    "category": "دين وروحانيات",
-    "description": "كتاب ديني يتناول الأدعية والأذكار المتعلقة بالموت وما بعده.",
-    "link": "/book.html?id=300"
-  },
-  {
-    "id": "301",
-    "title": "مفقد للحياه (مكرر)",
-    "price": 70,
-    "image": "images/301.jpg",
-    "category": "علم نفس وتطوير",
-    "description": "كتاب عن الشعور بالضياع والبحث عن معنى الحياة.",
-    "link": "/book.html?id=301"
-  },
-  {
-    "id": "302",
-    "title": "قوه عقلك الباطن",
-    "price": 70,
-    "image": "images/302.jpg",
-    "category": "تطوير الذات",
-    "description": "كتاب شهير عن كيفية استغلال طاقة العقل الباطن لتحقيق الأهداف.",
-    "link": "/book.html?id=302"
-  },
-  {
-    "id": "303",
-    "title": "علاقات خطره",
-    "price": 70,
-    "image": "images/303.jpg",
-    "category": "علاقات",
-    "description": "كتاب عن العلاقات السامة وكيفية التعامل معها أو تجنبها.",
-    "link": "/book.html?id=303"
-  },
-  {
-    "id": "304",
-    "title": "فتي الاندلس",
-    "price": 70,
-    "image": "images/304.jpg",
-    "category": "رواية تاريخية",
-    "description": "رواية تاريخية تتناول سيرة شاب في فترة الأندلس.",
-    "link": "/book.html?id=304"
-  },
-  {
-    "id": "305",
-    "title": "السماح بالرحيل",
-    "price": 70,
-    "image": "images/305.jpg",
-    "category": "تطوير الذات",
-    "description": "كتاب نفسي عن أهمية التخلي عن الماضي والمشاعر السلبية للمضي قدمًا.",
-    "link": "/book.html?id=305"
-  },
-  {
-    "id": "306",
-    "title": "نظريه الفستق 1",
-    "price": 70,
-    "image": "images/306.jpg",
-    "category": "تطوير الذات",
-    "description": "الجزء الأول من كتاب تطوير ذاتي شهير يقدم أفكارًا ونصائح بطريقة مبسطة.",
-    "link": "/book.html?id=306"
-  },
-  {
-    "id": "307",
-    "title": "نظريه الفستق 2",
-    "price": 70,
-    "image": "images/307.jpg",
-    "category": "تطوير الذات",
-    "description": "الجزء الثاني من كتاب تطوير ذاتي شهير يقدم أفكارًا ونصائح بطريقة مبسطة.",
-    "link": "/book.html?id=307"
-  },
-  {
-    "id": "308",
-    "title": "الخروج عن النص من جديد",
-    "price": 70,
-    "image": "images/308.jpg",
-    "category": "تطوير الذات",
-    "description": "كتاب عن التفكير الإبداعي وكسر القواعد التقليدية.",
-    "link": "/book.html?id=308"
-  },
-  {
-    "id": "309",
-    "title": "سأخبرك شي يجعلك سعيدا",
-    "price": 70,
-    "image": "images/309.jpg",
-    "category": "تطوير الذات",
-    "description": "كتاب تحفيزي عن اكتشاف مصادر السعادة الحقيقية في الحياة.",
-    "link": "/book.html?id=309"
-  },
-  {
-    "id": "310",
-    "title": "لوكانده بئر الوطاويط",
-    "price": 70,
-    "image": "images/310.jpg",
-    "category": "رواية رعب",
-    "description": "رواية رعب تدور أحداثها في مكان غامض ومخيف.",
-    "link": "/book.html?id=310"
-  },
-  {
-    "id": "311",
-    "title": "ردني اليك",
-    "price": 70,
-    "image": "images/311.jpg",
-    "category": "رواية",
-    "description": "رواية عاطفية أو درامية تتناول موضوع العودة والتوبة.",
-    "link": "/book.html?id=311"
-  },
-  {
-    "id": "312",
-    "title": "سرداب قصر البارون",
-    "price": 70,
-    "image": "images/312.jpg",
-    "category": "رواية رعب",
-    "description": "رواية رعب أو غموض تدور أحداثها في قصر البارون الشهير.",
-    "link": "/book.html?id=312"
-  },
-  {
-    "id": "313",
-    "title": "وادي الذئاب المنسيه",
-    "price": 70,
-    "image": "images/313.jpg",
-    "category": "رواية",
-    "description": "رواية مغامرات أو خيال تدور في وادي معزول وغامض.",
-    "link": "/book.html?id=313"
-  },
-  {
-    "id": "314",
-    "title": "ماجدولين",
-    "price": 70,
-    "image": "images/314.jpg",
-    "category": "رواية كلاسيكية",
-    "description": "رواية رومانسية كلاسيكية شهيرة للكاتب المنفلوطي.",
-    "link": "/book.html?id=314"
-  },
-  {
-    "id": "315",
-    "title": "وهج البنفسج 2",
-    "price": 70,
-    "image": "images/315.jpg",
-    "category": "رواية",
-    "description": "الجزء الثاني من رواية تحمل عنوانًا شاعريًا ومثيرًا.",
-    "link": "/book.html?id=315"
-  },
-  {
-    "id": "316",
-    "title": "نادر فوده الجزء ٨",
-    "price": 70,
-    "image": "images/316.jpg",
-    "category": "رعب وإثارة",
-    "description": "الجزء الثامن من سلسلة روايات نادر فودة.",
-    "link": "/book.html?id=316"
-  },
-  {
-    "id": "317",
-    "title": "العادات السبع للناس",
-    "price": 70,
-    "image": "images/317.jpg",
-    "category": "تطوير الذات",
-    "description": "كتاب شهير عن العادات السبع للأشخاص الأكثر فعالية.",
-    "link": "/book.html?id=317"
-  },
-  {
-    "id": "318",
-    "title": "نادر فوده الثامن (مكرر)",
-    "price": 70,
-    "image": "images/318.jpg",
-    "category": "رعب وإثارة",
-    "description": "الجزء الثامن من سلسلة روايات نادر فودة.",
-    "link": "/book.html?id=318"
-  },
-  {
-    "id": "319",
-    "title": "العوسج",
-    "price": 70,
-    "image": "images/319.jpg",
-    "category": "رواية",
-    "description": "رواية ذات طابع درامي أو اجتماعي قوي.",
-    "link": "/book.html?id=319"
-  },
-  {
-    "id": "320",
-    "title": "انت قوة مذهله",
-    "price": 70,
-    "image": "images/320.jpg",
-    "category": "تطوير الذات",
-    "description": "كتاب تحفيزي عن اكتشاف القوة الكامنة داخل الذات.",
-    "link": "/book.html?id=320"
-  },
-  {
-    "id": "321",
-    "title": "نطفه",
-    "price": 70,
-    "image": "images/321.jpg",
-    "category": "رواية",
-    "description": "رواية ذات طابع فلسفي أو اجتماعي عميق.",
-    "link": "/book.html?id=321"
-  },
-  {
-    "id": "322",
-    "title": "المرتد",
-    "price": 70,
-    "image": "images/322.jpg",
-    "category": "رواية",
-    "description": "رواية تتناول مواضيع دينية أو فكرية حساسة.",
-    "link": "/book.html?id=322"
-  },
-  {
-    "id": "323",
-    "title": "حالات نادره ١",
-    "price": 70,
-    "image": "images/323.jpg",
-    "category": "علم نفس",
-    "description": "الجزء الأول من سلسلة تتناول حالات نفسية أو طبية نادرة وغامضة.",
-    "link": "/book.html?id=323"
-  },
-  {
-    "id": "324",
-    "title": "حالات نادره ٣",
-    "price": 70,
-    "image": "images/324.jpg",
-    "category": "علم نفس",
-    "description": "الجزء الثالث من سلسلة تتناول حالات نفسية أو طبية نادرة وغامضة.",
-    "link": "/book.html?id=324"
-  },
-  {
-    "id": "325",
-    "title": "كيف تبيع أي شيء لأي إنسان",
-    "price": 70,
-    "image": "images/325.jpg",
-    "category": "تسويق ومبيعات",
-    "description": "كتاب عن تقنيات وأساليب الإقناع والبيع الفعال.",
-    "link": "/book.html?id=325"
-  },
-  {
-    "id": "326",
-    "title": "قريبا سيحل الظلام",
-    "price": 70,
-    "image": "images/326.jpg",
-    "category": "رواية رعب",
-    "description": "رواية رعب أو إثارة تحمل طابعًا سوداويًا.",
-    "link": "/book.html?id=326"
-  },
-  {
-    "id": "327",
-    "title": "صلاة ممسوس",
-    "price": 70,
-    "image": "images/327.jpg",
-    "category": "رواية رعب",
-    "description": "رواية رعب أو إثارة تتعلق بالجان والأرواح.",
-    "link": "/book.html?id=327"
-  },
-  {
-    "id": "328",
-    "title": "على خطي الرسول",
-    "price": 70,
-    "image": "images/328.jpg",
-    "category": "دين وسيرة",
-    "description": "كتاب يتناول كيفية تطبيق سنة النبي محمد في الحياة اليومية.",
-    "link": "/book.html?id=328"
-  },
-  {
-    "id": "329",
-    "title": "ليله في جهنم",
-    "price": 70,
-    "image": "images/329.jpg",
-    "category": "رواية رعب",
-    "description": "سلسلة قصصية مرعبة تتناول تجارب شخصية أو حكايات عن الجحيم.",
-    "link": "/book.html?id=329"
-  },
-  {
-    "id": "330",
-    "title": "ايام مع الباشا",
-    "price": 70,
-    "image": "images/330.jpg",
-    "category": "رواية",
-    "description": "رواية اجتماعية أو تاريخية تتناول الحياة بجوار شخصية ذات نفوذ (الباشا).",
-    "link": "/book.html?id=330"
-  },
-  {
-    "id": "331",
-    "title": "نصف ميت",
-    "price": 70,
-    "image": "images/331.jpg",
-    "category": "رواية رعب",
-    "description": "رواية رعب أو إثارة تتعلق بالموت والأحياء الأموات.",
-    "link": "/book.html?id=331"
-  },
-  {
-    "id": "332",
-    "title": "العائد",
-    "price": 70,
-    "image": "images/332.jpg",
-    "category": "رواية",
-    "description": "رواية تتناول عودة شخص غائب أو قصة عودة إلى الماضي.",
-    "link": "/book.html?id=332"
-  },
-  {
-    "id": "333",
-    "title": "ثم لم يبقي",
-    "price": 70,
-    "image": "images/333.jpg",
-    "category": "رواية",
-    "description": "رواية تحمل طابعًا حزينًا أو فلسفيًا عن النهاية والبقاء.",
-    "link": "/book.html?id=333"
-  },
-  {
-    "id": "334",
-    "title": "للرجال فقط",
-    "price": 70,
-    "image": "images/334.jpg",
-    "category": "تطوير الذات",
-    "description": "كتاب موجه للرجال حول قضايا الذات والعمل والعلاقات.",
-    "link": "/book.html?id=334"
-  },
-  {
-    "id": "335",
-    "title": "الرجال من المريخ",
-    "price": 70,
-    "image": "images/335.jpg",
-    "category": "علاقات",
-    "description": "كتاب شهير عن الفروقات بين الرجال والنساء في العلاقات.",
-    "link": "/book.html?id=335"
-  },
-  {
-    "id": "336",
-    "title": "منزل ابو خطوه",
-    "price": 70,
-    "image": "images/336.jpg",
-    "category": "رواية",
-    "description": "رواية تدور أحداثها في منزل معين يحمل أسرارًا.",
-    "link": "/book.html?id=336"
-  },
-  {
-    "id": "337",
-    "title": "جثه ف بيت طائر الدودو (مكرر)",
-    "price": 70,
-    "image": "images/337.jpg",
-    "category": "رواية بوليسية",
-    "description": "رواية غموض وجريمة تدور أحداثها في مكان غريب.",
-    "link": "/book.html?id=337"
-  },
-  {
-    "id": "338",
-    "title": "كيف تؤثر ع الاخرين (مكرر)",
-    "price": 70,
-    "image": "images/338.jpg",
-    "category": "تطوير الذات",
-    "description": "كتاب عن مهارات التأثير الاجتماعي وبناء العلاقات.",
-    "link": "/book.html?id=338"
-  },
-  {
-    "id": "339",
-    "title": "مع النبي (مكرر)",
-    "price": 70,
-    "image": "images/339.jpg",
-    "category": "دين وسيرة",
-    "description": "كتاب يتناول مواقف من سيرة النبي محمد بأسلوب قصصي.",
-    "link": "/book.html?id=339"
-  },
-  {
-    "id": "340",
-    "title": "جرعه انوثه",
-    "price": 70,
-    "image": "images/340.jpg",
-    "category": "تطوير الذات",
-    "description": "كتاب موجه للنساء عن اكتشاف وتقوية الجانب الأنثوي.",
-    "link": "/book.html?id=340"
-  },
-  {
-    "id": "341",
-    "title": "30 يوم ضدد الاكتئاب",
-    "price": 70,
-    "image": "images/341.jpg",
-    "category": "علم نفس وتطوير",
-    "description": "دليل عملي يقدم خطة 30 يومًا لمكافحة الاكتئاب وتحسين المزاج.",
-    "link": "/book.html?id=341"
-  },
-  {
-    "id": "342",
-    "title": "توقف عن اهدار حياتك",
-    "price": 70,
-    "image": "images/342.jpg",
-    "category": "تطوير الذات",
-    "description": "كتاب تحفيزي عن أهمية إدارة الوقت واستغلال الحياة بشكل أفضل.",
-    "link": "/book.html?id=342"
-  },
-  {
-    "id": "343",
-    "title": "11:11",
-    "price": 70,
-    "image": "images/343.jpg",
-    "category": "رواية",
-    "description": "رواية تتناول أرقامًا غامضة أو مواعيد مصيرية.",
-    "link": "/book.html?id=343"
-  },
-  {
-    "id": "344",
-    "title": "ربيهم بايه او حديث",
-    "price": 70,
-    "image": "images/344.jpg",
-    "category": "تربية ودين",
-    "description": "كتاب تربوي عن كيفية توجيه الأطفال باستخدام الآيات والأحاديث النبوية.",
-    "link": "/book.html?id=344"
-  },
-  {
-    "id": "345",
-    "title": "العادات السبع للمراهقين",
-    "price": 70,
-    "image": "images/345.jpg",
-    "category": "تطوير الذات وتربية",
-    "description": "نسخة موجهة للمراهقين من كتاب 'العادات السبع للأشخاص الأكثر فعالية'.",
-    "link": "/book.html?id=345"
-  }
+    {
+        "id":  "1",
+        "title":  "التجربه الفكريه لروح أمه",
+        "price":  65,
+        "image":  "images/1.jpg",
+        "category":  "فكر وفلسفة",
+        "description":  "كتابة تأملية تجمع بين الفلسفة والسرد عن ذكريات وهوية شخصية محورية في حياة الراوي.",
+        "link":  "/book.html?id=1"
+    },
+    {
+        "id":  "2",
+        "title":  "قهوه باليورانيوم",
+        "price":  65,
+        "image":  "images/2.jpg",
+        "category":  "رواية",
+        "description":  "مجموعة أو نص أدبي يمزج السخرية بالخيال المظلم، يعالج قضايا معاصرة بلغة لاذعة.",
+        "link":  "/book.html?id=2"
+    },
+    {
+        "id":  "3",
+        "title":  "فن الذكاء الإجتماعي",
+        "price":  60,
+        "image":  "images/3.jpg",
+        "category":  "تطوير الذات",
+        "description":  "دليل عملي لتطوير مهارات التعامل مع الآخرين وبناء علاقات ناجحة في الحياة والعمل.",
+        "link":  "/book.html?id=3"
+    },
+    {
+        "id":  "4",
+        "title":  "قريه الشيخ",
+        "price":  65,
+        "image":  "images/4.jpg",
+        "category":  "رواية",
+        "description":  "رواية تسلط الضوء على حكايات وأسرار قرية صغيرة وعلاقات سكانها المعقدة.",
+        "link":  "/book.html?id=4"
+    },
+    {
+        "id":  "5",
+        "title":  "افكار تجعلك تحب الحياه",
+        "price":  65,
+        "image":  "images/5.jpg",
+        "category":  "تطوير الذات",
+        "description":  "مجموعة أفكار ونصائح عملية تعزز التفاؤل وتساعد القارئ على تحسين جودة حياته اليومية.",
+        "link":  "/book.html?id=5"
+    },
+    {
+        "id":  "6",
+        "title":  "انهم يأتون ليلا",
+        "price":  65,
+        "image":  "images/6.jpg",
+        "category":  "رعب وإثارة",
+        "description":  "عمل أدبي في إطار التشويق والرعب يعرض أحداثًا غامضة تحدث بعد حلول الليل.",
+        "link":  "/book.html?id=6"
+    },
+    {
+        "id":  "7",
+        "title":  "كن الشخص الذي يجعلك سعيدا",
+        "price":  65,
+        "image":  "images/7.jpg",
+        "category":  "تطوير الذات",
+        "description":  "كتاب تحفيزي يقدّم أدوات لتغيير العادات وإيجاد مصدر السعادة داخل الذات.",
+        "link":  "/book.html?id=7"
+    },
+    {
+        "id":  "8",
+        "title":  "جثه لذيذه",
+        "price":  65,
+        "image":  "images/8.jpg",
+        "category":  "رواية",
+        "description":  "عمل روائي غامض يمزج بين السرد والجريمة مع لمسات ساخرة ومقلقة.",
+        "link":  "/book.html?id=8"
+    },
+    {
+        "id":  "9",
+        "title":  "لارسيا",
+        "price":  65,
+        "image":  "images/9.jpg",
+        "category":  "رواية",
+        "description":  "رواية خيالية أو درامية تحمل اسمًا قويًا وتستكشف شخصيات معقدة ومصائر متشابكة.",
+        "link":  "/book.html?id=9"
+    },
+    {
+        "id":  "10",
+        "title":  "الغهيب",
+        "price":  65,
+        "image":  "images/10.jpg",
+        "category":  "رواية",
+        "description":  "نص أدبي يتناول موضوعات الغموض والهوية والصراعات الداخلية بأسلوب مكثف.",
+        "link":  "/book.html?id=10"
+    },
+    {
+        "id":  "11",
+        "title":  "ملفات سريه",
+        "price":  65,
+        "image":  "images/11.jpg",
+        "category":  "رواية",
+        "description":  "مؤلّف يجمع حكايات أو تحقيقات حول أسرار مظلمة ووثائق مخفية.",
+        "link":  "/book.html?id=11"
+    },
+    {
+        "id":  "12",
+        "title":  "مخلوقات الليل 1",
+        "price":  65,
+        "image":  "images/12.jpg",
+        "category":  "رعب وإثارة",
+        "description":  "كتاب رعب أو خيال مظلم يقدّم مخلوقات تخيف بظهورها الليلي ومغامراتها.",
+        "link":  "/book.html?id=12"
+    },
+    {
+        "id":  "14",
+        "title":  "حاره الجزار",
+        "price":  40,
+        "image":  "images/14.jpg",
+        "category":  "رواية",
+        "description":  "رواية تسلط الضوء على حياة الحارة وتداخلاتها الاجتماعية والدرامية.",
+        "link":  "/book.html?id=14"
+    },
+    {
+        "id":  "16",
+        "title":  "مدرسه ميلر",
+        "price":  70,
+        "image":  "images/16.jpg",
+        "category":  "رواية",
+        "description":  "رواية أو قصة تتناول أحداثًا تدور في مدرسة تحمل اسم ميلر، مع توترات وانكشافات.",
+        "link":  "/book.html?id=16"
+    },
+    {
+        "id":  "17",
+        "title":  "دماء تتاروبيت",
+        "price":  70,
+        "image":  "images/17.jpg",
+        "category":  "رواية",
+        "description":  "عمل أدبي أو إثارة يتناول صراعات عنيفة أو أساطير مرتبطة بدماء وسلالات.",
+        "link":  "/book.html?id=17"
+    },
+    {
+        "id":  "18",
+        "title":  "مبادئ التحليل النفسي",
+        "price":  70,
+        "image":  "images/18.jpg",
+        "category":  "علم نفس",
+        "description":  "كتاب نظري يشرح أصول ومفاهيم التحليل النفسي وأهميته في فهم النفس البشرية.",
+        "link":  "/book.html?id=18"
+    },
+    {
+        "id":  "19",
+        "title":  "الحاوي",
+        "price":  70,
+        "image":  "images/19.jpg",
+        "category":  "أدب ومعرفة",
+        "description":  "موسوعة أو عمل شامل يجمع مقالات أو نصوص في مجالات معرفية متعددة.",
+        "link":  "/book.html?id=19"
+    },
+    {
+        "id":  "20",
+        "title":  "على اجنحة العصافير",
+        "price":  70,
+        "image":  "images/20.jpg",
+        "category":  "أدب وشعر",
+        "description":  "نص شاعري أو روائي يصف الرحلات والتأملات والانطلاق بروح منفتحة نحو الحياة.",
+        "link":  "/book.html?id=20"
+    },
+    {
+        "id":  "21",
+        "title":  "الدحيح",
+        "price":  70,
+        "image":  "images/21.jpg",
+        "category":  "معرفة عامة",
+        "description":  "كتاب علمي شعبي أو سردي مبسّط يشرح مفاهيم علمية وثقافية بطريقة جذابة.",
+        "link":  "/book.html?id=21"
+    },
+    {
+        "id":  "22",
+        "title":  "العوسج ٢",
+        "price":  70,
+        "image":  "images/22.jpg",
+        "category":  "رواية",
+        "description":  "الجزء الثاني من سلسلة أدبية يتابع أحداثًا وشخصيات معروفة في العمل الأول.",
+        "link":  "/book.html?id=22"
+    },
+    {
+        "id":  "23",
+        "title":  "يأجوج ومأجوج",
+        "price":  70,
+        "image":  "images/23.jpg",
+        "category":  "رواية",
+        "description":  "رواية أو دراسة أسطورية تتناول موضوعات نهاية الزمان والأساطير الشعبية.",
+        "link":  "/book.html?id=23"
+    },
+    {
+        "id":  "24",
+        "title":  "غصون البندق ج1",
+        "price":  75,
+        "image":  "images/24.jpg",
+        "category":  "سلسلة روايات",
+        "description":  "الجزء الأول من سلسلة أدبية أو تاريخية تروي حكاية طويلة على امتداد أجزاء.",
+        "link":  "/book.html?id=24"
+    },
+    {
+        "id":  "25",
+        "title":  "غصون البندق ج2",
+        "price":  75,
+        "image":  "images/25.jpg",
+        "category":  "سلسلة روايات",
+        "description":  "الجزء الثاني من السلسلة يستمر في سرد الحكاية وتفاصيل الشخصيات.",
+        "link":  "/book.html?id=25"
+    },
+    {
+        "id":  "26",
+        "title":  "جريمه في قطار الشرق",
+        "price":  75,
+        "image":  "images/26.jpg",
+        "category":  "رواية بوليسية",
+        "description":  "قصة جريمة كلاسيكية تجري أحداثها على متن قطار تحمل توترات وتحقيقات مشوقة.",
+        "link":  "/book.html?id=26"
+    },
+    {
+        "id":  "27",
+        "title":  "رسائل من التابعين",
+        "price":  75,
+        "image":  "images/27.jpg",
+        "category":  "تاريخ إسلامي",
+        "description":  "مجموعة نصوص أو رسائل تاريخية تعكس فكر ومواقف التابعين في سياق ديني أو تاريخي.",
+        "link":  "/book.html?id=27"
+    },
+    {
+        "id":  "28",
+        "title":  "رسول الله زوجا",
+        "price":  75,
+        "image":  "images/28.jpg",
+        "category":  "دين وسيرة",
+        "description":  "عمل يتناول جوانب من حياة النبي الزوجية أو دور الزوج في السياق الإسلامي والتاريخي.",
+        "link":  "/book.html?id=28"
+    },
+    {
+        "id":  "29",
+        "title":  "اكتب حتي لا ياكلني الشيطان",
+        "price":  75,
+        "image":  "images/29.jpg",
+        "category":  "سيرة ذاتية",
+        "description":  "سيرة أو مذكرات تعالج الكفاح الداخلي وتأثير الكتابة كوسيلة للتعافي والاحتواء.",
+        "link":  "/book.html?id=29"
+    },
+    {
+        "id":  "30",
+        "title":  "الرحيق المختوم",
+        "price":  70,
+        "image":  "images/30.jpg",
+        "category":  "سيرة نبوية",
+        "description":  "سيرة أو دراسة تاريخية مختصرة عن حياة النبي أو تاريخ الإسلام في منظور مؤرخ.",
+        "link":  "/book.html?id=30"
+    },
+    {
+        "id":  "31",
+        "title":  "الاب الغني",
+        "price":  70,
+        "image":  "images/31.jpg",
+        "category":  "تنمية مالية",
+        "description":  "كتاب تنمية مالية يشرح مبادئ الاستقلال المالي والاستثمار بأسلوب عملي.",
+        "link":  "/book.html?id=31"
+    },
+    {
+        "id":  "32",
+        "title":  "استراحه نفسيه",
+        "price":  75,
+        "image":  "images/32.jpg",
+        "category":  "علم نفس",
+        "description":  "دليل عملي للاسترخاء والتعامل مع الضغوط النفسية.",
+        "link":  "/book.html?id=32"
+    },
+    {
+        "id":  "33",
+        "title":  "نادي الخامسه صباحا",
+        "price":  75,
+        "image":  "images/33.jpg",
+        "category":  "تطوير الذات",
+        "description":  "كتاب تحفيزي يشرح روتين صباحي ناجح يساعد على زيادة الإنتاجية.",
+        "link":  "/book.html?id=33"
+    },
+    {
+        "id":  "34",
+        "title":  "هذا ما حدث معها",
+        "price":  80,
+        "image":  "images/34.jpg",
+        "category":  "رواية",
+        "description":  "رواية قوية تروي تفاصيل حدث محوري مؤثر في حياة امرأة أو مجموعة شخصيات.",
+        "link":  "/book.html?id=34"
+    },
+    {
+        "id":  "35",
+        "title":  "مملكه الكوابيس والضباب",
+        "price":  80,
+        "image":  "images/35.jpg",
+        "category":  "رواية خيال",
+        "description":  "عمل فانتازي مظلم يقدم عالمًا من الكوابيس والرموز الغامضة.",
+        "link":  "/book.html?id=35"
+    },
+    {
+        "id":  "36",
+        "title":  "سماء بلا ضياء",
+        "price":  80,
+        "image":  "images/36.jpg",
+        "category":  "رواية",
+        "description":  "رواية أو مجموعة قصصية بطابع كئيب تتناول فقدان النور والأمل.",
+        "link":  "/book.html?id=36"
+    },
+    {
+        "id":  "37",
+        "title":  "لانها كيارا",
+        "price":  80,
+        "image":  "images/37.jpg",
+        "category":  "رواية",
+        "description":  "قصة رومانسية أو درامية تركز على شخصية كيارا وتبعات اختياراتها.",
+        "link":  "/book.html?id=37"
+    },
+    {
+        "id":  "38",
+        "title":  "قنبله الاستخدام الشخصي",
+        "price":  80,
+        "image":  "images/38.jpg",
+        "category":  "رواية",
+        "description":  "رواية مشحونة بالتوتر تتناول آثار قرار أو عنصر متفجر رمزيًا في حياة الناس.",
+        "link":  "/book.html?id=38"
+    },
+    {
+        "id":  "39",
+        "title":  "سجناء. 1500. عام.",
+        "price":  85,
+        "image":  "images/39.jpg",
+        "category":  "رواية",
+        "description":  "عمل تاريخي أو تأملي يناقش فترات طويلة من الأسر أو القيود عبر العصور.",
+        "link":  "/book.html?id=39"
+    },
+    {
+        "id":  "40",
+        "title":  "نبا يقين",
+        "price":  80,
+        "image":  "images/40.jpg",
+        "category":  "دين وروحانيات",
+        "description":  "كتاب يتناول موضوعات اليقين والإيمان والتجارب البشرية التي تؤثر على الاعتقاد.",
+        "link":  "/book.html?id=40"
+    },
+    {
+        "id":  "41",
+        "title":  "وتلك الايام",
+        "price":  80,
+        "image":  "images/41.jpg",
+        "category":  "تاريخ وسرد",
+        "description":  "سرد تاريخي/روائي يستعيد أيامًا وأحداثًا صنعت تاريخًا أو ذكريات عميقة.",
+        "link":  "/book.html?id=41"
+    },
+    {
+        "id":  "42",
+        "title":  "واذا الصحف نشرت",
+        "price":  83,
+        "image":  "images/42.jpg",
+        "category":  "دين وروحانيات",
+        "description":  "عمل أدبي أو ديني يتناول محتوى يوم الحساب أو روايات نهايات الأمور.",
+        "link":  "/book.html?id=42"
+    },
+    {
+        "id":  "43",
+        "title":  "الغرباء",
+        "price":  83,
+        "image":  "images/43.jpg",
+        "category":  "أدب",
+        "description":  "مجموعة قصصية أو نصوص عن الشعور بالغربة والاغتراب في المجتمع الحديث.",
+        "link":  "/book.html?id=43"
+    },
+    {
+        "id":  "44",
+        "title":  "شمس منتصف الليل",
+        "price":  85,
+        "image":  "images/44.jpg",
+        "category":  "رواية",
+        "description":  "رواية رومانسيه/غموض تأخذ القارئ إلى أمكنة ليلية وتأملات حول الحب والظلال.",
+        "link":  "/book.html?id=44"
+    },
+    {
+        "id":  "45",
+        "title":  "ديزني انجلش",
+        "price":  85,
+        "image":  "images/45.jpg",
+        "category":  "تعليمي",
+        "description":  "منهج تعليمي للأطفال لتعلم اللغة الإنجليزية باستخدام مواد ديزني المرحة.",
+        "link":  "/book.html?id=45"
+    },
+    {
+        "id":  "46",
+        "title":  "متلازمه فيرجولي",
+        "price":  90,
+        "image":  "images/46.jpg",
+        "category":  "رواية",
+        "description":  "عمل أدبي أو سلسلة قصصية معقدة تحوي حبكات متشابكة وتوترات نفسية.",
+        "link":  "/book.html?id=46"
+    },
+    {
+        "id":  "47",
+        "title":  "فندق المقبرة",
+        "price":  90,
+        "image":  "images/47.jpg",
+        "category":  "رعب وإثارة",
+        "description":  "رواية رعب أو إثارة تدور أحداثها في فندق يحمل أسرارًا مروعة.",
+        "link":  "/book.html?id=47"
+    },
+    {
+        "id":  "48",
+        "title":  "بيت الخناس ج2",
+        "price":  95,
+        "image":  "images/48.jpg",
+        "category":  "رعب وإثارة",
+        "description":  "الجزء الثاني من سلسلة رعب يستكمل حكاية بيت مليء بالغموض والقوى الخارقة.",
+        "link":  "/book.html?id=48"
+    },
+    {
+        "id":  "49",
+        "title":  "الغريب",
+        "price":  95,
+        "image":  "images/49.jpg",
+        "category":  "رواية",
+        "description":  "رواية كلاسيكية أو معاصرة تتناول الاغتراب والحداثة في سياق إنساني.",
+        "link":  "/book.html?id=49"
+    },
+    {
+        "id":  "50",
+        "title":  "بيتشيني",
+        "price":  95,
+        "image":  "images/50.jpg",
+        "category":  "رواية",
+        "description":  "عمل أدبي يحمل اسمًا مميزًا، قد يكون ترجمة أو نصًا معاصرًا له طابع خاص.",
+        "link":  "/book.html?id=50"
+    },
+    {
+        "id":  "51",
+        "title":  "جسمك يتذكر كل شئ",
+        "price":  100,
+        "image":  "images/51.jpg",
+        "category":  "علم نفس",
+        "description":  "كتاب علمي أو نفسي يشرح كيفية احتفاظ الجسد بالذكريات.",
+        "link":  "/book.html?id=51"
+    },
+    {
+        "id":  "52",
+        "title":  "إنني اتعفن رعبا",
+        "price":  100,
+        "image":  "images/52.jpg",
+        "category":  "رعب وإثارة",
+        "description":  "نص رعب نفسي شديد يعرض تحولات داخلية وشعورًا متزايدًا بالخوف.",
+        "link":  "/book.html?id=52"
+    },
+    {
+        "id":  "53",
+        "title":  "اوراق شمعون المصري",
+        "price":  100,
+        "image":  "images/53.jpg",
+        "category":  "رواية تاريخية",
+        "description":  "مجموعة وثائق أو نصوص تاريخية/سردية تتصل بشمعون المصري.",
+        "link":  "/book.html?id=53"
+    },
+    {
+        "id":  "54",
+        "title":  "الداء والدواء",
+        "price":  100,
+        "image":  "images/54.jpg",
+        "category":  "دين ووعظ",
+        "description":  "كتاب ديني أو طبي يتناول أمراضًا وعلاجاتها.",
+        "link":  "/book.html?id=54"
+    },
+    {
+        "id":  "55",
+        "title":  "الشيطان والمياه المظلمه",
+        "price":  100,
+        "image":  "images/55.jpg",
+        "category":  "رعب وإثارة",
+        "description":  "رواية تشويق/رعب تحمل عنوانًا قويًا عن مواجهة قوى مظلمة.",
+        "link":  "/book.html?id=55"
+    },
+    {
+        "id":  "56",
+        "title":  "سلسله عربستان",
+        "price":  480,
+        "image":  "images/56.jpg",
+        "category":  "سلسلة روايات",
+        "description":  "سلسلة كاملة من عدة مجلدات تغطي قصة طويلة أو مجموعة أعمال مترابطة.",
+        "link":  "/book.html?id=56"
+    },
+    {
+        "id":  "57",
+        "title":  "سلسله لج",
+        "price":  420,
+        "image":  "images/57.jpg",
+        "category":  "سلسلة روايات",
+        "description":  "سلسلة مؤلفة من أجزاء متعددة تروي سردًا متصلاً أو عوالم خيالية موسعة.",
+        "link":  "/book.html?id=57"
+    },
+    {
+        "id":  "58",
+        "title":  "سلسله صخب الخسف (3 أجزاء)",
+        "price":  250,
+        "image":  "images/58.jpg",
+        "category":  "سلسلة روايات",
+        "description":  "ثلاثية روائية أو خيالية مترابطة تحمل طابعًا ملحميًا.",
+        "link":  "/book.html?id=58"
+    },
+    {
+        "id":  "59",
+        "title":  "من حرك قطعه الجبن",
+        "price":  55,
+        "image":  "images/59.jpg",
+        "category":  "تطوير الذات",
+        "description":  "كتاب يتناول كيفية التعامل مع التغيير في العمل والحياة.",
+        "link":  "/book.html?id=59"
+    },
+    {
+        "id":  "60",
+        "title":  "مالا يسع اطفال المسلمين جهله",
+        "price":  55,
+        "image":  "images/60.jpg",
+        "category":  "دين وتعليم",
+        "description":  "كتاب ديني يقدم أساسيات الدين الإسلامي للأطفال.",
+        "link":  "/book.html?id=60"
+    },
+    {
+        "id":  "61",
+        "title":  "ماذا لو",
+        "price":  55,
+        "image":  "images/61.jpg",
+        "category":  "رواية",
+        "description":  "كتاب يطرح سيناريوهات خيالية أو افتراضية لاستكشاف مسارات مختلفة للحياة.",
+        "link":  "/book.html?id=61"
+    },
+    {
+        "id":  "62",
+        "title":  "مذكرات طبيب نفسي",
+        "price":  55,
+        "image":  "images/62.jpg",
+        "category":  "علم نفس",
+        "description":  "مذكرات أو قصة من واقع خبرة طبيب نفسي.",
+        "link":  "/book.html?id=62"
+    },
+    {
+        "id":  "63",
+        "title":  "اول مره أصلي",
+        "price":  55,
+        "image":  "images/63.jpg",
+        "category":  "دين وتعليم",
+        "description":  "دليل أو كتاب إرشادي للمبتدئين في تعلم الصلاة.",
+        "link":  "/book.html?id=63"
+    },
+    {
+        "id":  "64",
+        "title":  "متعه أن تكون ف العشرين",
+        "price":  55,
+        "image":  "images/64.jpg",
+        "category":  "تطوير الذات",
+        "description":  "كتاب تطوير ذاتي يستعرض تحديات ومميزات مرحلة العشرينات من العمر.",
+        "link":  "/book.html?id=64"
+    },
+    {
+        "id":  "65",
+        "title":  "فن التعافي",
+        "price":  55,
+        "image":  "images/65.jpg",
+        "category":  "تطوير الذات",
+        "description":  "كتاب يتناول كيفية تجاوز الصدمات النفسية والعاطفية.",
+        "link":  "/book.html?id=65"
+    },
+    {
+        "id":  "66",
+        "title":  "مدينه الأقوياء",
+        "price":  55,
+        "image":  "images/66.jpg",
+        "category":  "رواية",
+        "description":  "رواية خيالية أو ملحمية تدور أحداثها في مدينة يسكنها أشخاص يتميزون بالقوة.",
+        "link":  "/book.html?id=66"
+    },
+    {
+        "id":  "67",
+        "title":  "الخيمائي",
+        "price":  55,
+        "image":  "images/67.jpg",
+        "category":  "رواية فلسفية",
+        "description":  "رواية فلسفية شهيرة عن رحلة صبي يسعى لتحقيق مصيره الشخصي.",
+        "link":  "/book.html?id=67"
+    },
+    {
+        "id":  "68",
+        "title":  "البسي واسع",
+        "price":  55,
+        "image":  "images/68.jpg",
+        "category":  "دين واجتماع",
+        "description":  "كتاب يتناول موضوع الحجاب واللباس الشرعي للمرأة.",
+        "link":  "/book.html?id=68"
+    },
+    {
+        "id":  "69",
+        "title":  "شبكه العنكبوت",
+        "price":  55,
+        "image":  "images/69.jpg",
+        "category":  "رواية",
+        "description":  "رواية غموض أو إثارة تدور أحداثها حول شبكة من الأسرار والخيوط المتشابكة.",
+        "link":  "/book.html?id=69"
+    },
+    {
+        "id":  "70",
+        "title":  "الانتهازي",
+        "price":  55,
+        "image":  "images/70.jpg",
+        "category":  "رواية",
+        "description":  "رواية أو كتاب يتناول شخصية انتهازية واستغلالها للآخرين.",
+        "link":  "/book.html?id=70"
+    },
+    {
+        "id":  "71",
+        "title":  "ليله ماطره",
+        "price":  55,
+        "image":  "images/71.jpg",
+        "category":  "رواية",
+        "description":  "رواية رومانسية أو درامية تجري أحداثها في ليلة عاصفة.",
+        "link":  "/book.html?id=71"
+    },
+    {
+        "id":  "72",
+        "title":  "مالا نَبوحُ به",
+        "price":  55,
+        "image":  "images/72.jpg",
+        "category":  "علم نفس وأدب",
+        "description":  "كتاب يتناول الأفكار والمشاعر التي لا نجرؤ على التعبير عنها علنًا.",
+        "link":  "/book.html?id=72"
+    },
+    {
+        "id":  "73",
+        "title":  "نادر فوده الجزء الاول",
+        "price":  55,
+        "image":  "images/73.jpg",
+        "category":  "رعب وإثارة",
+        "description":  "الجزء الأول من سلسلة روائية مغامرات أو رعب تتمحور حول شخصية نادر فودة.",
+        "link":  "/book.html?id=73"
+    },
+    {
+        "id":  "74",
+        "title":  "لغات الحب الخمس",
+        "price":  55,
+        "image":  "images/74.jpg",
+        "category":  "علاقات",
+        "description":  "كتاب علاقات شهير يوضح الطرق المختلفة للتعبير عن الحب وفهمه بين الشركاء.",
+        "link":  "/book.html?id=74"
+    },
+    {
+        "id":  "75",
+        "title":  "يوم ف حياه النبي",
+        "price":  55,
+        "image":  "images/75.jpg",
+        "category":  "سيرة نبوية",
+        "description":  "كتاب يتناول يوميات النبي محمد صلى الله عليه وسلم وسلوكياته.",
+        "link":  "/book.html?id=75"
+    },
+    {
+        "id":  "76",
+        "title":  "اسرار سوره البقره",
+        "price":  55,
+        "image":  "images/76.jpg",
+        "category":  "دين وتفسير",
+        "description":  "كتاب ديني يتناول فضائل وتفسير ومعاني سورة البقرة.",
+        "link":  "/book.html?id=76"
+    },
+    {
+        "id":  "77",
+        "title":  "الطريق إلي الله",
+        "price":  55,
+        "image":  "images/77.jpg",
+        "category":  "دين وروحانيات",
+        "description":  "كتاب روحي وديني يقدم إرشادات للتقرب من الله.",
+        "link":  "/book.html?id=77"
+    },
+    {
+        "id":  "78",
+        "title":  "مدينه الحب لا يسكنها العقلاء",
+        "price":  55,
+        "image":  "images/78.jpg",
+        "category":  "رواية",
+        "description":  "رواية رومانسية أو عاطفية عن قصص حب تتحدى المنطق.",
+        "link":  "/book.html?id=78"
+    },
+    {
+        "id":  "79",
+        "title":  "تساؤلات نفسيه",
+        "price":  55,
+        "image":  "images/79.jpg",
+        "category":  "علم نفس",
+        "description":  "كتاب يطرح أسئلة نفسية عميقة ويقدم إجاباتها بأسلوب مبسط.",
+        "link":  "/book.html?id=79"
+    },
+    {
+        "id":  "80",
+        "title":  "لانك الله الجزء التاني",
+        "price":  55,
+        "image":  "images/80.jpg",
+        "category":  "دين وروحانيات",
+        "description":  "الجزء الثاني من كتاب عن أسماء الله الحسنى.",
+        "link":  "/book.html?id=80"
+    },
+    {
+        "id":  "81",
+        "title":  "صباح استثنائي كل يوم",
+        "price":  55,
+        "image":  "images/81.jpg",
+        "category":  "تطوير الذات",
+        "description":  "كتاب تطوير ذاتي يقدم عادات صباحية لتحسين الإنتاجية.",
+        "link":  "/book.html?id=81"
+    },
+    {
+        "id":  "82",
+        "title":  "اغني راجل ف بابل",
+        "price":  55,
+        "image":  "images/82.jpg",
+        "category":  "تنمية مالية",
+        "description":  "كتاب مالي شهير يقدم دروسًا عن الثراء وإدارة الأموال.",
+        "link":  "/book.html?id=82"
+    },
+    {
+        "id":  "83",
+        "title":  "رقائق القرآن",
+        "price":  55,
+        "image":  "images/83.jpg",
+        "category":  "دين وتدبر",
+        "description":  "كتاب ديني يركز على التدبر في آيات القرآن.",
+        "link":  "/book.html?id=83"
+    },
+    {
+        "id":  "84",
+        "title":  "لانك الله الجزء الاول",
+        "price":  55,
+        "image":  "images/84.jpg",
+        "category":  "دين وروحانيات",
+        "description":  "الجزء الأول من كتاب عن أسماء الله الحسنى.",
+        "link":  "/book.html?id=84"
+    },
+    {
+        "id":  "85",
+        "title":  "عوده الروح",
+        "price":  55,
+        "image":  "images/85.jpg",
+        "category":  "رواية كلاسيكية",
+        "description":  "رواية كلاسيكية شهيرة للكاتب توفيق الحكيم.",
+        "link":  "/book.html?id=85"
+    },
+    {
+        "id":  "86",
+        "title":  "فن التركيز ولا الانجاز",
+        "price":  55,
+        "image":  "images/86.jpg",
+        "category":  "تطوير الذات",
+        "description":  "كتاب تطوير ذاتي يتناول أساليب التركيز والإنتاجية الفعالة.",
+        "link":  "/book.html?id=86"
+    },
+    {
+        "id":  "87",
+        "title":  "يوتيوبيا",
+        "price":  55,
+        "image":  "images/87.jpg",
+        "category":  "رواية خيال علمي",
+        "description":  "رواية ديستوبية شهيرة للكاتب أحمد خالد توفيق.",
+        "link":  "/book.html?id=87"
+    },
+    {
+        "id":  "88",
+        "title":  "المرونه النفسيه",
+        "price":  55,
+        "image":  "images/88.jpg",
+        "category":  "علم نفس",
+        "description":  "كتاب علم نفس يتناول كيفية تطوير المرونة النفسية.",
+        "link":  "/book.html?id=88"
+    },
+    {
+        "id":  "89",
+        "title":  "إلي ما لا نهاية",
+        "price":  55,
+        "image":  "images/89.jpg",
+        "category":  "أدب وفلسفة",
+        "description":  "رواية أو كتاب فلسفي يتناول موضوعات الخلود أو النهايات المفتوحة.",
+        "link":  "/book.html?id=89"
+    },
+    {
+        "id":  "90",
+        "title":  "الهشاشه النفسيه",
+        "price":  55,
+        "image":  "images/90.jpg",
+        "category":  "علم نفس",
+        "description":  "كتاب علم نفس يناقش ضعف الإنسان النفسي وكيفية التعامل معه.",
+        "link":  "/book.html?id=90"
+    },
+    {
+        "id":  "91",
+        "title":  "50 سؤال ف الحب",
+        "price":  55,
+        "image":  "images/91.jpg",
+        "category":  "علاقات",
+        "description":  "كتاب يتناول أسئلة وإجابات حول الحب والعلاقات.",
+        "link":  "/book.html?id=91"
+    },
+    {
+        "id":  "92",
+        "title":  "جحيم العابرين",
+        "price":  55,
+        "image":  "images/92.jpg",
+        "category":  "رواية",
+        "description":  "رواية أو قصة عن الصعوبات التي يواجهها المسافرون أو العابرون.",
+        "link":  "/book.html?id=92"
+    },
+    {
+        "id":  "93",
+        "title":  "مسلكيات",
+        "price":  55,
+        "image":  "images/93.jpg",
+        "category":  "دين وأخلاق",
+        "description":  "كتاب يتناول السلوكيات والأخلاقيات من منظور إسلامي أو اجتماعي.",
+        "link":  "/book.html?id=93"
+    },
+    {
+        "id":  "94",
+        "title":  "قررت أن اخلع الحجاب",
+        "price":  55,
+        "image":  "images/94.jpg",
+        "category":  "سرد اجتماعي",
+        "description":  "رواية أو قصة عن قرار امرأة بخلع الحجاب وتأثيره على حياتها.",
+        "link":  "/book.html?id=94"
+    },
+    {
+        "id":  "95",
+        "title":  "ان ربي لطيف",
+        "price":  55,
+        "image":  "images/95.jpg",
+        "category":  "دين وروحانيات",
+        "description":  "كتاب ديني يتناول صفة اللطف لله تعالى.",
+        "link":  "/book.html?id=95"
+    },
+    {
+        "id":  "96",
+        "title":  "القلق هو العدو",
+        "price":  55,
+        "image":  "images/96.jpg",
+        "category":  "علم نفس",
+        "description":  "كتاب نفسي يتناول كيفية التعامل مع القلق والتغلب عليه.",
+        "link":  "/book.html?id=96"
+    },
+    {
+        "id":  "97",
+        "title":  "اقتحام الأسواق التجاريه",
+        "price":  55,
+        "image":  "images/97.jpg",
+        "category":  "أعمال وتسويق",
+        "description":  "كتاب تسويق أو أعمال يتناول كيفية دخول الأسواق التجارية بقوة.",
+        "link":  "/book.html?id=97"
+    },
+    {
+        "id":  "98",
+        "title":  "كوني صحابيه",
+        "price":  55,
+        "image":  "images/98.jpg",
+        "category":  "دين وتوجيه",
+        "description":  "كتاب ديني موجه للنساء، يقدم نماذج من حياة الصحابيات.",
+        "link":  "/book.html?id=98"
+    },
+    {
+        "id":  "99",
+        "title":  "حوار مع صديقي الملحد",
+        "price":  55,
+        "image":  "images/99.jpg",
+        "category":  "فكر وفلسفة",
+        "description":  "كتاب ديني فلسفي يتناول حوارًا بين شخص مؤمن وآخر ملحد.",
+        "link":  "/book.html?id=99"
+    },
+    {
+        "id":  "100",
+        "title":  "اسرار عقل المليونير",
+        "price":  55,
+        "image":  "images/100.jpg",
+        "category":  "تنمية مالية",
+        "description":  "كتاب مالي عن عادات وأسرار الأثرياء وكيفية التفكير مثلهم.",
+        "link":  "/book.html?id=100"
+    },
+    {
+        "id":  "101",
+        "title":  "الليالي البيضاء",
+        "price":  55,
+        "image":  "images/101.jpg",
+        "category":  "رواية كلاسيكية",
+        "description":  "رواية كلاسيكية للكاتب الروسي دوستويفسكي.",
+        "link":  "/book.html?id=101"
+    },
+    {
+        "id":  "102",
+        "title":  "استيقظ وعش",
+        "price":  55,
+        "image":  "images/102.jpg",
+        "category":  "تطوير الذات",
+        "description":  "كتاب تطوير ذاتي عن كيفية الاستفادة من الحياة والعيش بوعي.",
+        "link":  "/book.html?id=102"
+    },
+    {
+        "id":  "103",
+        "title":  "ارض القرابين",
+        "price":  55,
+        "image":  "images/103.jpg",
+        "category":  "رواية",
+        "description":  "رواية أو عمل أدبي يتناول موضوع التضحيات في مجتمع أو مكان معين.",
+        "link":  "/book.html?id=103"
+    },
+    {
+        "id":  "104",
+        "title":  "الطريقه الاكثر فعاليه لانجاز المهام",
+        "price":  55,
+        "image":  "images/104.jpg",
+        "category":  "تطوير الذات",
+        "description":  "كتاب تطوير ذاتي عن أساليب الإنتاجية وإدارة الوقت.",
+        "link":  "/book.html?id=104"
+    },
+    {
+        "id":  "105",
+        "title":  "كن لنفسك كل شي",
+        "price":  55,
+        "image":  "images/105.jpg",
+        "category":  "تطوير الذات",
+        "description":  "كتاب تطوير ذاتي يشجع على الاعتماد على النفس وتحقيق الذات.",
+        "link":  "/book.html?id=105"
+    },
+    {
+        "id":  "106",
+        "title":  "النداء",
+        "price":  55,
+        "image":  "images/106.jpg",
+        "category":  "رواية",
+        "description":  "رواية أو كتاب يتناول فكرة الاستجابة لنداء داخلي أو خارجي.",
+        "link":  "/book.html?id=106"
+    },
+    {
+        "id":  "107",
+        "title":  "ليله ظهور القرين",
+        "price":  55,
+        "image":  "images/107.jpg",
+        "category":  "رعب وإثارة",
+        "description":  "رواية رعب أو غموض عن لقاء شخصي بالقرين.",
+        "link":  "/book.html?id=107"
+    },
+    {
+        "id":  "108",
+        "title":  "فن الكلام",
+        "price":  55,
+        "image":  "images/108.jpg",
+        "category":  "تطوير الذات",
+        "description":  "كتاب تطوير ذاتي عن مهارات التواصل والإلقاء.",
+        "link":  "/book.html?id=108"
+    },
+    {
+        "id":  "109",
+        "title":  "سأرحل",
+        "price":  55,
+        "image":  "images/109.jpg",
+        "category":  "رواية",
+        "description":  "رواية أو عمل أدبي عن قرار الرحيل والهجرة أو الانفصال.",
+        "link":  "/book.html?id=109"
+    },
+    {
+        "id":  "110",
+        "title":  "مفاتيح خران الله",
+        "price":  55,
+        "image":  "images/110.jpg",
+        "category":  "دين وروحانيات",
+        "description":  "كتاب ديني يتناول مفاتيح الرزق والفرج من منظور إسلامي.",
+        "link":  "/book.html?id=110"
+    },
+    {
+        "id":  "111",
+        "title":  "ندي تشتكي لعائشه",
+        "price":  55,
+        "image":  "images/111.jpg",
+        "category":  "دين وتوجيه",
+        "description":  "كتاب ديني يتناول شكاوى المرأة ومشاكلها في ضوء سيرة السيدة عائشة.",
+        "link":  "/book.html?id=111"
+    },
+    {
+        "id":  "112",
+        "title":  "رحلتي من النقاش إلي البلوك",
+        "price":  55,
+        "image":  "images/112.jpg",
+        "category":  "فكاهة وسرد",
+        "description":  "كتاب ساخر أو اجتماعي عن تجارب شخصية في النقاشات العقيمة.",
+        "link":  "/book.html?id=112"
+    },
+    {
+        "id":  "113",
+        "title":  "الخروج عن النص",
+        "price":  55,
+        "image":  "images/113.jpg",
+        "category":  "تطوير الذات",
+        "description":  "كتاب يتناول كيفية التفكير خارج الصندوق وكسر القواعد التقليدية.",
+        "link":  "/book.html?id=113"
+    },
+    {
+        "id":  "114",
+        "title":  "ابني مشتت الإنتباه",
+        "price":  55,
+        "image":  "images/114.jpg",
+        "category":  "تربية وعلم نفس",
+        "description":  "كتاب تربوي عن التعامل مع الأطفال الذين يعانون من تشتت الانتباه.",
+        "link":  "/book.html?id=114"
+    },
+    {
+        "id":  "115",
+        "title":  "مدير الدقيقه الواحده",
+        "price":  55,
+        "image":  "images/115.jpg",
+        "category":  "إدارة وأعمال",
+        "description":  "كتاب إداري شهير عن فن الإدارة الفعالة في وقت قصير.",
+        "link":  "/book.html?id=115"
+    },
+    {
+        "id":  "116",
+        "title":  "تحدث أمام الجميع بجذبيه",
+        "price":  55,
+        "image":  "images/116.jpg",
+        "category":  "تطوير الذات",
+        "description":  "كتاب تطوير ذاتي عن مهارات الخطابة والتحدث أمام الجمهور.",
+        "link":  "/book.html?id=116"
+    },
+    {
+        "id":  "117",
+        "title":  "مزرعه الحيوان",
+        "price":  55,
+        "image":  "images/117.jpg",
+        "category":  "رواية سياسية",
+        "description":  "رواية رمزية شهيرة للكاتب جورج أورويل.",
+        "link":  "/book.html?id=117"
+    },
+    {
+        "id":  "118",
+        "title":  "شارع النجاح",
+        "price":  55,
+        "image":  "images/118.jpg",
+        "category":  "تطوير الذات",
+        "description":  "كتاب تطوير ذاتي عن الطريق إلى تحقيق النجاح في الحياة.",
+        "link":  "/book.html?id=118"
+    },
+    {
+        "id":  "119",
+        "title":  "قوه الفشل",
+        "price":  55,
+        "image":  "images/119.jpg",
+        "category":  "تطوير الذات",
+        "description":  "كتاب تطوير ذاتي عن كيفية تحويل الفشل إلى قوة دافعة.",
+        "link":  "/book.html?id=119"
+    },
+    {
+        "id":  "120",
+        "title":  "فيتامينات نفسيه",
+        "price":  55,
+        "image":  "images/120.jpg",
+        "category":  "علم نفس",
+        "description":  "كتاب علم نفس يقدم نصائح وممارسات بسيطة لتحسين الصحة النفسية.",
+        "link":  "/book.html?id=120"
+    },
+    {
+        "id":  "121",
+        "title":  "توقف عن ارضا الاخرين",
+        "price":  55,
+        "image":  "images/121.jpg",
+        "category":  "تطوير الذات",
+        "description":  "كتاب تطوير ذاتي عن أهمية الحدود الشخصية والتوقف عن إرضاء الآخرين.",
+        "link":  "/book.html?id=121"
+    },
+    {
+        "id":  "122",
+        "title":  "لقاء مع كاتب رعب",
+        "price":  55,
+        "image":  "images/122.jpg",
+        "category":  "رواية",
+        "description":  "رواية أو قصة عن مقابلة مع كاتب متخصص في أدب الرعب.",
+        "link":  "/book.html?id=122"
+    },
+    {
+        "id":  "123",
+        "title":  "عن شيء اسمه الحب",
+        "price":  55,
+        "image":  "images/123.jpg",
+        "category":  "علاقات",
+        "description":  "كتاب يتناول مفهوم الحب والعلاقات العاطفية.",
+        "link":  "/book.html?id=123"
+    },
+    {
+        "id":  "124",
+        "title":  "القربان",
+        "price":  55,
+        "image":  "images/124.jpg",
+        "category":  "رواية",
+        "description":  "رواية أو عمل أدبي يتناول موضوع التضحية.",
+        "link":  "/book.html?id=124"
+    },
+    {
+        "id":  "125",
+        "title":  "اجيج",
+        "price":  55,
+        "image":  "images/125.jpg",
+        "category":  "رواية",
+        "description":  "رواية أو عمل أدبي ذو طابع ناري أو مشتعل بالأحداث.",
+        "link":  "/book.html?id=125"
+    },
+    {
+        "id":  "126",
+        "title":  "سعد الدباس",
+        "price":  55,
+        "image":  "images/126.jpg",
+        "category":  "رواية",
+        "description":  "رواية أو قصة عن شخصية تحمل اسم سعد الدباس.",
+        "link":  "/book.html?id=126"
+    },
+    {
+        "id":  "127",
+        "title":  "رحلتي من الشك إلي الايمان",
+        "price":  55,
+        "image":  "images/127.jpg",
+        "category":  "سيرة دينية",
+        "description":  "سيرة ذاتية أو كتاب روحي عن تحول شخص من الشك إلى الإيمان.",
+        "link":  "/book.html?id=127"
+    },
+    {
+        "id":  "128",
+        "title":  "أسرار الدعاء",
+        "price":  55,
+        "image":  "images/128.jpg",
+        "category":  "دين وروحانيات",
+        "description":  "كتاب ديني يتناول أسرار وفضل الدعاء في الإسلام.",
+        "link":  "/book.html?id=128"
+    },
+    {
+        "id":  "129",
+        "title":  "متعه ان تكون في منتصف العمر",
+        "price":  55,
+        "image":  "images/129.jpg",
+        "category":  "تطوير الذات",
+        "description":  "كتاب تطوير ذاتي عن الاستمتاع بمرحلة منتصف العمر.",
+        "link":  "/book.html?id=129"
+    },
+    {
+        "id":  "130",
+        "title":  "حياتك 20/80",
+        "price":  55,
+        "image":  "images/130.jpg",
+        "category":  "تطوير الذات",
+        "description":  "كتاب تطوير ذاتي يعتمد على قاعدة 80/20 في الحياة والإنتاجية.",
+        "link":  "/book.html?id=130"
+    },
+    {
+        "id":  "131",
+        "title":  "نعمة الالم",
+        "price":  55,
+        "image":  "images/131.jpg",
+        "category":  "علم نفس وفلسفة",
+        "description":  "كتاب نفسي أو فلسفي يتناول الجانب الإيجابي للألم.",
+        "link":  "/book.html?id=131"
+    },
+    {
+        "id":  "132",
+        "title":  "كن اقوي من مشاعرك",
+        "price":  55,
+        "image":  "images/132.jpg",
+        "category":  "تطوير الذات",
+        "description":  "كتاب تطوير ذاتي عن التحكم في المشاعر واتخاذ قرارات عقلانية.",
+        "link":  "/book.html?id=132"
+    },
+    {
+        "id":  "133",
+        "title":  "مدينة الموتي",
+        "price":  55,
+        "image":  "images/133.jpg",
+        "category":  "رواية",
+        "description":  "رواية رعب أو غموض تدور أحداثها في مدينة مهجورة.",
+        "link":  "/book.html?id=133"
+    },
+    {
+        "id":  "134",
+        "title":  "الطريق الي القرآن",
+        "price":  55,
+        "image":  "images/134.jpg",
+        "category":  "دين وتدبر",
+        "description":  "كتاب ديني عن كيفية الاقتراب من القرآن وفهمه.",
+        "link":  "/book.html?id=134"
+    },
+    {
+        "id":  "135",
+        "title":  "فكره من كل ايه",
+        "price":  55,
+        "image":  "images/135.jpg",
+        "category":  "دين وتدبر",
+        "description":  "كتاب ديني يقدم فكرة أو عبرة من كل آية في القرآن.",
+        "link":  "/book.html?id=135"
+    },
+    {
+        "id":  "136",
+        "title":  "زاد",
+        "price":  55,
+        "image":  "images/136.jpg",
+        "category":  "دين وأدب",
+        "description":  "كتاب ديني أو أدبي يقدم زادًا روحيًا أو فكريًا للقارئ.",
+        "link":  "/book.html?id=136"
+    },
+    {
+        "id":  "137",
+        "title":  "هكذا رأيت رسول الله",
+        "price":  55,
+        "image":  "images/137.jpg",
+        "category":  "سيرة نبوية",
+        "description":  "كتاب ديني يتناول سيرة النبي محمد من منظور شخصي أو إيماني.",
+        "link":  "/book.html?id=137"
+    },
+    {
+        "id":  "138",
+        "title":  "حلم رجل مضحك",
+        "price":  55,
+        "image":  "images/138.jpg",
+        "category":  "أدب كلاسيكي",
+        "description":  "قصة قصيرة للكاتب الروسي دوستويفسكي.",
+        "link":  "/book.html?id=138"
+    },
+    {
+        "id":  "139",
+        "title":  "علاج التفكير الضاغط",
+        "price":  55,
+        "image":  "images/139.jpg",
+        "category":  "علم نفس",
+        "description":  "كتاب نفسي عن كيفية التخلص من الأفكار السلبية والضغوط الذهنية.",
+        "link":  "/book.html?id=139"
+    },
+    {
+        "id":  "140",
+        "title":  "ولنا في الحلال لقاء",
+        "price":  55,
+        "image":  "images/140.jpg",
+        "category":  "دين وعلاقات",
+        "description":  "كتاب ديني عن العلاقات والزواج في إطار إسلامي.",
+        "link":  "/book.html?id=140"
+    },
+    {
+        "id":  "141",
+        "title":  "١٠ معارك في الحياة",
+        "price":  55,
+        "image":  "images/141.jpg",
+        "category":  "تطوير الذات",
+        "description":  "كتاب تطوير ذاتي يستعرض 10 تحديات رئيسية في الحياة.",
+        "link":  "/book.html?id=141"
+    },
+    {
+        "id":  "142",
+        "title":  "عياده نفسيه من داخل غرفتك",
+        "price":  55,
+        "image":  "images/142.jpg",
+        "category":  "علم نفس",
+        "description":  "كتاب نفسي يقدم جلسات علاج ذاتي لمساعدة القارئ.",
+        "link":  "/book.html?id=142"
+    },
+    {
+        "id":  "143",
+        "title":  "متعه عدم الكمال",
+        "price":  55,
+        "image":  "images/143.jpg",
+        "category":  "تطوير الذات",
+        "description":  "كتاب تطوير ذاتي عن تقبل الذات والعيش بسعادة بعيدًا عن البحث عن الكمال.",
+        "link":  "/book.html?id=143"
+    },
+    {
+        "id":  "144",
+        "title":  "حديث الصباح والمساء",
+        "price":  55,
+        "image":  "images/144.jpg",
+        "category":  "رواية",
+        "description":  "رواية اجتماعية أو أدبية تتناول تفاصيل حياة عائلة مصرية.",
+        "link":  "/book.html?id=144"
+    },
+    {
+        "id":  "145",
+        "title":  "خبايا ج1",
+        "price":  55,
+        "image":  "images/145.jpg",
+        "category":  "سلسلة روايات",
+        "description":  "الجزء الأول من رواية أو سلسلة عن أسرار وخفايا غامضة.",
+        "link":  "/book.html?id=145"
+    },
+    {
+        "id":  "146",
+        "title":  "خبايا ج2",
+        "price":  55,
+        "image":  "images/146.jpg",
+        "category":  "سلسلة روايات",
+        "description":  "الجزء الثاني من سلسلة \u0027خبايا\u0027.",
+        "link":  "/book.html?id=146"
+    },
+    {
+        "id":  "147",
+        "title":  "خبايا ج3",
+        "price":  55,
+        "image":  "images/147.jpg",
+        "category":  "سلسلة روايات",
+        "description":  "الجزء الثالث من سلسلة \u0027خبايا\u0027.",
+        "link":  "/book.html?id=147"
+    },
+    {
+        "id":  "148",
+        "title":  "خبايا ج4",
+        "price":  55,
+        "image":  "images/148.jpg",
+        "category":  "سلسلة روايات",
+        "description":  "الجزء الرابع من سلسلة \u0027خبايا\u0027.",
+        "link":  "/book.html?id=148"
+    },
+    {
+        "id":  "149",
+        "title":  "خبايا ج5",
+        "price":  55,
+        "image":  "images/149.jpg",
+        "category":  "سلسلة روايات",
+        "description":  "الجزء الخامس من سلسلة \u0027خبايا\u0027.",
+        "link":  "/book.html?id=149"
+    },
+    {
+        "id":  "150",
+        "title":  "تعلم التسويق كانك تعيش قصه حب",
+        "price":  55,
+        "image":  "images/150.jpg",
+        "category":  "أعمال وتسويق",
+        "description":  "كتاب تسويق يقدم مبادئ التسويق بأسلوب سهل وجذاب.",
+        "link":  "/book.html?id=150"
+    },
+    {
+        "id":  "151",
+        "title":  "متعه أنا تكون ف الثلاثين",
+        "price":  65,
+        "image":  "images/151.jpg",
+        "category":  "تطوير الذات",
+        "description":  "كتاب يتناول تحديات وجماليات مرحلة الثلاثينات من العمر.",
+        "link":  "/book.html?id=151"
+    },
+    {
+        "id":  "152",
+        "title":  "أنا مش فاهمني",
+        "price":  65,
+        "image":  "images/152.jpg",
+        "category":  "علم نفس وتطوير",
+        "description":  "كتاب يسلط الضوء على الصراعات الداخلية ومحاولة فهم الذات.",
+        "link":  "/book.html?id=152"
+    },
+    {
+        "id":  "153",
+        "title":  "لا مكان للمل",
+        "price":  65,
+        "image":  "images/153.jpg",
+        "category":  "تطوير الذات",
+        "description":  "كتاب عن كيفية التخلص من الشعور بالملل وإيجاد الشغف في الحياة.",
+        "link":  "/book.html?id=153"
+    },
+    {
+        "id":  "154",
+        "title":  "ESP",
+        "price":  65,
+        "image":  "images/154.jpg",
+        "category":  "خوارق وفلسفة",
+        "description":  "كتاب يتناول مواضيع الإدراك الحسي الفائق والقدرات غير العادية.",
+        "link":  "/book.html?id=154"
+    },
+    {
+        "id":  "155",
+        "title":  "سر غرفه 207",
+        "price":  65,
+        "image":  "images/155.jpg",
+        "category":  "رعب وإثارة",
+        "description":  "رواية رعب شهيرة تدور أحداثها حول غرفة فندق غامضة.",
+        "link":  "/book.html?id=155"
+    },
+    {
+        "id":  "156",
+        "title":  "تصرفي كسيده وفكري كرجل",
+        "price":  65,
+        "image":  "images/156.jpg",
+        "category":  "علاقات",
+        "description":  "كتاب علاقات يهدف إلى مساعدة النساء على فهم عقلية الرجال.",
+        "link":  "/book.html?id=156"
+    },
+    {
+        "id":  "157",
+        "title":  "معجزه الصباح",
+        "price":  65,
+        "image":  "images/157.jpg",
+        "category":  "تطوير الذات",
+        "description":  "كتاب تحفيزي عن قوة الروتين الصباحي لتغيير حياتك للأفضل.",
+        "link":  "/book.html?id=157"
+    },
+    {
+        "id":  "158",
+        "title":  "نادر فوده الجزء التاني",
+        "price":  65,
+        "image":  "images/158.jpg",
+        "category":  "رعب وإثارة",
+        "description":  "الجزء الثاني من سلسلة روايات نادر فودة.",
+        "link":  "/book.html?id=158"
+    },
+    {
+        "id":  "159",
+        "title":  "نادر فوده التالت",
+        "price":  65,
+        "image":  "images/159.jpg",
+        "category":  "رعب وإثارة",
+        "description":  "الجزء الثالث من سلسلة روايات نادر فودة.",
+        "link":  "/book.html?id=159"
+    },
+    {
+        "id":  "160",
+        "title":  "نادر فوده الخامس",
+        "price":  65,
+        "image":  "images/160.jpg",
+        "category":  "رعب وإثارة",
+        "description":  "الجزء الخامس من سلسلة روايات نادر فودة.",
+        "link":  "/book.html?id=160"
+    },
+    {
+        "id":  "161",
+        "title":  "نادر فوده السادس",
+        "price":  65,
+        "image":  "images/161.jpg",
+        "category":  "رعب وإثارة",
+        "description":  "الجزء السادس من سلسلة روايات نادر فودة.",
+        "link":  "/book.html?id=161"
+    },
+    {
+        "id":  "162",
+        "title":  "علمتني سوره البقره",
+        "price":  65,
+        "image":  "images/162.jpg",
+        "category":  "دين وتدبر",
+        "description":  "كتاب يتناول الدروس والعبر المستفادة من سورة البقرة.",
+        "link":  "/book.html?id=162"
+    },
+    {
+        "id":  "163",
+        "title":  "فكر وازاد ثراء",
+        "price":  65,
+        "image":  "images/163.jpg",
+        "category":  "تنمية مالية",
+        "description":  "كتاب تنمية مالية شهير عن كيفية بناء الثروة من خلال التفكير الإيجابي.",
+        "link":  "/book.html?id=163"
+    },
+    {
+        "id":  "164",
+        "title":  "قبل ان تبرد القهوه الاول",
+        "price":  65,
+        "image":  "images/164.jpg",
+        "category":  "رواية",
+        "description":  "الجزء الأول من رواية خيالية عن السفر عبر الزمن.",
+        "link":  "/book.html?id=164"
+    },
+    {
+        "id":  "165",
+        "title":  "قضيه عنب الثعلب",
+        "price":  65,
+        "image":  "images/165.jpg",
+        "category":  "رواية بوليسية",
+        "description":  "رواية بوليسية تحمل قصة جريمة معقدة وغامضة.",
+        "link":  "/book.html?id=165"
+    },
+    {
+        "id":  "166",
+        "title":  "ما لا يسع المسلم جهله",
+        "price":  65,
+        "image":  "images/166.jpg",
+        "category":  "دين وتعليم",
+        "description":  "كتاب عن أساسيات الدين الإسلامي التي يجب على كل مسلم معرفتها.",
+        "link":  "/book.html?id=166"
+    },
+    {
+        "id":  "167",
+        "title":  "ليله ف ضيافه الكونت",
+        "price":  65,
+        "image":  "images/167.jpg",
+        "category":  "رواية",
+        "description":  "رواية تدور أحداثها في ليلة واحدة ضمن ضيافة شخصية ثرية وغامضة (الكونت).",
+        "link":  "/book.html?id=167"
+    },
+    {
+        "id":  "168",
+        "title":  "فاتتني صلاه",
+        "price":  65,
+        "image":  "images/168.jpg",
+        "category":  "دين وروحانيات",
+        "description":  "كتاب يتناول أهمية الصلاة والتوبة من التقصير فيها.",
+        "link":  "/book.html?id=168"
+    },
+    {
+        "id":  "169",
+        "title":  "لغه الجسد",
+        "price":  65,
+        "image":  "images/169.jpg",
+        "category":  "تطوير الذات",
+        "description":  "كتاب عن تفسير وفهم الإشارات غير اللفظية التي يرسلها الجسد.",
+        "link":  "/book.html?id=169"
+    },
+    {
+        "id":  "170",
+        "title":  "أحببت وغدا",
+        "price":  65,
+        "image":  "images/170.jpg",
+        "category":  "رواية",
+        "description":  "رواية رومانسية أو درامية تتناول قصة حب لشخصية معقدة أو سيئة.",
+        "link":  "/book.html?id=170"
+    },
+    {
+        "id":  "171",
+        "title":  "قبل ان تبرد القهوه 3",
+        "price":  65,
+        "image":  "images/171.jpg",
+        "category":  "رواية",
+        "description":  "الجزء الثالث من رواية عن السفر عبر الزمن.",
+        "link":  "/book.html?id=171"
+    },
+    {
+        "id":  "172",
+        "title":  "قبل ان تبرد القهوه 2",
+        "price":  65,
+        "image":  "images/172.jpg",
+        "category":  "رواية",
+        "description":  "الجزء الثاني من رواية عن السفر عبر الزمن.",
+        "link":  "/book.html?id=172"
+    },
+    {
+        "id":  "173",
+        "title":  "قبل ان تبرد القهوه 4",
+        "price":  65,
+        "image":  "images/173.jpg",
+        "category":  "رواية",
+        "description":  "الجزء الرابع من رواية عن السفر عبر الزمن.",
+        "link":  "/book.html?id=173"
+    },
+    {
+        "id":  "174",
+        "title":  "انت ايضا صحابيه",
+        "price":  65,
+        "image":  "images/174.jpg",
+        "category":  "دين وتوجيه",
+        "description":  "كتاب ديني يوجه المرأة لاتباع نهج الصحابيات.",
+        "link":  "/book.html?id=174"
+    },
+    {
+        "id":  "175",
+        "title":  "كيف تكسب الاصدقاء",
+        "price":  65,
+        "image":  "images/175.jpg",
+        "category":  "تطوير الذات",
+        "description":  "دليل اجتماعي عن كيفية بناء علاقات صداقة ناجحة.",
+        "link":  "/book.html?id=175"
+    },
+    {
+        "id":  "176",
+        "title":  "فن اللامبالاة",
+        "price":  65,
+        "image":  "images/176.jpg",
+        "category":  "تطوير الذات",
+        "description":  "كتاب تطوير ذاتي شهير عن كيفية تقبل اللامبالاة لما لا يهم.",
+        "link":  "/book.html?id=176"
+    },
+    {
+        "id":  "177",
+        "title":  "الوليمه",
+        "price":  65,
+        "image":  "images/177.jpg",
+        "category":  "رواية",
+        "description":  "رواية تدور أحداثها حول عشاء أو تجمع مهم يكشف الأسرار.",
+        "link":  "/book.html?id=177"
+    },
+    {
+        "id":  "178",
+        "title":  "فن اداره المخاوف",
+        "price":  65,
+        "image":  "images/178.jpg",
+        "category":  "علم نفس وتطوير",
+        "description":  "كتاب عن كيفية التعامل مع المخاوف والقلق وتحويلها إلى قوة دافعة.",
+        "link":  "/book.html?id=178"
+    },
+    {
+        "id":  "179",
+        "title":  "لغه الجسد ف مقر العمل",
+        "price":  65,
+        "image":  "images/179.jpg",
+        "category":  "أعمال وتطوير",
+        "description":  "كتاب عن استخدام وفهم لغة الجسد في بيئة العمل.",
+        "link":  "/book.html?id=179"
+    },
+    {
+        "id":  "180",
+        "title":  "فكر كأنك طبيب نفسي",
+        "price":  65,
+        "image":  "images/180.jpg",
+        "category":  "علم نفس",
+        "description":  "كتاب يقدم أدوات التفكير النقدي وفهم السلوك الإنساني من منظور طبيب نفسي.",
+        "link":  "/book.html?id=180"
+    },
+    {
+        "id":  "181",
+        "title":  "قلب عجوز",
+        "price":  65,
+        "image":  "images/181.jpg",
+        "category":  "رواية",
+        "description":  "رواية تتناول مشاعر وخبرات شخص مسن أو موضوع الشيخوخة.",
+        "link":  "/book.html?id=181"
+    },
+    {
+        "id":  "182",
+        "title":  "الهلكوت",
+        "price":  65,
+        "image":  "images/182.jpg",
+        "category":  "رعب وإثارة",
+        "description":  "رواية رعب أو خيال مظلم تحمل هذا الاسم القوي.",
+        "link":  "/book.html?id=182"
+    },
+    {
+        "id":  "183",
+        "title":  "جلسات نفسيه",
+        "price":  65,
+        "image":  "images/183.jpg",
+        "category":  "علم نفس",
+        "description":  "مجموعة نصوص أو حكايات عن تجارب من جلسات العلاج النفسي.",
+        "link":  "/book.html?id=183"
+    },
+    {
+        "id":  "184",
+        "title":  "لا بطعم الفلامنكو",
+        "price":  65,
+        "image":  "images/184.jpg",
+        "category":  "رواية",
+        "description":  "رواية ذات طابع فني أو درامي مميز.",
+        "link":  "/book.html?id=184"
+    },
+    {
+        "id":  "185",
+        "title":  "ارسس 2",
+        "price":  65,
+        "image":  "images/185.jpg",
+        "category":  "رواية خيال",
+        "description":  "الجزء الثاني من سلسلة روايات الخيال.",
+        "link":  "/book.html?id=185"
+    },
+    {
+        "id":  "186",
+        "title":  "ارسس 1",
+        "price":  65,
+        "image":  "images/186.jpg",
+        "category":  "رواية خيال",
+        "description":  "الجزء الأول من سلسلة روايات الخيال.",
+        "link":  "/book.html?id=186"
+    },
+    {
+        "id":  "187",
+        "title":  "من الصفر",
+        "price":  65,
+        "image":  "images/187.jpg",
+        "category":  "تطوير الذات",
+        "description":  "كتاب تحفيزي عن البدء من نقطة الصفر وتحقيق النجاح.",
+        "link":  "/book.html?id=187"
+    },
+    {
+        "id":  "188",
+        "title":  "اقراء الناس كأنهم كتاب",
+        "price":  65,
+        "image":  "images/188.jpg",
+        "category":  "تطوير الذات",
+        "description":  "كتاب عن تحليل الشخصيات وفهم الناس بمهارة.",
+        "link":  "/book.html?id=188"
+    },
+    {
+        "id":  "189",
+        "title":  "صاحب الظل الطويل",
+        "price":  65,
+        "image":  "images/189.jpg",
+        "category":  "رواية كلاسيكية",
+        "description":  "رواية كلاسيكية شهيرة عن فتاة تتلقى دعمًا من متبرع غامض.",
+        "link":  "/book.html?id=189"
+    },
+    {
+        "id":  "190",
+        "title":  "مميز بالاصفر",
+        "price":  65,
+        "image":  "images/190.jpg",
+        "category":  "تطوير الذات",
+        "description":  "كتاب تحفيزي عن أهمية التفكير بشكل مختلف وترك بصمة.",
+        "link":  "/book.html?id=190"
+    },
+    {
+        "id":  "191",
+        "title":  "سفاح الازقه",
+        "price":  65,
+        "image":  "images/191.jpg",
+        "category":  "رواية بوليسية",
+        "description":  "رواية إثارة عن قاتل متسلسل يرتكب جرائمه في الأزقة.",
+        "link":  "/book.html?id=191"
+    },
+    {
+        "id":  "192",
+        "title":  "الجزار",
+        "price":  65,
+        "image":  "images/192.jpg",
+        "category":  "رواية",
+        "description":  "رواية تحمل هذا الاسم القوي وتشير إلى شخصية أو مهنة عنيفة.",
+        "link":  "/book.html?id=192"
+    },
+    {
+        "id":  "193",
+        "title":  "مر مثل القهوه وحلو مثل الشيكولاته",
+        "price":  65,
+        "image":  "images/193.jpg",
+        "category":  "رواية",
+        "description":  "رواية تجمع بين المشاعر القاسية واللحظات السعيدة في الحياة.",
+        "link":  "/book.html?id=193"
+    },
+    {
+        "id":  "194",
+        "title":  "الذكاء العاطفي في التربيه",
+        "price":  65,
+        "image":  "images/194.jpg",
+        "category":  "تربية وعلم نفس",
+        "description":  "كتاب تربوي عن استخدام الذكاء العاطفي في التعامل مع الأطفال.",
+        "link":  "/book.html?id=194"
+    },
+    {
+        "id":  "195",
+        "title":  "المجرايات",
+        "price":  65,
+        "image":  "images/195.jpg",
+        "category":  "رواية",
+        "description":  "رواية ذات طابع سردي وفكري عميق.",
+        "link":  "/book.html?id=195"
+    },
+    {
+        "id":  "196",
+        "title":  "اصنع وقت اكثر من المتاح",
+        "price":  65,
+        "image":  "images/196.jpg",
+        "category":  "تطوير الذات",
+        "description":  "كتاب عن إدارة الوقت وزيادة الإنتاجية في ظل ضيق الوقت.",
+        "link":  "/book.html?id=196"
+    },
+    {
+        "id":  "197",
+        "title":  "القادمون",
+        "price":  65,
+        "image":  "images/197.jpg",
+        "category":  "رواية",
+        "description":  "رواية تتناول فكرة وصول أشخاص أو كيانات جديدة ذات تأثير كبير.",
+        "link":  "/book.html?id=197"
+    },
+    {
+        "id":  "198",
+        "title":  "الوحش الذي يسكنني يجب أن يكون لطيفا",
+        "price":  65,
+        "image":  "images/198.jpg",
+        "category":  "علم نفس",
+        "description":  "كتاب عن تقبل الذات والجانب المظلم من الشخصية.",
+        "link":  "/book.html?id=198"
+    },
+    {
+        "id":  "199",
+        "title":  "دليل جدتي لقتل الاوغاد",
+        "price":  65,
+        "image":  "images/199.jpg",
+        "category":  "فكاهة ورواية",
+        "description":  "رواية ساخرة أو كوميديا سوداء عن كيفية التعامل مع الشخصيات المزعجة.",
+        "link":  "/book.html?id=199"
+    },
+    {
+        "id":  "200",
+        "title":  "ملفات سرية من داخل عياده نفسيه",
+        "price":  65,
+        "image":  "images/200.jpg",
+        "category":  "علم نفس",
+        "description":  "مجموعة قصص أو تجارب من داخل عيادة نفسية تكشف عن حالات مرضية مختلفة.",
+        "link":  "/book.html?id=200"
+    },
+    {
+        "id":  "201",
+        "title":  "وكأننا لم نلتقي",
+        "price":  65,
+        "image":  "images/201.jpg",
+        "category":  "رواية",
+        "description":  "رواية رومانسية أو درامية عن فقدان التواصل أو الانفصال.",
+        "link":  "/book.html?id=201"
+    },
+    {
+        "id":  "202",
+        "title":  "علمتني ايه",
+        "price":  65,
+        "image":  "images/202.jpg",
+        "category":  "تطوير الذات",
+        "description":  "كتاب يتناول الدروس المستفادة من التجارب والخبرات الحياتية.",
+        "link":  "/book.html?id=202"
+    },
+    {
+        "id":  "203",
+        "title":  "لكنود",
+        "price":  65,
+        "image":  "images/203.jpg",
+        "category":  "رواية",
+        "description":  "رواية تحمل هذا الاسم المميز وقد تشير إلى شخصية جاحدة أو قصة غامضة.",
+        "link":  "/book.html?id=203"
+    },
+    {
+        "id":  "204",
+        "title":  "إن الله معنا",
+        "price":  65,
+        "image":  "images/204.jpg",
+        "category":  "دين وروحانيات",
+        "description":  "كتاب ديني عن معاني التوكل على الله والشعور بمعيته.",
+        "link":  "/book.html?id=204"
+    },
+    {
+        "id":  "205",
+        "title":  "إنهم يأتون ليلا",
+        "price":  65,
+        "image":  "images/205.jpg",
+        "category":  "رعب وإثارة",
+        "description":  "كتاب رعب أو قصة مثيرة عن كائنات أو أحداث تظهر في الليل.",
+        "link":  "/book.html?id=205"
+    },
+    {
+        "id":  "206",
+        "title":  "التهذيب الاجابي في تربية الأطفال",
+        "price":  65,
+        "image":  "images/206.jpg",
+        "category":  "تربية وعلم نفس",
+        "description":  "كتاب تربوي عن استخدام أساليب التهذيب الإيجابي في التعامل مع الأطفال.",
+        "link":  "/book.html?id=206"
+    },
+    {
+        "id":  "207",
+        "title":  "نبض",
+        "price":  65,
+        "image":  "images/207.jpg",
+        "category":  "رواية",
+        "description":  "رواية عاطفية أو درامية تتناول مشاعر قوية ومصيرية.",
+        "link":  "/book.html?id=207"
+    },
+    {
+        "id":  "208",
+        "title":  "انترستا 1",
+        "price":  65,
+        "image":  "images/208.jpg",
+        "category":  "رواية خيال",
+        "description":  "الجزء الأول من سلسلة روايات خيالية أو مغامرات.",
+        "link":  "/book.html?id=208"
+    },
+    {
+        "id":  "209",
+        "title":  "حالات نادره ٤",
+        "price":  65,
+        "image":  "images/209.jpg",
+        "category":  "علم نفس",
+        "description":  "الجزء الرابع من سلسلة تتناول حالات نفسية أو طبية نادرة وغامضة.",
+        "link":  "/book.html?id=209"
+    },
+    {
+        "id":  "210",
+        "title":  "حالات نادره ٥",
+        "price":  65,
+        "image":  "images/210.jpg",
+        "category":  "علم نفس",
+        "description":  "الجزء الخامس من سلسلة تتناول حالات نفسية أو طبية نادرة وغامضة.",
+        "link":  "/book.html?id=210"
+    },
+    {
+        "id":  "211",
+        "title":  "حالات نادره ٦",
+        "price":  65,
+        "image":  "images/211.jpg",
+        "category":  "علم نفس",
+        "description":  "الجزء السادس من سلسلة تتناول حالات نفسية أو طبية نادرة وغامضة.",
+        "link":  "/book.html?id=211"
+    },
+    {
+        "id":  "212",
+        "title":  "كيف تكسب الاصدقاء و توثر علي الآخرين",
+        "price":  65,
+        "image":  "images/212.jpg",
+        "category":  "تطوير الذات",
+        "description":  "دليل شهير في العلاقات والتأثير الاجتماعي للكاتب ديل كارنيجي.",
+        "link":  "/book.html?id=212"
+    },
+    {
+        "id":  "213",
+        "title":  "عندما يعرف الشيطان",
+        "price":  65,
+        "image":  "images/213.jpg",
+        "category":  "رواية",
+        "description":  "رواية مثيرة أو مرعبة تتناول صراع الخير والشر ومعرفة الأسرار المظلمة.",
+        "link":  "/book.html?id=213"
+    },
+    {
+        "id":  "214",
+        "title":  "حالات نادرة ٧",
+        "price":  65,
+        "image":  "images/214.jpg",
+        "category":  "علم نفس",
+        "description":  "الجزء السابع من سلسلة تتناول حالات نفسية أو طبية نادرة وغامضة.",
+        "link":  "/book.html?id=214"
+    },
+    {
+        "id":  "215",
+        "title":  "مفتقد الحياه",
+        "price":  65,
+        "image":  "images/215.jpg",
+        "category":  "علم نفس وتطوير",
+        "description":  "كتاب عن الشعور بالضياع والبحث عن معنى الحياة.",
+        "link":  "/book.html?id=215"
+    },
+    {
+        "id":  "216",
+        "title":  "اول مرة احسن الظن",
+        "price":  65,
+        "image":  "images/216.jpg",
+        "category":  "دين وروحانيات",
+        "description":  "كتاب يتناول مفهوم حسن الظن بالله وبالناس وتأثيره على الحياة.",
+        "link":  "/book.html?id=216"
+    },
+    {
+        "id":  "217",
+        "title":  "ثاني اثنين",
+        "price":  65,
+        "image":  "images/217.jpg",
+        "category":  "دين وسيرة",
+        "description":  "كتاب أو عمل أدبي يشير إلى قصة الهجرة النبوية وأهمية الصحبة الصالحة.",
+        "link":  "/book.html?id=217"
+    },
+    {
+        "id":  "218",
+        "title":  "التغير يبدا منك",
+        "price":  65,
+        "image":  "images/218.jpg",
+        "category":  "تطوير الذات",
+        "description":  "كتاب تحفيزي يؤكد على أن التغيير الإيجابي يبدأ من الذات.",
+        "link":  "/book.html?id=218"
+    },
+    {
+        "id":  "219",
+        "title":  "ضريح عمرو بن الجن",
+        "price":  65,
+        "image":  "images/219.jpg",
+        "category":  "رعب وإثارة",
+        "description":  "رواية رعب أو غموض تدور حول ضريح شخصية الجن الشهيرة.",
+        "link":  "/book.html?id=219"
+    },
+    {
+        "id":  "221",
+        "title":  "ستوكهولم",
+        "price":  65,
+        "image":  "images/221.jpg",
+        "category":  "رواية",
+        "description":  "رواية تدور أحداثها في مدينة ستوكهولم السويدية، قد تكون بوليسية أو اجتماعية.",
+        "link":  "/book.html?id=221"
+    },
+    {
+        "id":  "222",
+        "title":  "مدرسه الصحابه",
+        "price":  65,
+        "image":  "images/222.jpg",
+        "category":  "دين وسيرة",
+        "description":  "كتاب يتناول منهج تربية وتعليم الصحابة ونماذج من حياتهم.",
+        "link":  "/book.html?id=222"
+    },
+    {
+        "id":  "223",
+        "title":  "نادر فودا 7",
+        "price":  65,
+        "image":  "images/223.jpg",
+        "category":  "رعب وإثارة",
+        "description":  "الجزء السابع من سلسلة روايات نادر فودة.",
+        "link":  "/book.html?id=223"
+    },
+    {
+        "id":  "224",
+        "title":  "قهوه صباحيه مع النفس",
+        "price":  80,
+        "image":  "images/224.jpg",
+        "category":  "تطوير الذات",
+        "description":  "كتاب عن التأمل والهدوء وبناء روتين صباحي إيجابي.",
+        "link":  "/book.html?id=224"
+    },
+    {
+        "id":  "225",
+        "title":  "جاز ورك",
+        "price":  80,
+        "image":  "images/225.jpg",
+        "category":  "إدارة وأعمال",
+        "description":  "كتاب إداري عن كيفية العمل بمرونة وفعالية وبدون تعقيدات.",
+        "link":  "/book.html?id=225"
+    },
+    {
+        "id":  "226",
+        "title":  "نحن نقص عليك",
+        "price":  80,
+        "image":  "images/226.jpg",
+        "category":  "سرد وقصص",
+        "description":  "كتاب يجمع قصصًا وحكايات بتفاصيل شيقة.",
+        "link":  "/book.html?id=226"
+    },
+    {
+        "id":  "227",
+        "title":  "ف دائره الرحله",
+        "price":  80,
+        "image":  "images/227.jpg",
+        "category":  "فلسفة وسرد",
+        "description":  "كتاب عن رحلة البحث عن الذات أو المعنى في الحياة.",
+        "link":  "/book.html?id=227"
+    },
+    {
+        "id":  "228",
+        "title":  "ربيع الاندلس",
+        "price":  80,
+        "image":  "images/228.jpg",
+        "category":  "تاريخ ورواية",
+        "description":  "رواية تاريخية تدور أحداثها في فترة ازدهار الأندلس.",
+        "link":  "/book.html?id=228"
+    },
+    {
+        "id":  "229",
+        "title":  "ابابيل",
+        "price":  80,
+        "image":  "images/229.jpg",
+        "category":  "رواية خيال",
+        "description":  "رواية خيالية أو ملحمية تحمل طابعًا دينيًا أو أسطوريًا.",
+        "link":  "/book.html?id=229"
+    },
+    {
+        "id":  "230",
+        "title":  "اول مره التدبر القرآن",
+        "price":  80,
+        "image":  "images/230.jpg",
+        "category":  "دين وتدبر",
+        "description":  "كتاب إرشادي للمبتدئين في فهم وتدبر آيات القرآن الكريم.",
+        "link":  "/book.html?id=230"
+    },
+    {
+        "id":  "231",
+        "title":  "سقطري",
+        "price":  80,
+        "image":  "images/231.jpg",
+        "category":  "رواية",
+        "description":  "رواية تدور أحداثها في جزيرة سقطرى اليمنية ذات الطبيعة الخاصة.",
+        "link":  "/book.html?id=231"
+    },
+    {
+        "id":  "232",
+        "title":  "والذين معه",
+        "price":  80,
+        "image":  "images/232.jpg",
+        "category":  "دين وسيرة",
+        "description":  "كتاب يتناول سيرة ومواقف الصحابة الكرام الذين كانوا مع النبي.",
+        "link":  "/book.html?id=232"
+    },
+    {
+        "id":  "233",
+        "title":  "ممتلي بالفراغ",
+        "price":  80,
+        "image":  "images/233.jpg",
+        "category":  "علم نفس وفلسفة",
+        "description":  "كتاب يتناول الإحساس بالفراغ الروحي أو العاطفي رغم الامتلاء المادي.",
+        "link":  "/book.html?id=233"
+    },
+    {
+        "id":  "234",
+        "title":  "قربان ال يونس",
+        "price":  80,
+        "image":  "images/234.jpg",
+        "category":  "رواية",
+        "description":  "رواية غامضة أو إثارة تتناول موضوع القرابين والعائلات القديمة.",
+        "link":  "/book.html?id=234"
+    },
+    {
+        "id":  "235",
+        "title":  "بالحق انزلناه",
+        "price":  80,
+        "image":  "images/235.jpg",
+        "category":  "دين وتدبر",
+        "description":  "كتاب ديني يتناول إعجاز القرآن الكريم وأهميته.",
+        "link":  "/book.html?id=235"
+    },
+    {
+        "id":  "236",
+        "title":  "كويكول",
+        "price":  80,
+        "image":  "images/236.jpg",
+        "category":  "رواية خيال",
+        "description":  "رواية خيالية ذات طابع مغامرات أو فانتازيا.",
+        "link":  "/book.html?id=236"
+    },
+    {
+        "id":  "237",
+        "title":  "الجريمه والعقاب الجزء الاول",
+        "price":  80,
+        "image":  "images/237.jpg",
+        "category":  "رواية كلاسيكية",
+        "description":  "الجزء الأول من الرواية الكلاسيكية الشهيرة لدوستويفسكي.",
+        "link":  "/book.html?id=237"
+    },
+    {
+        "id":  "238",
+        "title":  "الجريمه والعقاب الجزء الثاني",
+        "price":  80,
+        "image":  "images/238.jpg",
+        "category":  "رواية كلاسيكية",
+        "description":  "الجزء الثاني من الرواية الكلاسيكية الشهيرة لدوستويفسكي.",
+        "link":  "/book.html?id=238"
+    },
+    {
+        "id":  "239",
+        "title":  "وهج البنفسج 1",
+        "price":  80,
+        "image":  "images/239.jpg",
+        "category":  "رواية",
+        "description":  "الجزء الأول من رواية تحمل عنوانًا شاعريًا ومثيرًا.",
+        "link":  "/book.html?id=239"
+    },
+    {
+        "id":  "240",
+        "title":  "ابادول",
+        "price":  80,
+        "image":  "images/240.jpg",
+        "category":  "رواية",
+        "description":  "رواية ذات طابع غامض أو خيالي تحمل هذا الاسم المميز.",
+        "link":  "/book.html?id=240"
+    },
+    {
+        "id":  "241",
+        "title":  "هذا ما حدث معي",
+        "price":  80,
+        "image":  "images/241.jpg",
+        "category":  "سيرة أو سرد",
+        "description":  "كتاب سردي يروي أحداثًا وتجارب شخصية مؤثرة.",
+        "link":  "/book.html?id=241"
+    },
+    {
+        "id":  "242",
+        "title":  "في قلبي انثي عبريه",
+        "price":  80,
+        "image":  "images/242.jpg",
+        "category":  "رواية",
+        "description":  "رواية مشهورة تتناول قصة فتاة يهودية في بيئة عربية.",
+        "link":  "/book.html?id=242"
+    },
+    {
+        "id":  "243",
+        "title":  "حالات نادره ٢",
+        "price":  80,
+        "image":  "images/243.jpg",
+        "category":  "علم نفس",
+        "description":  "الجزء الثاني من سلسلة تتناول حالات نفسية أو طبية نادرة وغامضة.",
+        "link":  "/book.html?id=243"
+    },
+    {
+        "id":  "244",
+        "title":  "جمره",
+        "price":  80,
+        "image":  "images/244.jpg",
+        "category":  "رواية",
+        "description":  "رواية ذات طابع ناري أو مشتعل بالمشاعر والأحداث.",
+        "link":  "/book.html?id=244"
+    },
+    {
+        "id":  "245",
+        "title":  "خمسون قانونا للحب",
+        "price":  80,
+        "image":  "images/245.jpg",
+        "category":  "علاقات",
+        "description":  "كتاب يتناول أسس وقوانين العلاقات العاطفية والزواج.",
+        "link":  "/book.html?id=245"
+    },
+    {
+        "id":  "246",
+        "title":  "005",
+        "price":  80,
+        "image":  "images/246.jpg",
+        "category":  "رواية",
+        "description":  "رواية غامضة تحمل رقمًا كعنوان، غالبًا ما تكون بوليسية أو خيالية.",
+        "link":  "/book.html?id=246"
+    },
+    {
+        "id":  "247",
+        "title":  "ع منهاج النبوة",
+        "price":  80,
+        "image":  "images/247.jpg",
+        "category":  "دين وسيرة",
+        "description":  "كتاب يتناول طريقة حياة النبي وأصحابه في جوانب الحياة المختلفة.",
+        "link":  "/book.html?id=247"
+    },
+    {
+        "id":  "248",
+        "title":  "ف ممر الفئران",
+        "price":  80,
+        "image":  "images/248.jpg",
+        "category":  "رواية",
+        "description":  "رواية ساخرة أو ديستوبية تتناول قضايا اجتماعية وسياسية.",
+        "link":  "/book.html?id=248"
+    },
+    {
+        "id":  "249",
+        "title":  "بيت الخناس ج1",
+        "price":  80,
+        "image":  "images/249.jpg",
+        "category":  "رعب وإثارة",
+        "description":  "الجزء الأول من سلسلة رعب عن بيت مسكون أو غامض.",
+        "link":  "/book.html?id=249"
+    },
+    {
+        "id":  "250",
+        "title":  "الشوك والقرنفل",
+        "price":  80,
+        "image":  "images/250.jpg",
+        "category":  "رواية",
+        "description":  "رواية عاطفية أو درامية تتناول الصراع بين الألم والجمال.",
+        "link":  "/book.html?id=250"
+    },
+    {
+        "id":  "251",
+        "title":  "ازر",
+        "price":  80,
+        "image":  "images/251.jpg",
+        "category":  "رواية خيال",
+        "description":  "رواية خيالية أو فانتازيا تحمل اسمًا مميزًا.",
+        "link":  "/book.html?id=251"
+    },
+    {
+        "id":  "252",
+        "title":  "محاط بالحمقي",
+        "price":  80,
+        "image":  "images/252.jpg",
+        "category":  "تطوير الذات",
+        "description":  "كتاب تطوير ذاتي عن كيفية التعامل مع أنماط الشخصيات المختلفة في العمل والحياة.",
+        "link":  "/book.html?id=252"
+    },
+    {
+        "id":  "253",
+        "title":  "كيف تؤثر ع الآخرين وتكسب الاصدقاء",
+        "price":  70,
+        "image":  "images/253.jpg",
+        "category":  "تطوير الذات",
+        "description":  "كتاب عن مهارات التأثير الاجتماعي وبناء العلاقات (ديل كارنيجي).",
+        "link":  "/book.html?id=253"
+    },
+    {
+        "id":  "254",
+        "title":  "ما رواه البحر",
+        "price":  70,
+        "image":  "images/254.jpg",
+        "category":  "رواية",
+        "description":  "رواية تحمل قصصًا وأسرارًا مستوحاة من البحر والرحلات.",
+        "link":  "/book.html?id=254"
+    },
+    {
+        "id":  "255",
+        "title":  "جثه ف بيت طائر الدودو",
+        "price":  70,
+        "image":  "images/255.jpg",
+        "category":  "رواية بوليسية",
+        "description":  "رواية غموض وجريمة تدور أحداثها في مكان غريب.",
+        "link":  "/book.html?id=255"
+    },
+    {
+        "id":  "256",
+        "title":  "فكر وتصرف كأنك قط",
+        "price":  70,
+        "image":  "images/256.jpg",
+        "category":  "تطوير الذات",
+        "description":  "كتاب تطوير ذاتي يستمد دروسًا في الحياة من سلوكيات القطط.",
+        "link":  "/book.html?id=256"
+    },
+    {
+        "id":  "257",
+        "title":  "السلام عليك ي صاحبي",
+        "price":  70,
+        "image":  "images/257.jpg",
+        "category":  "رسائل وأدب",
+        "description":  "كتاب أدبي يجمع رسائل عن الصداقة والمشاعر الإنسانية.",
+        "link":  "/book.html?id=257"
+    },
+    {
+        "id":  "258",
+        "title":  "إلي المنكسر قلوبهم",
+        "price":  70,
+        "image":  "images/258.jpg",
+        "category":  "علم نفس وتطوير",
+        "description":  "كتاب دعم نفسي وروحي للمصابين بكسر الخاطر أو الحزن.",
+        "link":  "/book.html?id=258"
+    },
+    {
+        "id":  "259",
+        "title":  "ايكادولي",
+        "price":  70,
+        "image":  "images/259.jpg",
+        "category":  "رواية خيال",
+        "description":  "رواية فانتازيا شهيرة للكاتب حنان لاشين.",
+        "link":  "/book.html?id=259"
+    },
+    {
+        "id":  "260",
+        "title":  "واحه يعقوب",
+        "price":  70,
+        "image":  "images/260.jpg",
+        "category":  "رواية",
+        "description":  "رواية تدور أحداثها في واحة أو مكان يحمل سرًا باسم \u0027يعقوب\u0027.",
+        "link":  "/book.html?id=260"
+    },
+    {
+        "id":  "262",
+        "title":  "نادر فوده الرابع",
+        "price":  70,
+        "image":  "images/262.jpg",
+        "category":  "رعب وإثارة",
+        "description":  "الجزء الرابع من سلسلة روايات نادر فودة.",
+        "link":  "/book.html?id=262"
+    },
+    {
+        "id":  "263",
+        "title":  "اول عشرين ساعه",
+        "price":  70,
+        "image":  "images/263.jpg",
+        "category":  "تطوير الذات",
+        "description":  "كتاب عن كيفية اكتساب مهارة جديدة في أقل وقت ممكن.",
+        "link":  "/book.html?id=263"
+    },
+    {
+        "id":  "264",
+        "title":  "ارض زيكولا",
+        "price":  70,
+        "image":  "images/264.jpg",
+        "category":  "رواية خيال",
+        "description":  "رواية خيالية شهيرة تدور في عالم غريب ومختلف.",
+        "link":  "/book.html?id=264"
+    },
+    {
+        "id":  "265",
+        "title":  "خوف الاول",
+        "price":  70,
+        "image":  "images/265.jpg",
+        "category":  "رواية رعب",
+        "description":  "الجزء الأول من سلسلة روايات الرعب والإثارة \u0027خوف\u0027.",
+        "link":  "/book.html?id=265"
+    },
+    {
+        "id":  "266",
+        "title":  "خوف التاني",
+        "price":  70,
+        "image":  "images/266.jpg",
+        "category":  "رواية رعب",
+        "description":  "الجزء الثاني من سلسلة روايات الرعب والإثارة \u0027خوف\u0027.",
+        "link":  "/book.html?id=266"
+    },
+    {
+        "id":  "267",
+        "title":  "خوف التالت",
+        "price":  70,
+        "image":  "images/267.jpg",
+        "category":  "رواية رعب",
+        "description":  "الجزء الثالث من سلسلة روايات الرعب والإثارة \u0027خوف\u0027.",
+        "link":  "/book.html?id=267"
+    },
+    {
+        "id":  "268",
+        "title":  "ابتسم فانت ميت",
+        "price":  70,
+        "image":  "images/268.jpg",
+        "category":  "رواية رعب",
+        "description":  "رواية رعب أو إثارة تحمل هذا العنوان الغامض والمثير.",
+        "link":  "/book.html?id=268"
+    },
+    {
+        "id":  "269",
+        "title":  "قواعد جارتن",
+        "price":  70,
+        "image":  "images/269.jpg",
+        "category":  "رواية خيال",
+        "description":  "رواية فانتازيا للكاتب حنان لاشين.",
+        "link":  "/book.html?id=269"
+    },
+    {
+        "id":  "270",
+        "title":  "العادات الذريه",
+        "price":  70,
+        "image":  "images/270.jpg",
+        "category":  "تطوير الذات",
+        "description":  "كتاب عالمي عن كيفية بناء العادات الجيدة والتخلص من السيئة.",
+        "link":  "/book.html?id=270"
+    },
+    {
+        "id":  "271",
+        "title":  "محاط بالمرضي النفسين",
+        "price":  70,
+        "image":  "images/271.jpg",
+        "category":  "علم نفس",
+        "description":  "كتاب عن كيفية التعامل مع الأشخاص ذوي الاضطرابات النفسية في الحياة اليومية.",
+        "link":  "/book.html?id=271"
+    },
+    {
+        "id":  "272",
+        "title":  "امانوس",
+        "price":  70,
+        "image":  "images/272.jpg",
+        "category":  "رواية خيال",
+        "description":  "رواية فانتازيا للكاتب حنان لاشين.",
+        "link":  "/book.html?id=272"
+    },
+    {
+        "id":  "273",
+        "title":  "اوبال",
+        "price":  70,
+        "image":  "images/273.jpg",
+        "category":  "رواية خيال",
+        "description":  "رواية فانتازيا للكاتب حنان لاشين.",
+        "link":  "/book.html?id=273"
+    },
+    {
+        "id":  "274",
+        "title":  "سيروش",
+        "price":  70,
+        "image":  "images/274.jpg",
+        "category":  "رواية خيال",
+        "description":  "رواية فانتازيا للكاتب حنان لاشين.",
+        "link":  "/book.html?id=274"
+    },
+    {
+        "id":  "275",
+        "title":  "اماريتا",
+        "price":  70,
+        "image":  "images/275.jpg",
+        "category":  "رواية خيال",
+        "description":  "رواية فانتازيا للكاتب عمرو عبد الحميد، تكملة لأرض زيكولا.",
+        "link":  "/book.html?id=275"
+    },
+    {
+        "id":  "276",
+        "title":  "دقات الشامو",
+        "price":  70,
+        "image":  "images/276.jpg",
+        "category":  "رواية خيال",
+        "description":  "رواية فانتازيا للكاتب عمرو عبد الحميد.",
+        "link":  "/book.html?id=276"
+    },
+    {
+        "id":  "277",
+        "title":  "امواج اكما",
+        "price":  70,
+        "image":  "images/277.jpg",
+        "category":  "رواية خيال",
+        "description":  "رواية فانتازيا للكاتب عمرو عبد الحميد.",
+        "link":  "/book.html?id=277"
+    },
+    {
+        "id":  "278",
+        "title":  "قوانين التحرر من الصراع النفسي",
+        "price":  70,
+        "image":  "images/278.jpg",
+        "category":  "علم نفس",
+        "description":  "كتاب نفسي عن كيفية التخلص من الصراعات والقيود الداخلية.",
+        "link":  "/book.html?id=278"
+    },
+    {
+        "id":  "279",
+        "title":  "حديث المساء",
+        "price":  70,
+        "image":  "images/279.jpg",
+        "category":  "أدب وسرد",
+        "description":  "مجموعة من المقالات أو الخواطر تتناول موضوعات حياتية وفكرية.",
+        "link":  "/book.html?id=279"
+    },
+    {
+        "id":  "280",
+        "title":  "حديث الصباح",
+        "price":  70,
+        "image":  "images/280.jpg",
+        "category":  "أدب وسرد",
+        "description":  "مجموعة من المقالات أو الخواطر لتشجيع القارئ على بداية اليوم.",
+        "link":  "/book.html?id=280"
+    },
+    {
+        "id":  "281",
+        "title":  "فتاه اللياقه الزرقاء",
+        "price":  70,
+        "image":  "images/281.jpg",
+        "category":  "رواية",
+        "description":  "رواية عن فتاة رياضية أو ذات طابع اجتماعي خاص.",
+        "link":  "/book.html?id=281"
+    },
+    {
+        "id":  "282",
+        "title":  "قضيه لوز مر",
+        "price":  70,
+        "image":  "images/282.jpg",
+        "category":  "رواية بوليسية",
+        "description":  "رواية بوليسية غامضة تتناول قضية مسمومة.",
+        "link":  "/book.html?id=282"
+    },
+    {
+        "id":  "283",
+        "title":  "قضيه ست الحسن",
+        "price":  70,
+        "image":  "images/283.jpg",
+        "category":  "رواية بوليسية",
+        "description":  "رواية بوليسية تدور حول جريمة أو شخصية غامضة تحمل هذا الاسم.",
+        "link":  "/book.html?id=283"
+    },
+    {
+        "id":  "284",
+        "title":  "اول مره اتلذذ الدعاء",
+        "price":  70,
+        "image":  "images/284.jpg",
+        "category":  "دين وروحانيات",
+        "description":  "كتاب روحي عن كيفية الاستمتاع بالدعاء والخشوع فيه.",
+        "link":  "/book.html?id=284"
+    },
+    {
+        "id":  "285",
+        "title":  "رساله من الصحابه",
+        "price":  70,
+        "image":  "images/285.jpg",
+        "category":  "دين وسيرة",
+        "description":  "كتاب يتناول مواقف ودروس من حياة الصحابة في شكل رسائل معاصرة.",
+        "link":  "/book.html?id=285"
+    },
+    {
+        "id":  "286",
+        "title":  "عمر إبن الخطاب",
+        "price":  70,
+        "image":  "images/286.jpg",
+        "category":  "سيرة وتاريخ",
+        "description":  "كتاب يتناول سيرة وحياة الخليفة الراشد عمر بن الخطاب.",
+        "link":  "/book.html?id=286"
+    },
+    {
+        "id":  "287",
+        "title":  "رساله من النبي",
+        "price":  70,
+        "image":  "images/287.jpg",
+        "category":  "دين وسيرة",
+        "description":  "كتاب يتناول توجيهات ووصايا النبي موجهة للمسلم المعاصر.",
+        "link":  "/book.html?id=287"
+    },
+    {
+        "id":  "288",
+        "title":  "رسائل من القرآن",
+        "price":  70,
+        "image":  "images/288.jpg",
+        "category":  "دين وتدبر",
+        "description":  "كتاب يتناول رسائل وعبر منتقاة من آيات القرآن الكريم.",
+        "link":  "/book.html?id=288"
+    },
+    {
+        "id":  "289",
+        "title":  "مع النبي",
+        "price":  70,
+        "image":  "images/289.jpg",
+        "category":  "دين وسيرة",
+        "description":  "كتاب يتناول مواقف من سيرة النبي محمد بأسلوب قصصي.",
+        "link":  "/book.html?id=289"
+    },
+    {
+        "id":  "290",
+        "title":  "سندريلا سكريت",
+        "price":  70,
+        "image":  "images/290.jpg",
+        "category":  "رواية",
+        "description":  "رواية عاطفية أو درامية تحمل طابعًا سريًا ومغامرات.",
+        "link":  "/book.html?id=290"
+    },
+    {
+        "id":  "291",
+        "title":  "عقدك النفسيه سجنك الابدي",
+        "price":  70,
+        "image":  "images/291.jpg",
+        "category":  "علم نفس",
+        "description":  "كتاب عن كيفية التحرر من العقد والمشاكل النفسية التي تقيد الإنسان.",
+        "link":  "/book.html?id=291"
+    },
+    {
+        "id":  "292",
+        "title":  "ابي الذي اكره",
+        "price":  70,
+        "image":  "images/292.jpg",
+        "category":  "رواية",
+        "description":  "رواية درامية عن علاقة متوترة بين الأب وابنه/ابنته.",
+        "link":  "/book.html?id=292"
+    },
+    {
+        "id":  "293",
+        "title":  "انتخرستوس2",
+        "price":  70,
+        "image":  "images/293.jpg",
+        "category":  "رواية خيال",
+        "description":  "الجزء الثاني من رواية \u0027أنتِخريستوس\u0027 ذات الطابع الديني/الأسطوري المثير للجدل.",
+        "link":  "/book.html?id=293"
+    },
+    {
+        "id":  "294",
+        "title":  "فن قرآه العقول",
+        "price":  70,
+        "image":  "images/294.jpg",
+        "category":  "تطوير الذات",
+        "description":  "كتاب عن كيفية تحليل الشخصيات وفهم أفكار الآخرين.",
+        "link":  "/book.html?id=294"
+    },
+    {
+        "id":  "295",
+        "title":  "ليطمئن قلبي",
+        "price":  70,
+        "image":  "images/295.jpg",
+        "category":  "دين وروحانيات",
+        "description":  "كتاب ديني أو روحي عن السكينة والطمأنينة القلبية.",
+        "link":  "/book.html?id=295"
+    },
+    {
+        "id":  "296",
+        "title":  "الجساسه",
+        "price":  70,
+        "image":  "images/296.jpg",
+        "category":  "رواية",
+        "description":  "رواية غامضة أو دينية تتعلق بقصة الجساسة المرتبطة بفتنة المسيح الدجال.",
+        "link":  "/book.html?id=296"
+    },
+    {
+        "id":  "297",
+        "title":  "جومانه",
+        "price":  70,
+        "image":  "images/297.jpg",
+        "category":  "رواية",
+        "description":  "رواية تحمل هذا الاسم المميز، وقد تكون عاطفية أو اجتماعية.",
+        "link":  "/book.html?id=297"
+    },
+    {
+        "id":  "298",
+        "title":  "السجل",
+        "price":  70,
+        "image":  "images/298.jpg",
+        "category":  "رواية",
+        "description":  "رواية تتناول أسرارًا محفوظة أو مذكرات شخصية هامة.",
+        "link":  "/book.html?id=298"
+    },
+    {
+        "id":  "299",
+        "title":  "نوح المذبوح",
+        "price":  70,
+        "image":  "images/299.jpg",
+        "category":  "رواية رعب",
+        "description":  "رواية رعب أو جريمة تحمل طابعًا مظلمًا.",
+        "link":  "/book.html?id=299"
+    },
+    {
+        "id":  "300",
+        "title":  "أذكار الموت",
+        "price":  70,
+        "image":  "images/300.jpg",
+        "category":  "دين وروحانيات",
+        "description":  "كتاب ديني يتناول الأدعية والأذكار المتعلقة بالموت وما بعده.",
+        "link":  "/book.html?id=300"
+    },
+    {
+        "id":  "302",
+        "title":  "قوه عقلك الباطن",
+        "price":  70,
+        "image":  "images/302.jpg",
+        "category":  "تطوير الذات",
+        "description":  "كتاب شهير عن كيفية استغلال طاقة العقل الباطن لتحقيق الأهداف.",
+        "link":  "/book.html?id=302"
+    },
+    {
+        "id":  "303",
+        "title":  "علاقات خطره",
+        "price":  70,
+        "image":  "images/303.jpg",
+        "category":  "علاقات",
+        "description":  "كتاب عن العلاقات السامة وكيفية التعامل معها أو تجنبها.",
+        "link":  "/book.html?id=303"
+    },
+    {
+        "id":  "304",
+        "title":  "فتي الاندلس",
+        "price":  70,
+        "image":  "images/304.jpg",
+        "category":  "رواية تاريخية",
+        "description":  "رواية تاريخية تتناول سيرة شاب في فترة الأندلس.",
+        "link":  "/book.html?id=304"
+    },
+    {
+        "id":  "305",
+        "title":  "السماح بالرحيل",
+        "price":  70,
+        "image":  "images/305.jpg",
+        "category":  "تطوير الذات",
+        "description":  "كتاب نفسي عن أهمية التخلي عن الماضي والمشاعر السلبية للمضي قدمًا.",
+        "link":  "/book.html?id=305"
+    },
+    {
+        "id":  "306",
+        "title":  "نظريه الفستق 1",
+        "price":  70,
+        "image":  "images/306.jpg",
+        "category":  "تطوير الذات",
+        "description":  "الجزء الأول من كتاب تطوير ذاتي شهير يقدم أفكارًا ونصائح بطريقة مبسطة.",
+        "link":  "/book.html?id=306"
+    },
+    {
+        "id":  "307",
+        "title":  "نظريه الفستق 2",
+        "price":  70,
+        "image":  "images/307.jpg",
+        "category":  "تطوير الذات",
+        "description":  "الجزء الثاني من كتاب تطوير ذاتي شهير يقدم أفكارًا ونصائح بطريقة مبسطة.",
+        "link":  "/book.html?id=307"
+    },
+    {
+        "id":  "308",
+        "title":  "الخروج عن النص من جديد",
+        "price":  70,
+        "image":  "images/308.jpg",
+        "category":  "تطوير الذات",
+        "description":  "كتاب عن التفكير الإبداعي وكسر القواعد التقليدية.",
+        "link":  "/book.html?id=308"
+    },
+    {
+        "id":  "309",
+        "title":  "سأخبرك شي يجعلك سعيدا",
+        "price":  70,
+        "image":  "images/309.jpg",
+        "category":  "تطوير الذات",
+        "description":  "كتاب تحفيزي عن اكتشاف مصادر السعادة الحقيقية في الحياة.",
+        "link":  "/book.html?id=309"
+    },
+    {
+        "id":  "310",
+        "title":  "لوكانده بئر الوطاويط",
+        "price":  70,
+        "image":  "images/310.jpg",
+        "category":  "رواية رعب",
+        "description":  "رواية رعب تدور أحداثها في مكان غامض ومخيف.",
+        "link":  "/book.html?id=310"
+    },
+    {
+        "id":  "311",
+        "title":  "ردني اليك",
+        "price":  70,
+        "image":  "images/311.jpg",
+        "category":  "رواية",
+        "description":  "رواية عاطفية أو درامية تتناول موضوع العودة والتوبة.",
+        "link":  "/book.html?id=311"
+    },
+    {
+        "id":  "312",
+        "title":  "سرداب قصر البارون",
+        "price":  70,
+        "image":  "images/312.jpg",
+        "category":  "رواية رعب",
+        "description":  "رواية رعب أو غموض تدور أحداثها في قصر البارون الشهير.",
+        "link":  "/book.html?id=312"
+    },
+    {
+        "id":  "313",
+        "title":  "وادي الذئاب المنسيه",
+        "price":  70,
+        "image":  "images/313.jpg",
+        "category":  "رواية",
+        "description":  "رواية مغامرات أو خيال تدور في وادي معزول وغامض.",
+        "link":  "/book.html?id=313"
+    },
+    {
+        "id":  "314",
+        "title":  "ماجدولين",
+        "price":  70,
+        "image":  "images/314.jpg",
+        "category":  "رواية كلاسيكية",
+        "description":  "رواية رومانسية كلاسيكية شهيرة للكاتب المنفلوطي.",
+        "link":  "/book.html?id=314"
+    },
+    {
+        "id":  "315",
+        "title":  "وهج البنفسج 2",
+        "price":  70,
+        "image":  "images/315.jpg",
+        "category":  "رواية",
+        "description":  "الجزء الثاني من رواية تحمل عنوانًا شاعريًا ومثيرًا.",
+        "link":  "/book.html?id=315"
+    },
+    {
+        "id":  "316",
+        "title":  "نادر فوده الجزء ٨",
+        "price":  70,
+        "image":  "images/316.jpg",
+        "category":  "رعب وإثارة",
+        "description":  "الجزء الثامن من سلسلة روايات نادر فودة.",
+        "link":  "/book.html?id=316"
+    },
+    {
+        "id":  "317",
+        "title":  "العادات السبع للناس",
+        "price":  70,
+        "image":  "images/317.jpg",
+        "category":  "تطوير الذات",
+        "description":  "كتاب شهير عن العادات السبع للأشخاص الأكثر فعالية.",
+        "link":  "/book.html?id=317"
+    },
+    {
+        "id":  "319",
+        "title":  "العوسج",
+        "price":  70,
+        "image":  "images/319.jpg",
+        "category":  "رواية",
+        "description":  "رواية ذات طابع درامي أو اجتماعي قوي.",
+        "link":  "/book.html?id=319"
+    },
+    {
+        "id":  "320",
+        "title":  "انت قوة مذهله",
+        "price":  70,
+        "image":  "images/320.jpg",
+        "category":  "تطوير الذات",
+        "description":  "كتاب تحفيزي عن اكتشاف القوة الكامنة داخل الذات.",
+        "link":  "/book.html?id=320"
+    },
+    {
+        "id":  "321",
+        "title":  "نطفه",
+        "price":  70,
+        "image":  "images/321.jpg",
+        "category":  "رواية",
+        "description":  "رواية ذات طابع فلسفي أو اجتماعي عميق.",
+        "link":  "/book.html?id=321"
+    },
+    {
+        "id":  "322",
+        "title":  "المرتد",
+        "price":  70,
+        "image":  "images/322.jpg",
+        "category":  "رواية",
+        "description":  "رواية تتناول مواضيع دينية أو فكرية حساسة.",
+        "link":  "/book.html?id=322"
+    },
+    {
+        "id":  "323",
+        "title":  "حالات نادره ١",
+        "price":  70,
+        "image":  "images/323.jpg",
+        "category":  "علم نفس",
+        "description":  "الجزء الأول من سلسلة تتناول حالات نفسية أو طبية نادرة وغامضة.",
+        "link":  "/book.html?id=323"
+    },
+    {
+        "id":  "324",
+        "title":  "حالات نادره ٣",
+        "price":  70,
+        "image":  "images/324.jpg",
+        "category":  "علم نفس",
+        "description":  "الجزء الثالث من سلسلة تتناول حالات نفسية أو طبية نادرة وغامضة.",
+        "link":  "/book.html?id=324"
+    },
+    {
+        "id":  "325",
+        "title":  "كيف تبيع أي شيء لأي إنسان",
+        "price":  70,
+        "image":  "images/325.jpg",
+        "category":  "تسويق ومبيعات",
+        "description":  "كتاب عن تقنيات وأساليب الإقناع والبيع الفعال.",
+        "link":  "/book.html?id=325"
+    },
+    {
+        "id":  "326",
+        "title":  "قريبا سيحل الظلام",
+        "price":  70,
+        "image":  "images/326.jpg",
+        "category":  "رواية رعب",
+        "description":  "رواية رعب أو إثارة تحمل طابعًا سوداويًا.",
+        "link":  "/book.html?id=326"
+    },
+    {
+        "id":  "327",
+        "title":  "صلاة ممسوس",
+        "price":  70,
+        "image":  "images/327.jpg",
+        "category":  "رواية رعب",
+        "description":  "رواية رعب أو إثارة تتعلق بالجان والأرواح.",
+        "link":  "/book.html?id=327"
+    },
+    {
+        "id":  "328",
+        "title":  "على خطي الرسول",
+        "price":  70,
+        "image":  "images/328.jpg",
+        "category":  "دين وسيرة",
+        "description":  "كتاب يتناول كيفية تطبيق سنة النبي محمد في الحياة اليومية.",
+        "link":  "/book.html?id=328"
+    },
+    {
+        "id":  "329",
+        "title":  "ليله في جهنم",
+        "price":  70,
+        "image":  "images/329.jpg",
+        "category":  "رواية رعب",
+        "description":  "سلسلة قصصية مرعبة تتناول تجارب شخصية أو حكايات عن الجحيم.",
+        "link":  "/book.html?id=329"
+    },
+    {
+        "id":  "330",
+        "title":  "ايام مع الباشا",
+        "price":  70,
+        "image":  "images/330.jpg",
+        "category":  "رواية",
+        "description":  "رواية اجتماعية أو تاريخية تتناول الحياة بجوار شخصية ذات نفوذ (الباشا).",
+        "link":  "/book.html?id=330"
+    },
+    {
+        "id":  "331",
+        "title":  "نصف ميت",
+        "price":  70,
+        "image":  "images/331.jpg",
+        "category":  "رواية رعب",
+        "description":  "رواية رعب أو إثارة تتعلق بالموت والأحياء الأموات.",
+        "link":  "/book.html?id=331"
+    },
+    {
+        "id":  "332",
+        "title":  "العائد",
+        "price":  70,
+        "image":  "images/332.jpg",
+        "category":  "رواية",
+        "description":  "رواية تتناول عودة شخص غائب أو قصة عودة إلى الماضي.",
+        "link":  "/book.html?id=332"
+    },
+    {
+        "id":  "333",
+        "title":  "ثم لم يبقي",
+        "price":  70,
+        "image":  "images/333.jpg",
+        "category":  "رواية",
+        "description":  "رواية تحمل طابعًا حزينًا أو فلسفيًا عن النهاية والبقاء.",
+        "link":  "/book.html?id=333"
+    },
+    {
+        "id":  "334",
+        "title":  "للرجال فقط",
+        "price":  70,
+        "image":  "images/334.jpg",
+        "category":  "تطوير الذات",
+        "description":  "كتاب موجه للرجال حول قضايا الذات والعمل والعلاقات.",
+        "link":  "/book.html?id=334"
+    },
+    {
+        "id":  "335",
+        "title":  "الرجال من المريخ",
+        "price":  70,
+        "image":  "images/335.jpg",
+        "category":  "علاقات",
+        "description":  "كتاب شهير عن الفروقات بين الرجال والنساء في العلاقات.",
+        "link":  "/book.html?id=335"
+    },
+    {
+        "id":  "336",
+        "title":  "منزل ابو خطوه",
+        "price":  70,
+        "image":  "images/336.jpg",
+        "category":  "رواية",
+        "description":  "رواية تدور أحداثها في منزل معين يحمل أسرارًا.",
+        "link":  "/book.html?id=336"
+    },
+    {
+        "id":  "340",
+        "title":  "جرعه انوثه",
+        "price":  70,
+        "image":  "images/340.jpg",
+        "category":  "تطوير الذات",
+        "description":  "كتاب موجه للنساء عن اكتشاف وتقوية الجانب الأنثوي.",
+        "link":  "/book.html?id=340"
+    },
+    {
+        "id":  "341",
+        "title":  "30 يوم ضدد الاكتئاب",
+        "price":  70,
+        "image":  "images/341.jpg",
+        "category":  "علم نفس وتطوير",
+        "description":  "دليل عملي يقدم خطة 30 يومًا لمكافحة الاكتئاب وتحسين المزاج.",
+        "link":  "/book.html?id=341"
+    },
+    {
+        "id":  "342",
+        "title":  "توقف عن اهدار حياتك",
+        "price":  70,
+        "image":  "images/342.jpg",
+        "category":  "تطوير الذات",
+        "description":  "كتاب تحفيزي عن أهمية إدارة الوقت واستغلال الحياة بشكل أفضل.",
+        "link":  "/book.html?id=342"
+    },
+    {
+        "id":  "343",
+        "title":  "11:11",
+        "price":  70,
+        "image":  "images/343.jpg",
+        "category":  "رواية",
+        "description":  "رواية تتناول أرقامًا غامضة أو مواعيد مصيرية.",
+        "link":  "/book.html?id=343"
+    },
+    {
+        "id":  "344",
+        "title":  "ربيهم بايه او حديث",
+        "price":  70,
+        "image":  "images/344.jpg",
+        "category":  "تربية ودين",
+        "description":  "كتاب تربوي عن كيفية توجيه الأطفال باستخدام الآيات والأحاديث النبوية.",
+        "link":  "/book.html?id=344"
+    },
+    {
+        "id":  "345",
+        "title":  "العادات السبع للمراهقين",
+        "price":  70,
+        "image":  "images/345.jpg",
+        "category":  "تطوير الذات وتربية",
+        "description":  "نسخة موجهة للمراهقين من كتاب \u0027العادات السبع للأشخاص الأكثر فعالية\u0027.",
+        "link":  "/book.html?id=345"
+    }
 ]
