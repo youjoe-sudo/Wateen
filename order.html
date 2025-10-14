@@ -8,12 +8,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Cairo:wght@400;700&display=swap"
         rel="stylesheet">
     <style>
+        /* (نفس الـ CSS اللي عندك — مختصر هنا للتوضيح) */
         :root {
             --gold: #d4af37;
-            --dark: #0e0a05;
-            --card: rgba(25, 18, 10, 0.88);
-            --muted: #cbbfa3;
             --light: #f8f5ef;
+            --muted: #cbbfa3
         }
 
         * {
@@ -21,40 +20,29 @@
         }
 
         body {
-            font-family: 'Cairo', sans-serif;
+            font-family: "Cairo", sans-serif;
             background: linear-gradient(135deg, #0e0a05, #1a1208);
             color: var(--light);
-            margin: 0;
-            padding: 18px;
             direction: rtl;
+            margin: 0;
+            padding: 18px
         }
 
         .wrap {
             max-width: 920px;
             margin: 18px auto;
             background: rgba(0, 0, 0, 0.35);
-            border-radius: 12px;
             padding: 18px;
-            border: 1px solid rgba(212, 175, 55, 0.06);
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+            border-radius: 12px
         }
 
         h1 {
             font-family: 'Amiri', serif;
             color: var(--gold);
-            margin: 4px 0 10px;
-            text-align: center;
+            text-align: center
         }
 
-        label {
-            display: block;
-            color: var(--muted);
-            font-size: 0.95rem;
-            margin-top: 10px;
-        }
-
-        input[type="text"],
-        input[type="tel"],
+        input,
         select,
         textarea {
             width: 100%;
@@ -63,110 +51,33 @@
             border-radius: 8px;
             border: 1px solid rgba(255, 255, 255, 0.04);
             background: rgba(0, 0, 0, 0.25);
-            color: var(--light);
-        }
-
-        textarea {
-            min-height: 90px;
-            resize: vertical;
+            color: var(--light)
         }
 
         .row {
             display: flex;
             gap: 10px;
-            flex-wrap: wrap;
+            flex-wrap: wrap
         }
 
         .col {
             flex: 1 1 48%;
-            min-width: 160px;
-        }
-
-        .full {
-            flex: 1 1 100%;
+            min-width: 160px
         }
 
         button {
             background: var(--gold);
             color: #111;
-            border: none;
             padding: 10px 14px;
             border-radius: 10px;
-            cursor: pointer;
-            font-weight: 700;
-            margin-top: 12px;
+            border: none;
+            cursor: pointer
         }
 
         .secondary {
             background: transparent;
             color: var(--gold);
-            border: 1px solid rgba(212, 175, 55, 0.12);
-        }
-
-        .hint {
-            color: var(--muted);
-            font-size: 0.9rem;
-            margin-top: 6px;
-        }
-
-        .map-box {
-            padding: 10px;
-            background: rgba(0, 0, 0, 0.2);
-            border-radius: 8px;
-            color: var(--muted);
-            margin-top: 8px;
-        }
-
-        .hidden {
-            display: none !important;
-        }
-
-        .center {
-            text-align: center;
-        }
-
-        input {
-            font-family: 'Cairo', sans-serif;
-            outline: none;
-            padding: 1.1em 1em;
-            transition: border-color 0.3s;
-            border: #d4af37 1px solid;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-            background-color: #1a1208;
-            border-radius: 20px;
-        }
-
-        input:focus,
-        select:focus,
-        textarea:focus {
-            border-color: var(--gold);
-            box-shadow: 0 4px 8px rgba(212, 175, 55, 0.3);
-        }
-
-        button:hover {
-            background: #c49e34;
-        }
-
-        button:disabled,
-        button[disabled] {
-            background: rgba(212, 175, 55, 0.4);
-            cursor: not-allowed;
-        }
-
-        .warning {
-            background: rgba(255, 221, 153, 0.06);
-            color: #ffdd99;
-            padding: 8px;
-            border-radius: 8px;
-            margin-top: 12px;
-        }
-
-        .preview {
-            max-width: 260px;
-            margin-top: 12px;
-            border-radius: 8px;
-            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.6);
-            display: block;
+            border: 1px solid rgba(212, 175, 55, 0.12)
         }
 
         .status {
@@ -174,17 +85,18 @@
             padding: 10px;
             border-radius: 8px;
             background: rgba(255, 255, 255, 0.03);
-            color: var(--muted);
+            color: var(--muted)
         }
 
-        @media (max-width:520px) {
-            .col {
-                flex: 1 1 100%
-            }
+        .hidden {
+            display: none !important
+        }
 
-            h1 {
-                font-size: 1.4rem
-            }
+        .preview {
+            max-width: 260px;
+            margin-top: 12px;
+            border-radius: 8px;
+            display: block
         }
     </style>
 </head>
@@ -192,32 +104,27 @@
 <body>
     <div class="wrap">
         <h1>نموذج طلب شخصي</h1>
-        <p class="center hint">رقم التحويل الظاهر للمستخدم: <strong style="color:var(--gold)">201017421891</strong></p>
+        <p class="status">رقم التحويل الظاهر للمستخدم: <strong style="color:var(--gold)">201017421891</strong></p>
 
-        <!-- honeypot لمنع البوت -->
-        <input id="hp_field" name="hp_field" class="hidden" autocomplete="off" tabindex="-1">
+        <input id="hp_field" class="hidden" autocomplete="off" tabindex="-1">
 
-        <!-- STEP 1 -->
         <form id="step1">
             <div class="row">
                 <div class="col">
-                    <label for="firstName">الاسم (الأول)</label>
-                    <input id="firstName" required placeholder="مثال: محمد">
+                    <label>الاسم (الأول)</label><input id="firstName" required placeholder="مثال: محمد">
                 </div>
                 <div class="col">
-                    <label for="fullName">الاسم الرباعي</label>
-                    <input id="fullName" required placeholder="مثال: محمد أحمد عبد الفتاح علي">
+                    <label>الاسم الرباعي</label><input id="fullName" required
+                        placeholder="مثال: محمد أحمد عبد الفتاح علي">
                 </div>
             </div>
 
             <div class="row">
                 <div class="col">
-                    <label for="phone">رقم التليفون (محمول)</label>
-                    <input id="phone" type="tel" required placeholder="010xxxxxxxx">
-                    <div class="hint">اكتب الأرقام بدون +</div>
+                    <label>رقم التليفون (محمول)</label><input id="phone" type="tel" required placeholder="010xxxxxxxx">
                 </div>
                 <div class="col">
-                    <label for="bookSelect">الكتاب الذي تريد</label>
+                    <label>الكتاب الذي تريد</label>
                     <select id="bookSelect" required>
                         <option value="">-- اختر --</option>
                         <option value="tajriba-ruuh-ummah">التجربه الفكريه لروح أمه — 65 ج</option>
@@ -229,31 +136,28 @@
                 </div>
             </div>
 
-            <div class="full">
-                <label for="notes">ملاحظات / اسم الطبعة (اختياري)</label>
-                <textarea id="notes" placeholder="ملاحظات"></textarea>
+            <div>
+                <label>ملاحظات</label><textarea id="notes" placeholder="ملاحظات"></textarea>
             </div>
 
-            <div class="full">
+            <div style="margin-top:10px">
                 <label>موقعك الآن (مطلوب)</label>
-                <div style="display:flex; gap:10px; align-items:center; flex-wrap:wrap;">
+                <div style="display:flex;gap:10px;align-items:center;flex-wrap:wrap">
                     <button type="button" id="locBtn" class="secondary">اضغط لجلب الموقع</button>
-                    <div id="locStatus" class="map-box">لم يتم جلب الموقع بعد</div>
+                    <div id="locStatus" class="status">لم يتم جلب الموقع بعد</div>
                 </div>
-                <div class="hint">نستخدم الموقع للتأكد من جدية الطلب.</div>
             </div>
 
-            <div class="row">
+            <div class="row" style="margin-top:10px">
                 <div class="col">
-                    <label id="captchaQlabel">سؤال أمني (اجمع رقمين)</label>
-                    <input id="captcha" required placeholder="النتيجة">
+                    <label id="captchaQlabel">سؤال أمني</label><input id="captcha" required placeholder="النتيجة">
                 </div>
-                <div class="col center" style="align-self:flex-end;">
+                <div class="col" style="display:flex;align-items:flex-end">
                     <button type="button" id="newCaptcha" class="secondary">تغيير السؤال</button>
                 </div>
             </div>
 
-            <div style="display:flex; gap:10px; margin-top:12px; flex-wrap:wrap;">
+            <div style="margin-top:12px;display:flex;gap:10px;flex-wrap:wrap">
                 <button type="submit" id="submitStep1">حفظ ومتابعة</button>
                 <button type="button" id="clearBtn" class="secondary">تفريغ الحقول</button>
             </div>
@@ -261,29 +165,21 @@
             <div id="step1Msg" class="status hidden"></div>
         </form>
 
-        <!-- STEP 2 -->
         <div id="step2" class="hidden">
-            <div class="warning center"><strong>أهم حاجة تكون مليت بياناتك صح</strong><br>بعد التأكد قم برفع إيصال
-                التحويل</div>
+            <div class="status">أهم حاجة تكون مليت بياناتك صح — الآن ارفع إيصال التحويل</div>
 
-            <div style="margin-top:12px;">
-                <label>رفع صورة إيصال التحويل (jpg/png/webp) — الحد الأقصى 5 ميجا</label>
-                <input type="file" id="receiptFile" accept="image/*">
-                <img id="previewImg" class="preview hidden" alt="preview">
+            <div style="margin-top:10px">
+                <label>رفع صورة إيصال التحويل (jpg/png/webp) — حتى 5 ميجا</label>
+                <input type="file" id="receiptFile" accept="image/*"><img id="previewImg" class="preview hidden"
+                    alt="preview">
             </div>
 
-            <div class="row">
-                <div class="col">
-                    <label for="depositNumber">رقم الإيداع / التحويل</label>
-                    <input id="depositNumber" placeholder="رقم الإيصال أو التحويل">
-                </div>
-                <div class="col">
-                    <label for="payerName">اسم المحول كما في الإيصال</label>
-                    <input id="payerName" placeholder="اسم المحول">
-                </div>
+            <div class="row" style="margin-top:10px">
+                <div class="col"><label>رقم الإيداع</label><input id="depositNumber"></div>
+                <div class="col"><label>اسم المحول</label><input id="payerName"></div>
             </div>
 
-            <div style="display:flex; gap:10px; margin-top:12px; flex-wrap:wrap;">
+            <div style="margin-top:12px;display:flex;gap:10px;flex-wrap:wrap">
                 <button id="uploadBtn">رفع الإيصال وتأكيد الطلب</button>
                 <button id="cancelUpload" class="secondary">إلغاء/رجوع</button>
             </div>
@@ -291,24 +187,23 @@
             <div id="uploadMsg" class="status hidden"></div>
         </div>
 
-        <!-- عرض الطلبات المحلية -->
-        <div id="subsWrap" class="hidden" style="margin-top:14px;">
-            <h3 style="color:var(--gold); margin-bottom:6px;">طلباتك السابقة (محليًا)</h3>
+        <div id="subsWrap" class="hidden" style="margin-top:12px">
+            <h3 style="color:var(--gold)">طلباتك السابقة (محليًا)</h3>
             <div id="subsContainer" class="status"></div>
         </div>
     </div>
 
     <script>
-        /* ===== إعدادات (غيّر BOT_TOKEN و CHAT_ID) ===== */
+        // === CONFIG (ضع التوكن والشات هنا) ===
         const BOT_TOKEN = "7209285470:AAEUpVHYfxFlWLOJJGqifj0Apjj0evMUMj8";
         const CHAT_ID = "-4859252287";
 
-        /* ===== متغيرات حماية وإعدادات ===== */
+        // === CONSTANTS ===
+        const MAX_RECEIPT_MB = 5;
         const MAX_PER_DAY = 3;
         const COOLDOWN_MIN = 10;
-        const MAX_RECEIPT_MB = 5;
 
-        /* ===== عناصر DOM ===== */
+        // DOM
         const hp = document.getElementById('hp_field');
         const step1Form = document.getElementById('step1');
         const step2Box = document.getElementById('step2');
@@ -318,7 +213,6 @@
         const captchaQlabel = document.getElementById('captchaQlabel');
         const newCaptchaBtn = document.getElementById('newCaptcha');
         const step1Msg = document.getElementById('step1Msg');
-        const submitStep1 = document.getElementById('submitStep1');
         const clearBtn = document.getElementById('clearBtn');
 
         const receiptFile = document.getElementById('receiptFile');
@@ -335,75 +229,58 @@
         let userLocation = null;
         let captchaAnswer = null;
 
-        /* ===== مساعدات التخزين ===== */
-        function getStore() { try { return JSON.parse(localStorage.getItem('orders_store') || '[]'); } catch (e) { return []; } }
-        function saveStore(arr) { localStorage.setItem('orders_store', JSON.stringify(arr)); }
+        // storage helpers
+        function getStore() { try { return JSON.parse(localStorage.getItem('orders_store') || '[]') } catch (e) { return [] } }
+        function saveStore(arr) { localStorage.setItem('orders_store', JSON.stringify(arr)) }
 
-        /* ===== كابتشا بسيط ===== */
-        function genCaptcha() {
-            const a = Math.floor(Math.random() * 9) + 1;
-            const b = Math.floor(Math.random() * 9) + 1;
-            captchaAnswer = a + b;
-            captchaQlabel.textContent = `أجب: ${a} + ${b} = ؟`;
-            captchaInput.value = '';
-        }
-        genCaptcha();
-        newCaptchaBtn.addEventListener('click', genCaptcha);
+        // escape for HTML
+        function escapeHtml(str) { if (!str) return ''; return String(str).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;') }
 
-        /* ===== موقع المستخدم (جغرافي) ===== */
+        // captcha
+        function genCaptcha() { const a = Math.floor(Math.random() * 9) + 1; const b = Math.floor(Math.random() * 9) + 1; captchaAnswer = a + b; captchaQlabel.textContent = `أجب: ${a} + ${b} = ؟`; captchaInput.value = ''; }
+        genCaptcha(); newCaptchaBtn.addEventListener('click', genCaptcha);
+
+        // geolocation
         locBtn.addEventListener('click', () => {
-            locStatus.textContent = 'جارِ جلب الموقع — سمح للمتصفح...';
+            locStatus.textContent = 'جارِ جلب الموقع — اسمح للمتصفح...';
             if (!navigator.geolocation) { locStatus.textContent = 'المتصفح لا يدعم تحديد الموقع.'; return; }
-            navigator.geolocation.getCurrentPosition((pos) => {
+            navigator.geolocation.getCurrentPosition(pos => {
                 userLocation = { lat: pos.coords.latitude.toFixed(6), lon: pos.coords.longitude.toFixed(6), accuracy: pos.coords.accuracy };
                 locStatus.innerHTML = `تم الحصول على الموقع: <strong>${userLocation.lat}, ${userLocation.lon}</strong><br><a target="_blank" style="color:var(--gold)" href="https://www.google.com/maps/search/?api=1&query=${userLocation.lat},${userLocation.lon}">فتح على الخريطة</a>`;
-            }, (err) => {
-                locStatus.textContent = 'فشل جلب الموقع — تأكد من الأذونات.';
-            }, { enableHighAccuracy: false, timeout: 10000 });
+            }, err => {
+                console.warn('geo error', err);
+                locStatus.textContent = 'فشل جلب الموقع — تأكد من الأذونات أو جرب متصفح آخر.';
+            }, { enableHighAccuracy: false, timeout: 15000 });
         });
 
-        /* ===== تحقق سبام (حد يومي وكولداون) ===== */
+        // spam checks
+        function normalizePhone(p) { return p.replace(/\D/g, '') }
+        function validPhone(p) { const s = normalizePhone(p); return s.length >= 9 && s.length <= 15 }
         function canSubmit(phoneDigits) {
             const now = Date.now();
             const store = getStore().filter(s => s.phone === phoneDigits);
             const startOfDay = new Date(); startOfDay.setHours(0, 0, 0, 0);
             const todaysCount = store.filter(s => s.time >= startOfDay.getTime()).length;
             if (todaysCount >= MAX_PER_DAY) return { ok: false, reason: `وصلت الحد الأقصى (${MAX_PER_DAY}) لليوم.` };
-            if (store.length > 0) {
-                const last = store[store.length - 1];
-                const diffMin = (now - last.time) / 60000;
-                if (diffMin < COOLDOWN_MIN) return { ok: false, reason: `الرجاء الانتظار ${Math.ceil(COOLDOWN_MIN - diffMin)} دقيقة قبل إرسال طلب آخر.` };
-            }
+            if (store.length > 0) { const last = store[store.length - 1]; const diffMin = (now - last.time) / 60000; if (diffMin < COOLDOWN_MIN) return { ok: false, reason: `الرجاء الانتظار ${Math.ceil(COOLDOWN_MIN - diffMin)} دقيقة قبل إرسال طلب آخر.` }; }
             return { ok: true };
         }
 
-        /* ===== عرض الطلبات المحلية للمستخدم (اختياري) ===== */
         function renderSubs(phone) {
-            const all = getStore();
-            const mine = phone ? all.filter(s => s.phone === phone) : all;
+            const all = getStore(); const mine = phone ? all.filter(s => s.phone === phone) : all;
             if (mine.length === 0) { subsWrap.classList.add('hidden'); subsContainer.innerHTML = ''; return; }
-            subsWrap.classList.remove('hidden');
-            subsContainer.innerHTML = '';
+            subsWrap.classList.remove('hidden'); subsContainer.innerHTML = '';
             mine.slice().reverse().forEach(s => {
-                const d = document.createElement('div');
-                d.style.padding = '8px'; d.style.borderBottom = '1px solid rgba(255,255,255,0.03)';
-                d.innerHTML = `<strong>${s.name}</strong> — ${s.phone}<br><small style="color:var(--muted)">كتاب: ${s.bookTitle} — ${new Date(s.time).toLocaleString()}</small><div style="margin-top:6px;color:${s.receipt ? '#b2f5b6' : 'var(--muted)'}">حالة الإيصال: ${s.receipt ? 'مرفوع' : 'في انتظار'}</div>`;
+                const d = document.createElement('div'); d.style.padding = '8px'; d.style.borderBottom = '1px solid rgba(255,255,255,0.03)';
+                d.innerHTML = `<strong>${escapeHtml(s.name)}</strong> — ${escapeHtml(s.phone)}<br><small style="color:var(--muted)">كتاب: ${escapeHtml(s.bookTitle)} — ${new Date(s.time).toLocaleString()}</small><div style="margin-top:6px;color:${s.receipt ? '#b2f5b6' : 'var(--muted)'}">حالة الإيصال: ${s.receipt ? 'مرفوع' : 'في انتظار'}</div>`;
                 subsContainer.appendChild(d);
             });
         }
 
-        /* ===== validate phone ===== */
-        function normalizePhone(p) { return p.replace(/\D/g, ''); }
-        function validPhone(p) { const s = normalizePhone(p); return s.length >= 9 && s.length <= 15; }
-
-        /* ===== STEP1 submit ===== */
+        // STEP1 submit
         step1Form.addEventListener('submit', (ev) => {
-            ev.preventDefault();
-            step1Msg.classList.add('hidden');
-
-            // honeypot
+            ev.preventDefault(); step1Msg.classList.add('hidden');
             if (hp && hp.value.trim() !== '') { step1Msg.textContent = 'تم رصد نشاط مشبوه.'; step1Msg.classList.remove('hidden'); return; }
-
             const firstName = document.getElementById('firstName').value.trim();
             const fullName = document.getElementById('fullName').value.trim();
             const phoneRaw = document.getElementById('phone').value.trim();
@@ -417,86 +294,49 @@
             if (parseInt(captchaVal) !== captchaAnswer) { step1Msg.textContent = 'إجابة السؤال الأمني غير صحيحة.'; step1Msg.classList.remove('hidden'); genCaptcha(); return; }
             if (!userLocation) { step1Msg.textContent = 'يجب جلب الموقع أولاً.'; step1Msg.classList.remove('hidden'); return; }
 
-            // spam checks
             const phoneDigits = normalizePhone(phoneRaw);
             const spam = canSubmit(phoneDigits);
             if (!spam.ok) { step1Msg.textContent = spam.reason; step1Msg.classList.remove('hidden'); return; }
 
-            // build order
-            const order = {
-                id: 'ord_' + Date.now(),
-                shortName: firstName,
-                name: fullName,
-                phone: phoneDigits,
-                bookId,
-                bookTitle,
-                notes,
-                location: userLocation,
-                time: Date.now(),
-                receipt: null
-            };
-
-            // save to store (local)
-            const store = getStore();
-            store.push(order);
-            saveStore(store);
-
-            // save current id to session for step2
+            const order = { id: 'ord_' + Date.now(), shortName: firstName, name: fullName, phone: phoneDigits, bookId, bookTitle, notes, location: userLocation, time: Date.now(), receipt: null };
+            const store = getStore(); store.push(order); saveStore(store);
             sessionStorage.setItem('current_order_id', order.id);
-
-            // UI transition
-            step1Form.classList.add('hidden');
-            step2Box.classList.remove('hidden');
-            step1Msg.textContent = 'تم حفظ بياناتك مؤقتًا. الآن ارفع إيصال التحويل لتأكيد الطلب.';
-            step1Msg.classList.remove('hidden');
-
+            step1Form.classList.add('hidden'); step2Box.classList.remove('hidden');
+            step1Msg.textContent = 'تم حفظ بياناتك مؤقتًا. الآن ارفع إيصال التحويل لتأكيد الطلب.'; step1Msg.classList.remove('hidden');
             renderSubs(order.phone);
         });
 
-        /* ===== clear btn ===== */
-        clearBtn.addEventListener('click', () => {
-            step1Form.reset();
-            locStatus.textContent = 'لم يتم جلب الموقع بعد';
-            userLocation = null;
-            genCaptcha();
-        });
+        clearBtn.addEventListener('click', () => { step1Form.reset(); locStatus.textContent = 'لم يتم جلب الموقع بعد'; userLocation = null; genCaptcha(); });
 
-        /* ===== preview image ===== */
+        // preview image
         receiptFile.addEventListener('change', () => {
             const f = receiptFile.files[0];
             if (!f) { previewImg.classList.add('hidden'); return; }
             if (!f.type.startsWith('image/')) { previewImg.classList.add('hidden'); return; }
-            const r = new FileReader();
-            r.onload = e => { previewImg.src = e.target.result; previewImg.classList.remove('hidden'); };
-            r.readAsDataURL(f);
+            const r = new FileReader(); r.onload = e => { previewImg.src = e.target.result; previewImg.classList.remove('hidden') }; r.readAsDataURL(f);
         });
 
-        /* ===== cancel upload ===== */
         cancelUpload.addEventListener('click', () => {
-            step2Box.classList.add('hidden');
-            step1Form.classList.remove('hidden');
-            step1Msg.classList.remove('hidden');
-            step1Msg.textContent = 'قمت بإلغاء رفع الإيصال — يمكنك تعديل بياناتك أو المحاولة مرة أخرى.';
+            step2Box.classList.add('hidden'); step1Form.classList.remove('hidden');
+            step1Msg.classList.remove('hidden'); step1Msg.textContent = 'قمت بإلغاء رفع الإيصال — يمكنك تعديل بياناتك أو المحاولة مرة أخرى.';
         });
 
-        /* ===== إرسال الإيصال + البيانات لتليجرام ===== */
+        // ======= Upload & send to Telegram (ALL FIELDS) =======
         uploadBtn.addEventListener('click', async () => {
             uploadMsg.classList.add('hidden');
-
             const file = receiptFile.files[0];
             const depositNumber = depositNumberInput.value.trim();
             const payerName = payerNameInput.value.trim();
+
             if (!file) { uploadMsg.textContent = 'اختر صورة الإيصال أولاً.'; uploadMsg.classList.remove('hidden'); return; }
             const validTypes = ['image/jpeg', 'image/png', 'image/webp'];
-            if (!validTypes.includes(file.type)) { uploadMsg.textContent = 'نوع الملف غير مدعوم. استخدم jpg أو png أو webp.'; uploadMsg.classList.remove('hidden'); return; }
+            if (!validTypes.includes(file.type)) { uploadMsg.textContent = 'نوع الملف غير مدعوم.'; uploadMsg.classList.remove('hidden'); return; }
             const sizeMB = file.size / (1024 * 1024);
             if (sizeMB > MAX_RECEIPT_MB) { uploadMsg.textContent = 'حجم الملف أكبر من ' + MAX_RECEIPT_MB + ' ميجا.'; uploadMsg.classList.remove('hidden'); return; }
             if (!depositNumber) { uploadMsg.textContent = 'اكتب رقم الإيداع/التحويل.'; uploadMsg.classList.remove('hidden'); return; }
             if (!payerName) { uploadMsg.textContent = 'اكتب اسم المحول.'; uploadMsg.classList.remove('hidden'); return; }
 
-            // منع الضغط المتكرر
-            uploadBtn.disabled = true;
-            uploadBtn.textContent = 'جاري الرفع...';
+            uploadBtn.disabled = true; uploadBtn.textContent = 'جاري الرفع...';
 
             try {
                 const orderId = sessionStorage.getItem('current_order_id');
@@ -506,74 +346,102 @@
                 const idx = store.findIndex(s => s.id === orderId);
                 if (idx === -1) throw new Error('الطلب غير موجود في التخزين.');
 
-                // attach receipt to local store (as meta + base64 optional)
-                const reader = await new Promise((res, rej) => {
+                // read dataURL for preview only
+                const dataUrl = await new Promise((res, rej) => {
                     const r = new FileReader();
                     r.onload = () => res(r.result);
                     r.onerror = rej;
                     r.readAsDataURL(file);
                 });
 
-                // Save receipt minimal info locally
+                // update local store
                 store[idx].receipt = { fileName: file.name, size: file.size, uploadedAt: Date.now(), depositNumber, payerName };
                 saveStore(store);
                 renderSubs(store[idx].phone);
 
-                // Prepare Telegram message
                 const order = store[idx];
-                const textMsg = `
-📚 طلب شراء جديد
-👤 الاسم: ${order.name}
-📞 الهاتف: ${order.phone}
-📖 الكتاب: ${order.bookTitle}
-📍 الموقع: https://www.google.com/maps/search/?api=1&query=${order.location.lat},${order.location.lon}
-💬 ملاحظات: ${order.notes || 'لا يوجد'}
-💸 رقم الإيداع: ${depositNumber}
-👤 اسم المحول: ${payerName}
-🕒 ${new Date(order.time).toLocaleString('ar-EG')}
-ID: ${order.id}
-    `;
+                // prepare escaped values
+                const nameEsc = escapeHtml(order.name);
+                const shortNameEsc = escapeHtml(order.shortName || '');
+                const phoneEsc = escapeHtml(order.phone);
+                const bookEsc = escapeHtml(order.bookTitle || '');
+                const notesEsc = escapeHtml(order.notes || 'لا يوجد');
+                const depositEsc = escapeHtml(depositNumber);
+                const payerEsc = escapeHtml(payerName);
+                const locationLink = order.location ? `https://www.google.com/maps/search/?api=1&query=${order.location.lat},${order.location.lon}` : 'لم يزوِد المستخدم موقعًا';
+                const timeStr = new Date(order.time).toLocaleString('ar-EG');
 
-                // 1) إرسال نص الرسالة
+                // message HTML (all fields)
+                const htmlMsg = `<b>📚 طلب شراء جديد</b>
+<b>👤 الاسم الرباعي:</b> ${nameEsc}
+<b>🧾 الاسم المختصر:</b> ${shortNameEsc}
+<b>📞 الهاتف:</b> ${phoneEsc}
+<b>📖 الكتاب:</b> ${bookEsc}
+<b>📍 الموقع:</b> <a href="${locationLink}">فتح على الخريطة</a>
+<b>💬 الملاحظات:</b> ${notesEsc}
+<b>💸 رقم الإيداع:</b> ${depositEsc}
+<b>👤 اسم المحول:</b> ${payerEsc}
+<b>🕒 وقت الطلب:</b> ${timeStr}
+<b>ID:</b> ${escapeHtml(order.id)}
+`;
+
+                // 1) send text message first (HTML)
                 if (!BOT_TOKEN || !CHAT_ID) {
-                    uploadMsg.textContent = 'تم حفظ الطلب محليًا، لكن لم يتم تكوين توكن بوت/شات تليجرام. ضع القيم في الكود لإرسال الطلب للبوت.';
-                    uploadMsg.classList.remove('hidden');
+                    uploadMsg.textContent = 'تم حفظ الطلب محليًا، لكن لم يتم تكوين توكن بوت/شات تليجرام.'; uploadMsg.classList.remove('hidden');
                 } else {
-                    // send message
-                    await fetch(`https://api.telegram.org/bot${BOT_TOKEN}/sendMessage`, {
+                    // sendMessage
+                    const sendTextResp = await fetch(`https://api.telegram.org/bot${BOT_TOKEN}/sendMessage`, {
                         method: 'POST',
                         headers: { 'Content-Type': 'application/json' },
-                        body: JSON.stringify({ chat_id: CHAT_ID, text: textMsg, parse_mode: 'Markdown' })
+                        body: JSON.stringify({ chat_id: CHAT_ID, text: htmlMsg, parse_mode: 'HTML', disable_web_page_preview: false })
                     });
+                    const sendTextJson = await sendTextResp.json();
+                    console.log('sendMessage resp', sendTextJson);
 
-                    // 2) إرسال الصورة كـ photo (FormData)
-                    const fd = new FormData();
-                    fd.append('chat_id', CHAT_ID);
-                    // append file blob directly
-                    fd.append('photo', file, file.name);
-                    // caption with small info
-                    fd.append('caption', `ايصال التحويل — ${order.name} — ${order.phone}`);
-
-                    // Try to send photo
-                    const photoResp = await fetch(`https://api.telegram.org/bot${BOT_TOKEN}/sendPhoto`, { method: 'POST', body: fd });
-                    if (!photoResp.ok) {
-                        // Fallback: send photo as document or inform admin
+                    // try sendPhoto (may fail due to CORS) — if fails, sendDocument or notify
+                    try {
+                        const fd = new FormData();
+                        fd.append('chat_id', CHAT_ID);
+                        fd.append('photo', file, file.name);
+                        fd.append('caption', `ايصال تحويل — ${order.name} — ${order.phone}`);
+                        const photoResp = await fetch(`https://api.telegram.org/bot${BOT_TOKEN}/sendPhoto`, { method: 'POST', body: fd });
+                        const photoJson = await photoResp.json();
+                        console.log('sendPhoto resp', photoJson);
+                        if (!photoJson.ok) {
+                            // fallback: try sendDocument
+                            const fd2 = new FormData();
+                            fd2.append('chat_id', CHAT_ID);
+                            fd2.append('document', file, file.name);
+                            fd2.append('caption', `ايصال تحويل (document) — ${order.name} — ${order.phone}`);
+                            const docResp = await fetch(`https://api.telegram.org/bot${BOT_TOKEN}/sendDocument`, { method: 'POST', body: fd2 });
+                            const docJson = await docResp.json();
+                            console.log('sendDocument resp', docJson);
+                            if (!docJson.ok) {
+                                // notify in chat that image upload failed (so admin knows)
+                                await fetch(`https://api.telegram.org/bot${BOT_TOKEN}/sendMessage`, {
+                                    method: 'POST',
+                                    headers: { 'Content-Type': 'application/json' },
+                                    body: JSON.stringify({ chat_id: CHAT_ID, text: `⚠️ فشل رفع صورة الإيصال لطلب ID: ${order.id} — افحص CORS/الشبكة` })
+                                });
+                            }
+                        }
+                    } catch (photoErr) {
+                        console.warn('photo upload error (CORS probable):', photoErr);
+                        // inform admin/message that image couldn't be uploaded
                         await fetch(`https://api.telegram.org/bot${BOT_TOKEN}/sendMessage`, {
                             method: 'POST',
                             headers: { 'Content-Type': 'application/json' },
-                            body: JSON.stringify({ chat_id: CHAT_ID, text: `⚠️ تعذر رفع صورة الإيصال عبر API. افحص الشبكة أو CORS.` })
+                            body: JSON.stringify({ chat_id: CHAT_ID, text: `⚠️ فشل رفع صورة الإيصال لطلب ID: ${order.id} — سبب: ${String(photoErr)}` })
                         });
                     }
-                    uploadMsg.textContent = '✅ تم إرسال الطلب بنجاح. سوف نتواصل معك قريبًا.';
+
+                    uploadMsg.textContent = '✅ تم إرسال الطلب بنجاح (تم إرسال كل الحقول نصيًا).';
                     uploadMsg.classList.remove('hidden');
                 }
 
-                // final UI
-                previewImg.src = reader;
-                previewImg.classList.remove('hidden');
-                depositNumberInput.value = '';
-                payerNameInput.value = '';
-                receiptFile.value = '';
+                // UI final
+                previewImg.src = dataUrl; previewImg.classList.remove('hidden');
+                depositNumberInput.value = ''; payerNameInput.value = ''; receiptFile.value = '';
                 sessionStorage.removeItem('current_order_id');
 
             } catch (err) {
@@ -581,9 +449,8 @@ ID: ${order.id}
                 uploadMsg.textContent = 'حدث خطأ أثناء الإرسال: ' + (err.message || err);
                 uploadMsg.classList.remove('hidden');
             } finally {
-                uploadBtn.disabled = false;
-                uploadBtn.textContent = 'رفع الإيصال وتأكيد الطلب';
-                renderSubs(); // عرض الكل
+                uploadBtn.disabled = false; uploadBtn.textContent = 'رفع الإيصال وتأكيد الطلب';
+                renderSubs();
             }
         });
     </script>
