@@ -1,118 +1,163 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>وتين | معرض الكتب</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <!-- ===== SEO 기본 Meta ===== -->
+  <meta name="description"
+    content="وتين — معرض كتب يجمع بين الأصالة والمعرفة. تصفح واطلب أفضل الكتب بسهولة عبر واتساب أو النموذج الشخصي." />
+  <meta name="keywords"
+    content="كتب, معرض كتب, وتين, شراء كتب, تنزيل كتب, ادارة كتب, طلب كتاب, محلات كتب, الأدب العربي" />
+  <meta name="author" content="Mohamed Abdelfatah" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://wateen-eta.vercel.app/" />
+
+  <!-- ===== Open Graph (Facebook, WhatsApp previews) ===== -->
+  <meta property="og:locale" content="ar_EG" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="وتين | معرض الكتب" />
+  <meta property="og:description" content="وتين — معرض كتب يجمع بين الأصالة والمعرفة. تصفح واطلب أفضل الكتب بسهولة." />
+  <meta property="og:url" content="https://wateen-eta.vercel.app/" />
+  <meta property="og:site_name" content="وتين" />
+  <!-- ضع صورة Open Graph مناسبة (1200x630 أو قريب) -->
+  <meta property="og:image" content="https://wateen-eta.vercel.app/Wateen-logo.jpg" />
+  <meta property="og:image:alt" content="وتين معرض الكتب" />
+
+  <!-- ===== Twitter Card ===== -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="وتين | معرض الكتب" />
+  <meta name="twitter:description" content="وتين — معرض كتب يجمع بين الأصالة والمعرفة. تصفح واطلب أفضل الكتب بسهولة." />
+  <meta name="twitter:image" content="https://wateen-eta.vercel.app/Wateen-logo.jpg" />
+
+  <!-- ===== Mobile / PWA & Theme ===== -->
+  <meta name="theme-color" content="#0e0a05" />
+  <link rel="manifest" href="/site.webmanifest" />
+
+  <!-- ===== Favicons =====
+       - ضع الملفات التالية في جذر الموقع أو عدّل المسارات
+       - favicon.ico (16x16/32x32), apple-touch-icon.png (180x180), og-image كما فوق -->
+  <link rel="icon" href="/favicon.ico" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+  <meta name="apple-mobile-web-app-title" content="وتين" />
+
+  <!-- ===== Preconnect for fonts (performance) ===== -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <!-- ===== Fonts & CSS ===== -->
   <link href="https://fonts.googleapis.com/css2?family=Amiri&family=Cairo:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+  <!-- ===== Structured Data (JSON-LD) ===== -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BookStore",
+    "name": "وتين",
+    "url": "https://wateen-eta.vercel.app/",
+    "logo": "https://wateen-eta.vercel.app/Wateen-logo.jpg",
+    "description": "وتين — معرض كتب يجمع بين الأصالة والمعرفة.",
+    "sameAs": []
+  }
+  </script>
+
+  <!-- Font Awesome (icons) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+
 </head>
+
 <body>
 
-  <!-- ===== Header ===== -->
+  <!-- your existing page markup (مقتطف) -->
   <header class="fade-in">
-    <img src="Wateen-logo.jpg" alt="وتين" class="logo-img">
+    <img src="Wateen-logo.jpg" alt="وتين" class="logo-img" width="100">
     <h1 class="logo-text">وتين</h1>
     <p class="tagline">اقرأ لتُضيء عقلك، لا لتُكرر الدروب ✨</p>
   </header>
 
-  <!-- ===== Hero Section ===== -->
   <section class="hero slide-up">
     <div class="overlay">
       <h2>مرحبًا بك في <span>وتين</span></h2>
       <p>المعرض الذي يجمع بين الأصالة والمعرفة</p>
       <div class="hero-actions">
+        <a href="order.html" class="btn">اشتري كتاب</a>
         <a href="#books" class="btn">ابدأ التصفح</a>
-        <a href="favorites.html" class="btn2">📁 المحفوظات</a>
+        <a href="favorites.html" class="btn2">📁المحفوظات</a>
         <a href="contact.html" class="btn2">📞 تواصل معنا</a>
-        <a href="library.html" class="btn">📚 المكتبة</a>
+        <a href="library.html" class="btn">📚
+          المكتبة</a>
       </div>
-
     </div>
-  </section>
-
-  <!-- ===== Books Gallery ===== -->
+  </section> <!-- ===== Books Gallery ===== -->
   <section id="books" class="books-gallery fade-in">
     <h2>📚 معرض الكتب</h2>
     <div class="gallery-container">
-
       <div class="books-wrapper">
-
-        <div class="book-card" data-title="التجربه الفكريه لروح أمه" data-price="65" data-img="1.jpg">
-          <img src="images/1.jpg" alt="Book 1">
+        <div class="book-card" data-title="التجربه الفكريه لروح أمه" data-price="65" data-img="1.jpg"> <img
+            src="images/1.jpg" alt="Book 1">
           <h3>التجربه الفكريه لروح أمه</h3>
           <p>السعر: 65 جنيه</p>
-          <div class="card-buttons">
-            <button class="order-btn" data-book="التجربه الفكريه لروح أمه">اطلب الآن</button>
+          <div class="card-buttons"> <button class="order-btn" data-book="التجربه الفكريه لروح أمه">اطلب الآن</button>
             <button class="save-btn"><i class="fas fa-bookmark"></i></button>
           </div>
         </div>
-
-        <div class="book-card" data-title="قهوه باليورانيوم" data-price="65" data-img="2.jpg">
-          <img src="images/2.jpg" alt="Book 2">
+        <div class="book-card" data-title="قهوه باليورانيوم" data-price="65" data-img="2.jpg"> <img src="images/2.jpg"
+            alt="Book 2">
           <h3>قهوه باليورانيوم</h3>
           <p>السعر: 65 جنيه</p>
-          <div class="card-buttons">
-            <button class="order-btn" data-book="قهوه باليورانيوم">اطلب الآن</button>
-            <button class="save-btn"><i class="fas fa-bookmark"></i></button>
-          </div>
+          <div class="card-buttons"> <button class="order-btn" data-book="قهوه باليورانيوم">اطلب الآن</button> <button
+              class="save-btn"><i class="fas fa-bookmark"></i></button> </div>
         </div>
-
-        <div class="book-card" data-title="فن الذكاء الاجتماعي" data-price="60" data-img="3.jpg">
-          <img src="images/3.jpg" alt="Book 3">
+        <div class="book-card" data-title="فن الذكاء الاجتماعي" data-price="60" data-img="3.jpg"> <img
+            src="images/3.jpg" alt="Book 3">
           <h3>فن الذكاء الاجتماعي</h3>
           <p>السعر: 60 جنيه</p>
-          <div class="card-buttons">
-            <button class="order-btn" data-book="فن الذكاء الاجتماعي">اطلب الآن</button>
+          <div class="card-buttons"> <button class="order-btn" data-book="فن الذكاء الاجتماعي">اطلب الآن</button>
             <button class="save-btn"><i class="fas fa-bookmark"></i></button>
           </div>
         </div>
-
-        <div class="book-card" data-title="قرية الشيخ" data-price="65" data-img="4.jpg">
-          <img src="images/4.jpg" alt="Book 4">
+        <div class="book-card" data-title="قرية الشيخ" data-price="65" data-img="4.jpg"> <img src="images/4.jpg"
+            alt="Book 4">
           <h3>قرية الشيخ</h3>
           <p>السعر: 65 جنيه</p>
-          <div class="card-buttons">
-            <button class="order-btn" data-book="قرية الشيخ">اطلب الآن</button>
-            <button class="save-btn"><i class="fas fa-bookmark"></i></button>
-          </div>
+          <div class="card-buttons"> <button class="order-btn" data-book="قرية الشيخ">اطلب الآن</button> <button
+              class="save-btn"><i class="fas fa-bookmark"></i></button> </div>
         </div>
-
-        <div class="book-card" data-title="افكار تجعلك تحب الحياه" data-price="65" data-img="5.jpg">
-          <img src="images/5.jpg" alt="Book 5">
+        <div class="book-card" data-title="افكار تجعلك تحب الحياه" data-price="65" data-img="5.jpg"> <img
+            src="images/5.jpg" alt="Book 5">
           <h3>افكار تجعلك تحب الحياه</h3>
           <p>السعر: 65 جنيه</p>
-          <div class="card-buttons">
-            <button class="order-btn" data-book="افكار تجعلك تحب الحياه">اطلب الآن</button>
+          <div class="card-buttons"> <button class="order-btn" data-book="افكار تجعلك تحب الحياه">اطلب الآن</button>
             <button class="save-btn"><i class="fas fa-bookmark"></i></button>
           </div>
         </div>
-
-
-  </section>
-
-  <!-- ===== Footer ===== -->
+  </section> <!-- ===== Footer ===== -->
   <footer class="fade-in">
     <p>© 2025 <span class="gold">وتين</span> | جميع الحقوق محفوظة.</p>
     <p>“لا نقرأ لنمرّ على الكلمات، بل لتسكننا المعاني.”</p>
-    <p>Made with ❤️ by <a href="https://youjoe-sudo.github.io/MohamedAbdelfatah-CV" style="text-decoration: none;">Mohamed Abdelfatah</a></p>
+    <p>Made with ❤️ by <a href="https://youjoe-sudo.github.io/MohamedAbdelfatah-CV"
+        style="text-decoration: none;">Mohamed Abdelfatah</a></p>
   </footer>
-
+  <!-- سكربتات -->
   <script src="script.js"></script>
-  <!--Start of Tawk.to Script-->
-<script type="text/javascript">
-import { SpeedInsights } from "@vercel/speed-insights/next"
-var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-(function(){
-var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-s1.async=true;
-s1.src='https://embed.tawk.to/68eb7f478c23bb194e60e038/1j7buibnd';
-s1.charset='UTF-8';
-s1.setAttribute('crossorigin','*');
-s0.parentNode.insertBefore(s1,s0);
-})();
-</script>
-<!--End of Tawk.to Script-->
+
+  <!-- Tawk.to (بدون استيراد غير مدعوم داخل صفحة <script>) -->
+  <script type="text/javascript">
+    var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+    (function () {
+      var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+      s1.async = true;
+      s1.src = 'https://embed.tawk.to/68eb7f478c23bb194e60e038/1j7buibnd';
+      s1.charset = 'UTF-8';
+      s1.setAttribute('crossorigin', '*');
+      s0.parentNode.insertBefore(s1, s0);
+    })();
+  </script>
+
 </body>
+
 </html>
