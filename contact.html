@@ -157,6 +157,140 @@
       background-color:#d4af371a;
       box-shadow: 0 0 15px rgba(212, 175, 55, 0.4);
     }
+    @media screen and (max-width: 480px) {
+      body {
+        padding: 20px;
+      }
+      .logo {
+        width: 100px;
+      }
+      h1 {
+        font-size: 2em;
+      }
+      p {
+        font-size: 1em;
+        margin-bottom: 30px;
+      }
+      .contacts {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+      }
+      .contact-card {
+        width: 100%;
+        max-width: 280px;
+        padding: 20px 30px;
+      }
+      .contact-card h2 {
+        font-size: 1.2em;
+      }
+      .contact-card a {
+        font-size: 0.9em;
+      }
+      .socials {
+        margin-top: 30px;
+      }
+      .socials a {
+        margin: 0 10px;
+        font-size: 1em;
+      }
+      .group, .acc {
+        display: inline-block;
+        margin: 10px 0;
+        font-size: 1em;
+        margin-top: 10px;
+        padding: 5px 8px;
+      }
+      footer {
+        margin-top: 40px;
+        font-size: 0.8em;
+      }
+    }
+
+    @media screen and (max-width: 760px) and (min-width: 481px) {
+      .contacts {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+      }
+      .contact-card {
+        width: 100%;
+        max-width: 300px;
+        padding: 25px 35px;
+      }
+      .group, .acc {
+        display: inline-block;
+        margin-bottom: 10px;
+      }
+    }
+
+    @media screen and (min-width: 1024px) {
+      body {
+        padding: 60px;
+      }
+      .logo {
+        width: 150px;
+      }
+      h1 {
+        font-size: 3.2em;
+      }
+      p {
+        font-size: 1.2em;
+      }
+      .contacts {
+        gap: 30px;
+      }
+      .contact-card {
+        width: 320px;
+        padding: 30px 45px;
+      }
+      .contact-card h2 {
+        font-size: 1.5em;
+      }
+      .contact-card a {
+        font-size: 1.1em;
+      }
+      .socials {
+        margin-top: 50px;
+      }
+      .socials a {
+        margin: 0 20px;
+        font-size: 1.3em;
+      }
+      .group, .acc {
+        font-size: 1.3em;
+        padding: 8px 12px;
+      }
+      footer {
+        margin-top: 70px;
+        font-size: 1em;
+      }
+    }
+
+    @media screen and (min-width: 1440px) {
+      body {
+        padding: 80px;
+      }
+      .logo {
+        width: 180px;
+      }
+      h1 {
+        font-size: 3.5em;
+      }
+      .contacts {
+        gap: 40px;
+      }
+      .contact-card {
+        width: 350px;
+        padding: 35px 50px;
+      }
+      .socials a {
+        margin: 0 25px;
+      }
+      footer {
+        margin-top: 80px;
+      }
+    }
   </style>
 </head>
 <body>
