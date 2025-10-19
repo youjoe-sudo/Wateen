@@ -8,7 +8,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Cairo:wght@400;700&display=swap"
         rel="stylesheet">
     <style>
-        /* (نفس الـ CSS اللي عندك — مختصر هنا للتوضيح) */
         :root {
             --gold: #d4af37;
             --light: #f8f5ef;
@@ -98,7 +97,8 @@
             border-radius: 8px;
             display: block
         }
-        .imp{
+
+        .imp {
             display: block;
             background: var(--gold);
             color: #111;
@@ -108,8 +108,15 @@
             text-decoration: none;
             margin-bottom: 12px;
         }
-        .imp:hover{
+
+        .imp:hover {
             background: #c49e2e;
+        }
+
+        .hint {
+            margin-top: 8px;
+            font-size: 0.95rem;
+            color: var(--muted);
         }
 
     </style>
@@ -152,11 +159,12 @@
             </div>
 
             <div>
-                <label>ملاحظات</label><textarea id="notes" placeholder="ملاحظات"></textarea>
+                <label>ملاحظات</label><textarea id="notes" placeholder="ملاحظات (لو فشل جلب الموقع اكتب هنا عنوانك: شارع - مدينة - المحافظة)"></textarea>
+                <div class="hint" id="notesHint">مهم: لو المتصفح لم يستطع جلب موقعك سيُطلب منك كتابة عنوانك هنا.</div>
             </div>
 
             <div style="margin-top:10px">
-                <label>موقعك الآن (مطلوب)</label>
+                <label>موقعك الآن (مطلوب أو اكتب العنوان في الملاحظات)</label>
                 <div style="display:flex;gap:10px;align-items:center;flex-wrap:wrap">
                     <button type="button" id="locBtn" class="secondary">اضغط لجلب الموقع</button>
                     <div id="locStatus" class="status">لم يتم جلب الموقع بعد</div>
@@ -240,8 +248,11 @@
 
         const subsWrap = document.getElementById('subsWrap');
         const subsContainer = document.getElementById('subsContainer');
+        const notesEl = document.getElementById('notes');
+        const notesHint = document.getElementById('notesHint');
 
         let userLocation = null;
+        let geoFailed = false; // new flag
         let captchaAnswer = null;
 
         // storage helpers
@@ -261,10 +272,17 @@
             if (!navigator.geolocation) { locStatus.textContent = 'المتصفح لا يدعم تحديد الموقع.'; return; }
             navigator.geolocation.getCurrentPosition(pos => {
                 userLocation = { lat: pos.coords.latitude.toFixed(6), lon: pos.coords.longitude.toFixed(6), accuracy: pos.coords.accuracy };
+                geoFailed = false;
                 locStatus.innerHTML = `تم الحصول على الموقع: <strong>${userLocation.lat}, ${userLocation.lon}</strong><br><a target="_blank" style="color:var(--gold)" href="https://www.google.com/maps/search/?api=1&query=${userLocation.lat},${userLocation.lon}">فتح على الخريطة</a>`;
+                notesHint.textContent = 'تم الحصول على الموقع بنجاح — كتابة العنوان في الملاحظات اختيارية الآن.';
             }, err => {
                 console.warn('geo error', err);
-                locStatus.textContent = 'فشل جلب الموقع — تأكد من الأذونات أو جرب متصفح آخر.';
+                geoFailed = true;
+                userLocation = null;
+                locStatus.textContent = 'فشل جلب الموقع — أكتب عنوانك في خانة الملاحظات بدلاً من الموقع.';
+                // give clearer guidance in placeholder
+                notesEl.placeholder = 'اكتب عنوانك هنا (مثال: شارع النصر، عمارة 12، مدينة القاهرة)';
+                notesHint.textContent = 'مهم: بما أن الموقع لم يُجلب تلقائيًا، اكتب عنوانك الكامل في الملاحظات (شارع - مدينة - محافظة).';
             }, { enableHighAccuracy: false, timeout: 15000 });
         });
 
@@ -287,7 +305,8 @@
             subsWrap.classList.remove('hidden'); subsContainer.innerHTML = '';
             mine.slice().reverse().forEach(s => {
                 const d = document.createElement('div'); d.style.padding = '8px'; d.style.borderBottom = '1px solid rgba(255,255,255,0.03)';
-                d.innerHTML = `<strong>${escapeHtml(s.name)}</strong> — ${escapeHtml(s.phone)}<br><small style="color:var(--muted)">كتاب: ${escapeHtml(s.bookTitle)} — ${new Date(s.time).toLocaleString()}</small><div style="margin-top:6px;color:${s.receipt ? '#b2f5b6' : 'var(--muted)'}">حالة الإيصال: ${s.receipt ? 'مرفوع' : 'في انتظار'}</div>`;
+                const placeInfo = s.location ? `<a target="_blank" style="color:var(--gold)" href="https://www.google.com/maps/search/?api=1&query=${s.location.lat},${s.location.lon}">فتح على الخريطة</a>` : (s.manualAddress ? escapeHtml(s.manualAddress) : 'لم يزوِد المستخدم موقعًا');
+                d.innerHTML = `<strong>${escapeHtml(s.name)}</strong> — ${escapeHtml(s.phone)}<br><small style="color:var(--muted)">كتاب: ${escapeHtml(s.bookTitle)} — ${new Date(s.time).toLocaleString()}</small><div style="margin-top:6px;color:${s.receipt ? '#b2f5b6' : 'var(--muted)'}">حالة الإيصال: ${s.receipt ? 'مرفوع' : 'في انتظار'}</div><div style="margin-top:6px"><small>الموقع: ${placeInfo}</small></div>`;
                 subsContainer.appendChild(d);
             });
         }
@@ -307,13 +326,36 @@
             if (!firstName || !fullName || !phoneRaw || !bookId) { step1Msg.textContent = 'اكمل جميع الحقول المطلوبة.'; step1Msg.classList.remove('hidden'); return; }
             if (!validPhone(phoneRaw)) { step1Msg.textContent = 'رقم التليفون غير صحيح.'; step1Msg.classList.remove('hidden'); return; }
             if (parseInt(captchaVal) !== captchaAnswer) { step1Msg.textContent = 'إجابة السؤال الأمني غير صحيحة.'; step1Msg.classList.remove('hidden'); genCaptcha(); return; }
-            if (!userLocation) { step1Msg.textContent = 'يجب جلب الموقع أولاً.'; step1Msg.classList.remove('hidden'); return; }
+
+            // NEW LOGIC: لو ما فيش userLocation لازم يكتب عنوان في الملاحظات
+            if (!userLocation) {
+                // إذا جهاز المستخدم حاول لكن فشل (geoFailed=true) أو المستخدم لم يضغط، نطلب عنوان في الملاحظات
+                if (!notes || notes.length < 6) {
+                    step1Msg.textContent = 'فشل جلب الموقع — الرجاء كتابة عنوانك الكامل في خانة الملاحظات (مثال: شارع - مدينة - محافظة).';
+                    step1Msg.classList.remove('hidden');
+                    return;
+                }
+            }
 
             const phoneDigits = normalizePhone(phoneRaw);
             const spam = canSubmit(phoneDigits);
             if (!spam.ok) { step1Msg.textContent = spam.reason; step1Msg.classList.remove('hidden'); return; }
 
-            const order = { id: 'ord_' + Date.now(), shortName: firstName, name: fullName, phone: phoneDigits, bookId, bookTitle, notes, location: userLocation, time: Date.now(), receipt: null };
+            const order = {
+                id: 'ord_' + Date.now(),
+                shortName: firstName,
+                name: fullName,
+                phone: phoneDigits,
+                bookId,
+                bookTitle,
+                notes,
+                // store either coordinates OR manualAddress (notes) for clarity
+                location: userLocation || null,
+                manualAddress: userLocation ? null : notes,
+                time: Date.now(),
+                receipt: null
+            };
+
             const store = getStore(); store.push(order); saveStore(store);
             sessionStorage.setItem('current_order_id', order.id);
             step1Form.classList.add('hidden'); step2Box.classList.remove('hidden');
@@ -321,7 +363,7 @@
             renderSubs(order.phone);
         });
 
-        clearBtn.addEventListener('click', () => { step1Form.reset(); locStatus.textContent = 'لم يتم جلب الموقع بعد'; userLocation = null; genCaptcha(); });
+        clearBtn.addEventListener('click', () => { step1Form.reset(); locStatus.textContent = 'لم يتم جلب الموقع بعد'; userLocation = null; geoFailed = false; notesEl.placeholder = 'ملاحظات (لو فشل جلب الموقع اكتب هنا عنوانك: شارع - مدينة - المحافظة)'; notesHint.textContent = 'مهم: لو المتصفح لم يستطع جلب الموقع سيُطلب منك كتابة عنوانك هنا.'; genCaptcha(); });
 
         // preview image
         receiptFile.addEventListener('change', () => {
@@ -383,7 +425,8 @@
                 const notesEsc = escapeHtml(order.notes || 'لا يوجد');
                 const depositEsc = escapeHtml(depositNumber);
                 const payerEsc = escapeHtml(payerName);
-                const locationLink = order.location ? `https://www.google.com/maps/search/?api=1&query=${order.location.lat},${order.location.lon}` : 'لم يزوِد المستخدم موقعًا';
+                // location: either coords link or manual address text
+                const locationPart = order.location ? `<a href="https://www.google.com/maps/search/?api=1&query=${order.location.lat},${order.location.lon}">فتح على الخريطة</a>` : (order.manualAddress ? escapeHtml(order.manualAddress) : 'لم يزوِد المستخدم موقعًا');
                 const timeStr = new Date(order.time).toLocaleString('ar-EG');
 
                 // message HTML (all fields)
@@ -392,7 +435,7 @@
 <b>🧾 الاسم المختصر:</b> ${shortNameEsc}
 <b>📞 الهاتف:</b> ${phoneEsc}
 <b>📖 الكتاب:</b> ${bookEsc}
-<b>📍 الموقع:</b> <a href="${locationLink}">فتح على الخريطة</a>
+<b>📍 الموقع:</b> ${locationPart}
 <b>💬 الملاحظات:</b> ${notesEsc}
 <b>💸 رقم الإيداع:</b> ${depositEsc}
 <b>👤 اسم المحول:</b> ${payerEsc}
